@@ -1271,6 +1271,16 @@
 .gf-resrows{display:flex;flex-direction:column;gap:1.4vh;height:100%;justify-content:center}
 .gf-resrows .rr-top{flex:none}
 .gf-resrows .gf-chartgrid{flex:1;min-height:0}
+/* continuous-dimension summary (merged) */
+.gf-contsum{display:grid;gap:1.2vw;height:100%}
+.cs-card{display:flex;flex-direction:column;background:#f6f5f2;border-top:3px solid #ff6b35;border-radius:0 0 5px 5px;overflow:hidden}
+.cs-head{padding:1vh 1vw .4vh}
+.cs-head b{font-size:max(14px,1.02vw);color:#1a1a1a;font-weight:700}
+.cs-head .code{font-family:var(--mono);font-size:max(10px,.66vw);color:#ff6b35;margin-left:.4em}
+.cs-kpi{font-family:var(--mono);font-size:max(15px,1.25vw);color:#ff6b35;font-weight:700;padding:0 1vw .3vh}
+.cs-sub{font-size:max(10px,.72vw);color:#666;padding:0 1vw .7vh;line-height:1.35}
+.cs-img{flex:1;min-height:0;background:#fff;display:flex;align-items:center;justify-content:center;padding:.4vh}
+.cs-img img{width:100%;height:100%;object-fit:contain}
 /* two-track split (回归与方差分析) */
 .gf-twotrack{display:flex;flex-direction:column;gap:2vh;height:100%;justify-content:center}
 .tt-head{text-align:center;font-size:max(13px,.92vw);color:#444;font-weight:600;background:#f0f0ee;padding:1.1vh 1vw;border-radius:4px}
@@ -1618,7 +1628,7 @@
      ============================================================ -->
 <section class="slide accent fg-figma fg-cover-slide" data-layout="F01" data-animate="hero">
     <div class="canvas-card">
-      <div class="chrome-min fg-chrome"><div class="l">GripFit · Thesis Defense</div><div class="r">01 / 79</div></div>
+      <div class="chrome-min fg-chrome"><div class="l">GripFit · Thesis Defense</div><div class="r">01 / 73</div></div>
       <div class="fg-cover-title">GripFit</div>
       <img class="fg-cover-hand" src="images/figma_cover_hand_phone.png" alt="" />
       <div class="fg-cover-cn">手机握持舒适度数字化辅助系统设计</div>
@@ -1632,7 +1642,7 @@
   </section>
 <section class="slide fg-figma fg-roadmap-slide" data-layout="F02" data-animate="grid-reveal">
     <div class="canvas-card">
-      <div class="chrome-min fg-chrome"><div class="l">GripFit Defense · Structure</div><div class="r">02 / 79</div></div>
+      <div class="chrome-min fg-chrome"><div class="l">GripFit Defense · Structure</div><div class="r">02 / 73</div></div>
       <h1 class="fg-page-title">Presentation Roadmap</h1>
       <div class="fg-rm-card c1"><b>01</b><strong>背景研究</strong><span>市场、健康、人因工具空白</span></div>
       <div class="fg-rm-card c2"><b>02</b><strong>需求定位</strong><span>ToB / ToC 双用户研究</span></div>
@@ -1642,9 +1652,48 @@
       <div class="fg-rm-arrow a1">→</div><div class="fg-rm-arrow a2">→</div><div class="fg-rm-arrow a3">→</div><div class="fg-rm-arrow a4">→</div>
     </div>
   </section>
+<section class="slide " data-layout="S11" data-animate="grid-reveal">
+    <div class="canvas-card">
+      
+    <div class="chrome-min">
+      <div class="l">GripFit Defense · Method Structure</div>
+      <div class="r">03 / 73</div>
+    </div>
+      <div class="gf-main">
+        
+    <div data-anim="head" class="gf-head">
+      <div class="t-meta">METHOD &amp; STRUCTURE</div>
+      <h2 class="gf-title">研究方法与论文结构</h2>
+      <p class="gf-lead">文献、访谈、案例、实验与建模共同构成证据链，五章内容从现实问题逐步推进到 GripFit 双端系统。</p>
+    </div>
+        <div class="gf-body"><div class="gf-method-merge" data-anim="diagram">
+    <div class="gf-method-panel">
+      <h3>研究方法</h3>
+      <div><b>文献研究</b><b>双端访谈</b><b>案例分析</b><b>主观与客观实验</b><b>PCA / AHP / 回归建模</b><b>系统设计验证</b></div>
+    </div>
+    <div class="gf-chapter-panel">
+      <h3>论文章节结构</h3>
+      <div class="gf-chapter-step">
+        <b>01</b><strong>背景研究</strong><p>市场、健康与研究缺口</p>
+      </div><div class="gf-chapter-step">
+        <b>02</b><strong>需求调研</strong><p>双端用户、案例与功能机会</p>
+      </div><div class="gf-chapter-step">
+        <b>03</b><strong>理论指标</strong><p>舒适感 / 体验感与18维空间</p>
+      </div><div class="gf-chapter-step">
+        <b>04</b><strong>模型验证</strong><p>问卷、实验、权重与预测模型</p>
+      </div><div class="gf-chapter-step">
+        <b>05</b><strong>系统设计</strong><p>ToC / ToB 双端产品落地</p>
+      </div>
+    </div>
+  </div></div>
+        
+        
+      </div>
+    </div>
+  </section>
 <section class="slide grey fg-figma fg-chapter-slide" data-layout="F03" data-animate="statement">
     <div class="canvas-card">
-      <div class="chrome-min fg-chrome"><div class="l">GripFit Defense · Chapter 1</div><div class="r">03 / 79</div></div>
+      <div class="chrome-min fg-chrome"><div class="l">GripFit Defense · Chapter 1</div><div class="r">04 / 73</div></div>
       <div class="fg-chapter-copy">
         <div class="fg-kicker">CHAPTER 01</div>
         <h1>背景研究</h1>
@@ -1667,7 +1716,7 @@
   </section>
 <section class="slide fg-figma fg-market-slide" data-layout="F04" data-animate="bar-grow">
     <div class="canvas-card">
-      <div class="chrome-min fg-chrome"><div class="l">GripFit Defense · Market</div><div class="r">04 / 79</div></div>
+      <div class="chrome-min fg-chrome"><div class="l">GripFit Defense · Market</div><div class="r">05 / 73</div></div>
       <div class="fg-market-head">
         <div class="fg-kicker">MARKET PRESSURE</div>
         <h1>手机市场压力</h1>
@@ -1689,7 +1738,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Use Time</div>
-      <div class="r">05 / 79</div>
+      <div class="r">06 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -1733,7 +1782,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Device Form</div>
-      <div class="r">06 / 79</div>
+      <div class="r">07 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -1789,7 +1838,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Double Gap</div>
-      <div class="r">07 / 79</div>
+      <div class="r">08 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -1806,52 +1855,12 @@
         
       </div>
     </div>
-  </section>
-<section class="slide " data-layout="S11" data-animate="grid-reveal">
-    <div class="canvas-card">
-      
-    <div class="chrome-min">
-      <div class="l">GripFit Defense · Method Structure</div>
-      <div class="r">08 / 79</div>
-    </div>
-      <div class="gf-main">
-        
-    <div data-anim="head" class="gf-head">
-      <div class="t-meta">METHOD &amp; STRUCTURE</div>
-      <h2 class="gf-title">研究方法与论文结构</h2>
-      <p class="gf-lead">文献、访谈、案例、实验与建模共同构成证据链，五章内容从现实问题逐步推进到 GripFit 双端系统。</p>
-    </div>
-        <div class="gf-body"><div class="gf-method-merge" data-anim="diagram">
-    <div class="gf-method-panel">
-      <h3>研究方法</h3>
-      <div><b>文献研究</b><b>双端访谈</b><b>案例分析</b><b>主观与客观实验</b><b>PCA / AHP / 回归建模</b><b>系统设计验证</b></div>
-    </div>
-    <div class="gf-chapter-panel">
-      <h3>论文章节结构</h3>
-      <div class="gf-chapter-step">
-        <b>01</b><strong>背景研究</strong><p>市场、健康与研究缺口</p>
-      </div><div class="gf-chapter-step">
-        <b>02</b><strong>需求调研</strong><p>双端用户、案例与功能机会</p>
-      </div><div class="gf-chapter-step">
-        <b>03</b><strong>理论指标</strong><p>舒适感 / 体验感与18维空间</p>
-      </div><div class="gf-chapter-step">
-        <b>04</b><strong>模型验证</strong><p>问卷、实验、权重与预测模型</p>
-      </div><div class="gf-chapter-step">
-        <b>05</b><strong>系统设计</strong><p>ToC / ToB 双端产品落地</p>
-      </div>
-    </div>
-  </div></div>
-        
-        
-      </div>
-    </div>
-  </section>
-<section class="slide " data-layout="S14" data-animate="grid-reveal">
+  </section><section class="slide " data-layout="S14" data-animate="grid-reveal">
     <div class="canvas-card">
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Tool Gap</div>
-      <div class="r">09 / 79</div>
+      <div class="r">09 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -1925,12 +1934,14 @@
       </div>
     </div>
   </section>
+
+
 <section class="slide grey gf-chapter" data-layout="S03" data-animate="statement">
     <div class="canvas-card">
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Chapter 2</div>
-      <div class="r">10 / 79</div>
+      <div class="r">10 / 73</div>
     </div>
       <div class="gf-chapter-body">
         <div class="t-meta">CHAPTER 02</div>
@@ -1945,7 +1956,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Research Design</div>
-      <div class="r">11 / 79</div>
+      <div class="r">11 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -1980,7 +1991,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Interview Flow Redraw</div>
-      <div class="r">12 / 79</div>
+      <div class="r">12 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -2072,7 +2083,7 @@
 
 <section class="slide " data-layout="S13j13" data-animate="grid-reveal">
     <div class="canvas-card">
-      <div class="chrome-min"><div class="l">GripFit Defense · ToC Journey</div><div class="r">13 / 79</div></div>
+      <div class="chrome-min"><div class="l">GripFit Defense · ToC Journey</div><div class="r">13 / 73</div></div>
       <div class="gf-main"><p class="jrny-sum">普通消费者从产生购机需求到形成决策的全过程，始终缺乏可依赖的握持适配判断工具，情绪在 <em>握持风险评估</em> 阶段跌至谷底——这正是 ToC 端要补齐的核心决策支撑。</p><div class="jmap-wrap"><div class="jmap" data-anim="card">
         <div class="jmap-cap">手机握持舒适度设计系统 · ToC 用户体验旅程图 · <em>普通消费者购机决策</em></div>
         <div class="jmap-grid">
@@ -2090,7 +2101,7 @@
 
 <section class="slide " data-layout="S13j14" data-animate="grid-reveal">
     <div class="canvas-card">
-      <div class="chrome-min"><div class="l">GripFit Defense · ToB Journey</div><div class="r">14 / 79</div></div>
+      <div class="chrome-min"><div class="l">GripFit Defense · ToB Journey</div><div class="r">14 / 73</div></div>
       <div class="gf-main"><p class="jrny-sum">工业设计师的痛点高度集中在 <em>数字建模与舒适度评估</em> 两个环节，缺乏量化预判导致反复试错；这两个阶段正是 ToB 端数字化介入最具价值的切入点。</p><div class="jmap-wrap"><div class="jmap" data-anim="card">
         <div class="jmap-cap">手机握持舒适度设计系统 · ToB 用户体验旅程图 · <em>工业设计师设计流程</em></div>
         <div class="jmap-grid">
@@ -2110,7 +2121,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Interview Sample</div>
-      <div class="r">15 / 79</div>
+      <div class="r">15 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -2133,7 +2144,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Design Journey</div>
-      <div class="r">16 / 79</div>
+      <div class="r">16 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -2183,7 +2194,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Design Frequency</div>
-      <div class="r">17 / 79</div>
+      <div class="r">17 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -2228,7 +2239,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Design Strategy</div>
-      <div class="r">18 / 79</div>
+      <div class="r">18 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -2261,7 +2272,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Modules</div>
-      <div class="r">19 / 79</div>
+      <div class="r">19 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -2299,7 +2310,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Chapter 3</div>
-      <div class="r">20 / 79</div>
+      <div class="r">20 / 73</div>
     </div>
       <div class="gf-chapter-body">
         <div class="t-meta">CHAPTER 03</div>
@@ -2314,7 +2325,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Concept</div>
-      <div class="r">21 / 79</div>
+      <div class="r">21 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -2356,7 +2367,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Hand Groups</div>
-      <div class="r">22 / 79</div>
+      <div class="r">22 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -2379,7 +2390,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Grip Posture</div>
-      <div class="r">23 / 79</div>
+      <div class="r">23 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -2420,7 +2431,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Curvature</div>
-      <div class="r">24 / 79</div>
+      <div class="r">24 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -2451,7 +2462,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Camera Module</div>
-      <div class="r">25 / 79</div>
+      <div class="r">25 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -2481,7 +2492,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Controls</div>
-      <div class="r">26 / 79</div>
+      <div class="r">26 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -2526,7 +2537,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Mass</div>
-      <div class="r">27 / 79</div>
+      <div class="r">27 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -2567,7 +2578,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Chapter 4</div>
-      <div class="r">28 / 79</div>
+      <div class="r">28 / 73</div>
     </div>
       <div class="gf-chapter-body">
         <div class="t-meta">CHAPTER 04</div>
@@ -2582,7 +2593,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Model Pipeline</div>
-      <div class="r">29 / 79</div>
+      <div class="r">29 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -2620,7 +2631,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Model Total Flow Redraw</div>
-      <div class="r">30 / 79</div>
+      <div class="r">30 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -2655,7 +2666,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Dimension Source</div>
-      <div class="r">31 / 79</div>
+      <div class="r">31 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -2700,7 +2711,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Leading User</div>
-      <div class="r">32 / 79</div>
+      <div class="r">32 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -2761,7 +2772,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · 18 Dimensions</div>
-      <div class="r">33 / 79</div>
+      <div class="r">33 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -2795,7 +2806,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Questionnaire</div>
-      <div class="r">34 / 79</div>
+      <div class="r">34 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -2846,7 +2857,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Sample</div>
-      <div class="r">35 / 79</div>
+      <div class="r">35 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -2890,7 +2901,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Importance</div>
-      <div class="r">36 / 79</div>
+      <div class="r">36 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -2935,7 +2946,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · PCA Metrics</div>
-      <div class="r">37 / 79</div>
+      <div class="r">37 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -2980,7 +2991,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · PCA Groups</div>
-      <div class="r">38 / 79</div>
+      <div class="r">38 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -3003,7 +3014,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · AHP Hierarchy</div>
-      <div class="r">39 / 79</div>
+      <div class="r">39 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -3053,7 +3064,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Indicator System</div>
-      <div class="r">40 / 79</div>
+      <div class="r">40 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -3071,99 +3082,14 @@
       </div>
     </div>
   </section>
-<section class="slide " data-layout="S08" data-animate="grid-reveal">
-    <div class="canvas-card">
-      
-    <div class="chrome-min">
-      <div class="l">GripFit Defense · Experiment Controls</div>
-      <div class="r">41 / 79</div>
-    </div>
-      <div class="gf-main">
-        
-    <div data-anim="head" class="gf-head">
-      <div class="t-meta">EXPERIMENT CONTROL</div>
-      <h2 class="gf-title">实验设计与变量控制</h2>
-      <p class="gf-lead">实验在真实握持条件下进行，同时控制环境噪音、品牌预期和样机顺序。</p>
-    </div>
-        <div class="gf-body"><div class="gf-evidence" data-anim="card">
-  <div class="gf-ev-card">
-    <div class="ev-num">18–25°C</div>
-    <div class="ev-label">环境控制（温度 / 湿度 / 照度）</div>
-    <div class="ev-body">室内温度18–25℃，相对湿度40–50%，照度300–500 lux；确保不同批次被试在一致的物理环境条件下完成评分</div>
-  </div>
-  <div class="gf-ev-card">
-    <div class="ev-num">盲测</div>
-    <div class="ev-label">品牌遮蔽与样机随机编号</div>
-    <div class="ev-body">所有实验样机遮蔽品牌标识，采用无意义编号随机呈现，排除品牌预期效应对主观评分的干扰（Yanagisawa, 2015）</div>
-  </div>
-  <div class="gf-ev-card">
-    <div class="ev-num">SLA</div>
-    <div class="ev-label">样机制备（SLA 3D打印工艺）</div>
-    <div class="ev-body">各维度样机依据表4.11水平参数定制；外观一致性检查剔除表面瑕疵；其余维度固定在市场主流中性参数水平</div>
-  </div>
-  <div class="gf-ev-card">
-    <div class="ev-num">≥0.8</div>
-    <div class="ev-label">重测一致性筛选 + 数据预处理</div>
-    <div class="ev-body">每名被试随机抽取1个维度进行重复测试；重测一致性系数&lt;0.8的被试数据排除；Z-score标准化后取舒适感×体验感均值</div>
-  </div>
-</div></div>
-        
-        
-        <div class="gf-foot" data-anim="foot">引用文献：[28] Annett 主观评分量表；[29] Shen & Parsons 量表信效度</div>
-      </div>
-    </div>
-  </section>
-<section class="slide bar" data-layout="S06" data-animate="bar-grow">
-    <div class="canvas-card">
-      
-    <div class="chrome-min">
-      <div class="l">GripFit Defense · Experiment Sample</div>
-      <div class="r">42 / 79</div>
-    </div>
-      <div class="gf-main">
-        
-    <div data-anim="head" class="gf-head">
-      <div class="t-meta">N = 360</div>
-      <h2 class="gf-title">实验样本规模</h2>
-      <p class="gf-lead">采用被试间设计：每名被试评价 6 个维度，每个维度由 120 名独立被试完成评分。</p>
-    </div>
-        <div class="gf-body"><div class="gf-demo" data-anim="card">
-  <div class="gf-demo-left">
-    <div class="gf-demo-kpi"><div class="dn">360</div><div class="dl">被试总数（被试间设计）</div></div>
-    <div class="gf-demo-kpi"><div class="dn">18 × 6</div><div class="dl">18维度，每人评价6维，每维120人</div></div>
-    <div class="gf-demo-kpi"><div class="dn">≥0.8</div><div class="dl">重测一致性系数筛选阈值<br>α > 0.7（Cronbach's α量表信度）</div></div>
-  </div>
-  <div class="gf-demo-right">
-    <div class="gf-demo-section">
-      <div class="gf-demo-section-label">性别分布（接近1:1）</div>
-      <div class="gf-bar-item"><span class="bi-label">男性</span><div class="bi-track"><div class="bi-fill" style="width:50%"></div></div><span class="bi-val">~50%</span></div>
-      <div class="gf-bar-item"><span class="bi-label">女性</span><div class="bi-track"><div class="bi-fill" style="width:50%;opacity:.6"></div></div><span class="bi-val">~50%</span></div>
-    </div>
-    <div class="gf-demo-section">
-      <div class="gf-demo-section-label">年龄分布</div>
-      <div class="gf-bar-item"><span class="bi-label">26–35岁</span><div class="bi-track"><div class="bi-fill" style="width:55%"></div></div><span class="bi-val">主体</span></div>
-      <div class="gf-bar-item"><span class="bi-label">18–25岁</span><div class="bi-track"><div class="bi-fill" style="width:25%;opacity:.65"></div></div><span class="bi-val">兼顾</span></div>
-      <div class="gf-bar-item"><span class="bi-label">36–45岁</span><div class="bi-track"><div class="bi-fill" style="width:20%;opacity:.5"></div></div><span class="bi-val">兼顾</span></div>
-    </div>
-    <div class="gf-demo-section">
-      <div class="gf-demo-section-label">手型分组（K-means聚类 + 分层抽样）</div>
-      <div class="gf-bar-item"><span class="bi-label">大手 ≥190mm</span><div class="bi-track"><div class="bi-fill" style="width:33%"></div></div><span class="bi-val">均衡</span></div>
-      <div class="gf-bar-item"><span class="bi-label">中手 170–190mm</span><div class="bi-track"><div class="bi-fill" style="width:34%;opacity:.65"></div></div><span class="bi-val">均衡</span></div>
-      <div class="gf-bar-item"><span class="bi-label">小手 &lt;170mm</span><div class="bi-track"><div class="bi-fill" style="width:33%;opacity:.5"></div></div><span class="bi-val">均衡</span></div>
-    </div>
-  </div>
-</div></div>
-        
-        
-      </div>
-    </div>
-  </section>
+
+
 <section class="slide " data-layout="S11" data-animate="grid-reveal">
     <div class="canvas-card">
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Experiment Flow Redraw</div>
-      <div class="r">43 / 79</div>
+      <div class="r">41 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -3201,7 +3127,7 @@
 
 <section class="slide " data-layout="S-exp" data-animate="grid-reveal">
     <div class="canvas-card">
-      <div class="chrome-min"><div class="l">GripFit Defense · Experiment Setup</div><div class="r">44 / 79</div></div>
+      <div class="chrome-min"><div class="l">GripFit Defense · Experiment Setup</div><div class="r">42 / 73</div></div>
       <div class="gf-main">
         <div data-anim="head" class="gf-head">
           <h2 class="gf-title">实验环境与样机制备</h2>
@@ -3221,7 +3147,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Objective Validation</div>
-      <div class="r">45 / 79</div>
+      <div class="r">43 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -3261,7 +3187,7 @@
 
 <section class="slide " data-layout="S-rat" data-animate="grid-reveal">
     <div class="canvas-card">
-      <div class="chrome-min"><div class="l">GripFit Defense · Analysis Method</div><div class="r">46 / 79</div></div>
+      <div class="chrome-min"><div class="l">GripFit Defense · Analysis Method</div><div class="r">44 / 73</div></div>
       <div class="gf-main">
         <div data-anim="head" class="gf-head">
           <h2 class="gf-title">数据处理方案</h2>
@@ -3292,7 +3218,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Analysis Method</div>
-      <div class="r">47 / 79</div>
+      <div class="r">45 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -3326,160 +3252,36 @@
   </section>
 <section class="slide bar" data-layout="S07" data-animate="bar-grow">
     <div class="canvas-card">
-      
-    <div class="chrome-min">
-      <div class="l">GripFit Defense · Weight Result</div>
-      <div class="r">48 / 79</div>
-    </div>
+      <div class="chrome-min"><div class="l">GripFit Defense · Continuous Results I</div><div class="r">46 / 73</div></div>
       <div class="gf-main">
-        
-    <div data-anim="head" class="gf-head">
-      <div class="t-meta">WEIGHT RESULT</div>
-      <h2 class="gf-title">重量分析结果</h2>
-      <p class="gf-lead">重量呈显著二次曲线关系，在约 172 g 达理论峰值，超过 190 g 后评分持续下降。</p>
-    </div>
-        <div class="gf-body"><div class="gf-resplit"><div class="rs-data"><div class="gf-reg-card" data-anim="card">
-  <div class="gf-rc-left">
-    <div style="font-size:max(11px,.68vw);color:var(--ink-2);font-family:var(--mono);text-transform:uppercase;letter-spacing:.04em">XI · 整机重量（连续型）</div>
-    <div class="gf-rc-eq">y = −0.0004·x² + 0.138·x − 5.421</div>
-    <div class="gf-rc-stat">Adj.R² = 0.412 &nbsp;|&nbsp; p &lt; .001 &nbsp;|&nbsp; 二次多项式</div>
-    <div class="gf-rc-stat" style="margin-top:.4vh">二次项系数 β₂ = −0.0004（负值）→ 倒 U 型曲线，存在唯一极大值点</div>
-    <div class="gf-rc-stat" style="margin-top:.3vh">极大值点：x* = −β₁/(2β₂) ≈ <b>172 g</b></div>
-    <div class="gf-rc-weight">AHP w = 0.1885 &nbsp;（18维最高）</div>
-  </div>
-  <div class="gf-rc-right">
-    <div class="gf-rc-kpi"><div class="rk-num">172 g</div><div class="rk-label">回归方程理论最优值（倒 U 型极值点）</div></div>
-    <div class="gf-rc-kpi"><div class="rk-num">170–190 g</div><div class="rk-label">综合建议区间（结合实验各水平均值）</div></div>
-    <div class="gf-rc-kpi"><div class="rk-num">3.07 分</div><div class="rk-label">170 g ↔ 249 g 评分极差，连续维度中落差最大</div></div>
-  </div>
-</div></div><figure class="rs-chart" data-anim="card"><div class="ci"><img src="图片/a36ef8c8-3e18-43dd-873a-b82f3220de90.png" alt="图 · <b>(XI)</b> 整机重量 User experience × Weight"></div><figcaption>图 · <b>(XI)</b> 整机重量 User experience × Weight</figcaption></figure></div></div>
-        
-        
+        <div data-anim="head" class="gf-head">
+          <div class="t-meta"></div>
+          <h2 class="gf-title">连续型维度结果 · 基本尺寸</h2>
+          <p class="gf-lead">重量、厚度均呈倒 U 型最优区间，宽度呈单调负向——三者构成握持适配的基础尺寸约束。</p>
+        </div>
+        <div class="gf-body"><div class="gf-contsum" style="grid-template-columns:repeat(3,1fr)">
+          <div class="cs-card" data-anim="card"><div class="cs-head"><b>整机重量</b><span class="code">XI · w=0.1885</span></div><div class="cs-kpi">172 g</div><div class="cs-sub">倒U型峰值；建议 170–190 g，评分极差 3.07（连续维度最大）</div><div class="cs-img"><img src="图片/a36ef8c8-3e18-43dd-873a-b82f3220de90.png" alt="整机重量"></div></div>
+          <div class="cs-card" data-anim="card"><div class="cs-head"><b>手机厚度</b><span class="code">XC · w=0.1309</span></div><div class="cs-kpi">7.34 mm</div><div class="cs-sub">倒U型峰值；建议 7.0–7.6 mm，与最优把径理论一致</div><div class="cs-img"><img src="图片/831be95f-a574-4d3b-a705-c94690b7f870.png" alt="手机厚度"></div></div>
+          <div class="cs-card" data-anim="card"><div class="cs-head"><b>整机宽度</b><span class="code">XA · w=0.0646</span></div><div class="cs-kpi">≤ 72 mm</div><div class="cs-sub">单调负向线性；宽度偏好因手长分组而异</div><div class="cs-img"><img src="图片/cb83ff85-9745-4142-beef-2141139e458d.png" alt="整机宽度"></div></div>
+        </div></div>
       </div>
     </div>
   </section>
 <section class="slide bar" data-layout="S07" data-animate="bar-grow">
     <div class="canvas-card">
-      
-    <div class="chrome-min">
-      <div class="l">GripFit Defense · Thickness Result</div>
-      <div class="r">49 / 79</div>
-    </div>
+      <div class="chrome-min"><div class="l">GripFit Defense · Continuous Results II</div><div class="r">47 / 73</div></div>
       <div class="gf-main">
-        
-    <div data-anim="head" class="gf-head">
-      <div class="t-meta">THICKNESS RESULT</div>
-      <h2 class="gf-title">厚度分析结果</h2>
-      <p class="gf-lead">厚度呈倒 U 型二次关系，理论最优 7.34 mm，实验峰值在 7.6 mm。</p>
-    </div>
-        <div class="gf-body"><div class="gf-resplit"><div class="rs-data"><div class="gf-reg-card" data-anim="card">
-  <div class="gf-rc-left">
-    <div style="font-size:max(11px,.68vw);color:var(--ink-2);font-family:var(--mono);text-transform:uppercase;letter-spacing:.04em">XC · 手机厚度（连续型）</div>
-    <div class="gf-rc-eq">y = −0.217·x² + 3.183·x − 4.975</div>
-    <div class="gf-rc-stat">Adj.R² = 0.321 &nbsp;|&nbsp; p &lt; .001 &nbsp;|&nbsp; 二次多项式</div>
-    <div class="gf-rc-stat" style="margin-top:.4vh">倒 U 型曲线；极值点 x* = −β₁/(2β₂) ≈ <b>7.34 mm</b></div>
-    <div class="gf-rc-stat" style="margin-top:.3vh">超过 8.4 mm 后评分进入持续下滑区间；10.0 mm 实验水平均值 <b>M = 4.71</b></div>
-    <div class="gf-rc-weight">AHP w = 0.1309 &nbsp;（基本尺寸准则层次高）</div>
-  </div>
-  <div class="gf-rc-right">
-    <div class="gf-rc-kpi"><div class="rk-num">7.34 mm</div><div class="rk-label">理论最优厚度（二次曲线峰值）</div></div>
-    <div class="gf-rc-kpi"><div class="rk-num">7.0–7.6 mm</div><div class="rk-label">综合建议区间（结合实验峰值水平）</div></div>
-    <div class="gf-rc-kpi"><div class="rk-num">2.5 分</div><div class="rk-label">7.6 mm ↔ 10.0 mm 区间评分落差，厚度负效应显著</div></div>
-  </div>
-</div></div><figure class="rs-chart" data-anim="card"><div class="ci"><img src="图片/831be95f-a574-4d3b-a705-c94690b7f870.png" alt="图 · <b>(XC)</b> 手机厚度 User experience × Thickness"></div><figcaption>图 · <b>(XC)</b> 手机厚度 User experience × Thickness</figcaption></figure></div></div>
-        
-        
-      </div>
-    </div>
-  </section>
-<section class="slide bar" data-layout="S07" data-animate="bar-grow">
-    <div class="canvas-card">
-      
-    <div class="chrome-min">
-      <div class="l">GripFit Defense · Width Ratio</div>
-      <div class="r">50 / 79</div>
-    </div>
-      <div class="gf-main">
-        
-    <div data-anim="head" class="gf-head">
-      <div class="t-meta">WIDTH / RATIO</div>
-      <h2 class="gf-title">宽度分析结果</h2>
-      <p class="gf-lead">整机宽度在实验范围内单调递减，建议不超过 72 mm；长宽比建议 19.3:9-19.5:9。</p>
-    </div>
-        <div class="gf-body"><div class="gf-resplit"><div class="rs-data"><div class="gf-anova-split" data-anim="card">
-  <div class="gf-anova-block">
-    <div class="ab-id">XA · 整机宽度 &nbsp;|&nbsp; AHP w = 0.0646</div>
-    <div class="ab-stat">y = −0.188·x + 19.92</div>
-    <div class="ab-label">线性负相关 &nbsp;|&nbsp; Adj.R² = 0.208，p &lt; .001</div>
-    <div class="ab-rows">
-      <div class="ab-row"><span class="ab-rank">①</span><span>68 mm</span><div class="ab-track"><div class="ab-fill" style="width:100%"></div></div><span class="ab-val">M=7.14</span></div>
-      <div class="ab-row"><span class="ab-rank">②</span><span>70 mm</span><div class="ab-track"><div class="ab-fill" style="width:82%"></div></div><span class="ab-val">M=6.76</span></div>
-      <div class="ab-row"><span class="ab-rank">③</span><span>72 mm</span><div class="ab-track"><div class="ab-fill" style="width:68%"></div></div><span class="ab-val">M=6.40</span></div>
-      <div class="ab-row"><span class="ab-rank">④</span><span>76 mm</span><div class="ab-track"><div class="ab-fill" style="width:42%"></div></div><span class="ab-val">M=5.78</span></div>
-    </div>
-    <div style="font-size:max(11px,.67vw);color:var(--ink-2);margin-top:.5vh">理论最优值 67.2 mm 低于实验下限；建议宽度不超过 72 mm</div>
-  </div>
-  <div class="gf-anova-block">
-    <div class="ab-id">XB · 整机长宽比 &nbsp;|&nbsp; AHP w = 0.0399</div>
-    <div class="ab-stat">y = −2.104·x² + 81.66·x − 787.4</div>
-    <div class="ab-label">弱倒 U 型 &nbsp;|&nbsp; Adj.R² = 0.051，p &lt; .01</div>
-    <div class="ab-rows">
-      <div class="ab-row"><span class="ab-rank">①</span><span>19.4 : 9（峰值）</span><div class="ab-track"><div class="ab-fill" style="width:100%"></div></div><span class="ab-val">M=6.58</span></div>
-      <div class="ab-row"><span class="ab-rank">②</span><span>19.3 : 9</span><div class="ab-track"><div class="ab-fill" style="width:93%"></div></div><span class="ab-val">M=6.47</span></div>
-      <div class="ab-row"><span class="ab-rank">③</span><span>19.5 : 9</span><div class="ab-track"><div class="ab-fill" style="width:90%"></div></div><span class="ab-val">M=6.42</span></div>
-      <div class="ab-row"><span class="ab-rank">④</span><span>20.0 : 9</span><div class="ab-track"><div class="ab-fill" style="width:68%"></div></div><span class="ab-val">M=6.10</span></div>
-    </div>
-    <div style="font-size:max(11px,.67vw);color:var(--ink-2);margin-top:.5vh">峰值附近评分差异较小（&lt;0.2分）；建议 19.3–19.5:9 区间</div>
-  </div>
-</div></div><figure class="rs-chart" data-anim="card"><div class="ci"><img src="图片/cb83ff85-9745-4142-beef-2141139e458d.png" alt="图 · <b>(XA)</b> 整机宽度 User experience × Width"></div><figcaption>图 · <b>(XA)</b> 整机宽度 User experience × Width</figcaption></figure></div></div>
-        
-        
-      </div>
-    </div>
-  </section>
-<section class="slide " data-layout="S14" data-animate="grid-reveal">
-    <div class="canvas-card">
-      
-    <div class="chrome-min">
-      <div class="l">GripFit Defense · Curvature Results</div>
-      <div class="r">51 / 79</div>
-    </div>
-      <div class="gf-main">
-        
-    <div data-anim="head" class="gf-head">
-      <div class="t-meta">CURVATURE RESULTS</div>
-      <h2 class="gf-title">曲率分析结果</h2>
-      <p class="gf-lead">侧边弧度需要足够圆润，正面应趋近平坦，背面弧度保持适中，四边圆角更多受工艺和美观约束。</p>
-    </div>
-        <div class="gf-body"><div class="gf-resrows"><div class="rr-top"><div class="gf-matrix" style="--cols:3">
-    <div class="gf-matrix-head">维度</div><div class="gf-matrix-head">关系</div><div class="gf-matrix-head">建议</div>
-    <div class="gf-matrix-cell">侧边弧度 XE</div><div class="gf-matrix-cell">0-3mm 内评分单调上升</div><div class="gf-matrix-cell">至少采用 3mm 侧边弧度</div><div class="gf-matrix-cell">正面弧度 XF</div><div class="gf-matrix-cell">大曲率后评分加速下降</div><div class="gf-matrix-cell">C 控制在 0-1.5mm</div><div class="gf-matrix-cell">背面弧度 XG</div><div class="gf-matrix-cell">C=1.05-2.96mm 相对平稳</div><div class="gf-matrix-cell">约 2-3mm</div><div class="gf-matrix-cell">四边圆角 XD</div><div class="gf-matrix-cell">弱线性，区分度有限</div><div class="gf-matrix-cell">9-11mm，兼顾工艺与视觉</div>
-  </div></div><div class="gf-chartgrid" style="grid-template-columns:repeat(4,1fr)"><figure data-anim="card"><div class="ci"><img src="图片/06c20d37-4bc4-40f7-a645-299c1c4535ec.png" alt="(XE) 侧边弧度"></div><figcaption>(XE) 侧边弧度</figcaption></figure><figure data-anim="card"><div class="ci"><img src="图片/bfacd484-524c-4843-a5a2-45b5ec211cd3.png" alt="(XF) 正面弧度"></div><figcaption>(XF) 正面弧度</figcaption></figure><figure data-anim="card"><div class="ci"><img src="图片/28739254-28e0-4b76-9da4-9e78dbeba4f8.png" alt="(XG) 背板曲率"></div><figcaption>(XG) 背板曲率</figcaption></figure><figure data-anim="card"><div class="ci"><img src="图片/1c252a28-d07e-4a36-96f4-a74f1e6e8cb2.png" alt="(XD) 圆角半径"></div><figcaption>(XD) 圆角半径</figcaption></figure></div></div></div>
-        
-        
-      </div>
-    </div>
-  </section>
-<section class="slide " data-layout="S14" data-animate="grid-reveal">
-    <div class="canvas-card">
-      
-    <div class="chrome-min">
-      <div class="l">GripFit Defense · Other Continuous</div>
-      <div class="r">52 / 79</div>
-    </div>
-      <div class="gf-main">
-        
-    <div data-anim="head" class="gf-head">
-      <div class="t-meta">CAMERA / BEZEL</div>
-      <h2 class="gf-title">摄像头与边框结果</h2>
-      <p class="gf-lead">后摄模组面积比建议更多考虑视觉和工程；屏占比黑边宽度对体验评分有强预测力。</p>
-    </div>
-        <div class="gf-body"><div class="gf-resrows"><div class="rr-top"><div class="gf-matrix" style="--cols:3">
-    <div class="gf-matrix-head">维度</div><div class="gf-matrix-head">模型结果</div><div class="gf-matrix-head">设计建议</div>
-    <div class="gf-matrix-cell">后摄大小 XM</div><div class="gf-matrix-cell">弱倒U型，Adj.R²=0.028</div><div class="gf-matrix-cell">面积比 35%-45%，优先视觉和工程</div><div class="gf-matrix-cell">黑边宽度 XT</div><div class="gf-matrix-cell">显著负向线性，Adj.R²=0.360</div><div class="gf-matrix-cell">控制在 1.1-1.3mm</div><div class="gf-matrix-cell">视觉感知</div><div class="gf-matrix-cell">黑边越窄体验评分越高</div><div class="gf-matrix-cell">与高端品质感一致</div><div class="gf-matrix-cell">模组边界</div><div class="gf-matrix-cell">个体差异较强</div><div class="gf-matrix-cell">不作为单独强过滤项</div>
-  </div></div><div class="gf-chartgrid" style="grid-template-columns:repeat(4,1fr)"><figure data-anim="card"><div class="ci"><img src="图片/4674bfeb-8432-42d5-b0a4-3ddce83324fe.png" alt="(XT) 黑边宽度"></div><figcaption>(XT) 黑边宽度</figcaption></figure><figure data-anim="card"><div class="ci"><img src="图片/b2adf083-ae2a-4575-86db-ff30f72e86d8.png" alt="(XM) 模组大小"></div><figcaption>(XM) 模组大小</figcaption></figure><figure data-anim="card"><div class="ci"><img src="图片/c65f6878-2b8e-42de-a682-a5ffb5e65e22.png" alt="(XJ) 后摄位置"></div><figcaption>(XJ) 后摄位置</figcaption></figure><figure data-anim="card"><div class="ci"><img src="图片/37aaac78-3cc1-4cf0-97e1-71dfe43b68f9.png" alt="(XW) 凸起过渡"></div><figcaption>(XW) 凸起过渡</figcaption></figure></div></div></div>
-        
-        
+        <div data-anim="head" class="gf-head">
+          <div class="t-meta"></div>
+          <h2 class="gf-title">连续型维度结果 · 曲率与边框</h2>
+          <p class="gf-lead">侧边弧度越大越好、正面趋平最佳；屏占比黑边宽度对评分有强预测力，后摄面积效应有限。</p>
+        </div>
+        <div class="gf-body"><div class="gf-contsum" style="grid-template-columns:repeat(4,1fr)">
+          <div class="cs-card" data-anim="card"><div class="cs-head"><b>侧边弧度</b><span class="code">XE</span></div><div class="cs-kpi">正向↑</div><div class="cs-sub">至少 3 mm，越圆润评分越高</div><div class="cs-img"><img src="图片/06c20d37-4bc4-40f7-a645-299c1c4535ec.png" alt="侧边弧度"></div></div>
+          <div class="cs-card" data-anim="card"><div class="cs-head"><b>正面弧度</b><span class="code">XF</span></div><div class="cs-kpi">趋平最佳</div><div class="cs-sub">倒U型，R²=0.349（连续维度最高预测力）</div><div class="cs-img"><img src="图片/bfacd484-524c-4843-a5a2-45b5ec211cd3.png" alt="正面弧度"></div></div>
+          <div class="cs-card" data-anim="card"><div class="cs-head"><b>黑边宽度</b><span class="code">XT</span></div><div class="cs-kpi">强预测</div><div class="cs-sub">显著负向，R²=0.360；越窄评分越高</div><div class="cs-img"><img src="图片/4674bfeb-8432-42d5-b0a4-3ddce83324fe.png" alt="黑边宽度"></div></div>
+          <div class="cs-card" data-anim="card"><div class="cs-head"><b>后摄模组</b><span class="code">XM</span></div><div class="cs-kpi">弱效应</div><div class="cs-sub">面积比建议 35–45%，优先视觉与工程</div><div class="cs-img"><img src="图片/b2adf083-ae2a-4575-86db-ff30f72e86d8.png" alt="后摄模组"></div></div>
+        </div></div>
       </div>
     </div>
   </section>
@@ -3488,7 +3290,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · ANOVA</div>
-      <div class="r">53 / 79</div>
+      <div class="r">48 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -3511,7 +3313,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Personalization</div>
-      <div class="r">54 / 79</div>
+      <div class="r">49 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -3559,7 +3361,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Prediction Model</div>
-      <div class="r">55 / 79</div>
+      <div class="r">50 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -3600,7 +3402,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Validation Set</div>
-      <div class="r">56 / 79</div>
+      <div class="r">51 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -3623,7 +3425,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Validation Ranking</div>
-      <div class="r">57 / 79</div>
+      <div class="r">52 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -3663,52 +3465,13 @@
       </div>
     </div>
   </section>
-<section class="slide " data-layout="S08" data-animate="grid-reveal">
-    <div class="canvas-card">
-      
-    <div class="chrome-min">
-      <div class="l">GripFit Defense · Model Boundary</div>
-      <div class="r">58 / 79</div>
-    </div>
-      <div class="gf-main">
-        
-    <div data-anim="head" class="gf-head">
-      <div class="t-meta">MODEL BOUNDARY</div>
-      <h2 class="gf-title">模型适用边界</h2>
-      <p class="gf-lead">排序可靠，但单维度独立建模会放大边缘误差，绝对分值不应过度解读。</p>
-    </div>
-        <div class="gf-body"><div class="gf-evidence" data-anim="card">
-  <div class="gf-ev-card">
-    <div class="ev-num">r=0.9998</div>
-    <div class="ev-label">预测排序与实测排序相关系数</div>
-    <div class="ev-body">5款样机（2款模型推荐 + 3款市售机型）的模型预测排序与真人实测均值排序完全一致，Pearson相关系数达0.9998</div>
-    <div class="ev-verdict">✓ 模型排序可靠</div>
-  </div>
-  <div class="gf-ev-card">
-    <div class="ev-num">±0.5分</div>
-    <div class="ev-label">绝对分值偏差范围</div>
-    <div class="ev-body">单维度独立建模会低估参数组合优良的机型、高估参数不佳机型的综合评分，绝对真值存在系统性偏差</div>
-    <div class="ev-verdict">⚠ 不宜作为绝对真值</div>
-  </div>
-  <div class="gf-ev-card ev-wide" style="grid-column:1/-1">
-    <div class="ev-label">模型适用范围说明（重要）</div>
-    <div class="ev-body" style="display:grid;grid-template-columns:1fr 1fr;gap:1vw">
-      <div><b style="color:var(--accent)">✓ 适用场景</b><br>同类机型相对优劣比较；识别某一款机型的参数瓶颈维度；ToB设计师定位具体改进方向；ToC用户机型个性化排名推荐</div>
-      <div><b style="color:var(--text-secondary)">✗ 不适用场景</b><br>不同类别、不同使用场景机型的跨品类绝对评分比较；单一维度偏极端值机型的综合分预测；作为产品发布的官方质量评定分数</div>
-    </div>
-  </div>
-</div></div>
-        
-        
-      </div>
-    </div>
-  </section>
+
 <section class="slide grey gf-chapter" data-layout="S03" data-animate="statement">
     <div class="canvas-card">
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Chapter 5</div>
-      <div class="r">59 / 79</div>
+      <div class="r">53 / 73</div>
     </div>
       <div class="gf-chapter-body">
         <div class="t-meta">CHAPTER 05</div>
@@ -3723,7 +3486,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Design Transfer</div>
-      <div class="r">60 / 79</div>
+      <div class="r">54 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -3748,7 +3511,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · System Architecture</div>
-      <div class="r">61 / 79</div>
+      <div class="r">55 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -3804,7 +3567,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · System Flow Redraw</div>
-      <div class="r">62 / 79</div>
+      <div class="r">56 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -3841,7 +3604,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · ToC IA Redraw</div>
-      <div class="r">63 / 79</div>
+      <div class="r">57 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -3888,7 +3651,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · ToC Interaction Redraw</div>
-      <div class="r">64 / 79</div>
+      <div class="r">58 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -3928,7 +3691,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · ToC Low-Fi</div>
-      <div class="r">65 / 79</div>
+      <div class="r">59 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -3964,7 +3727,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Fidelity Bridge</div>
-      <div class="r">66 / 79</div>
+      <div class="r">60 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -4002,7 +3765,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · ToC Hand</div>
-      <div class="r">67 / 79</div>
+      <div class="r">61 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -4059,7 +3822,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · ToC Selection</div>
-      <div class="r">68 / 79</div>
+      <div class="r">62 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -4114,7 +3877,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · ToC Preview</div>
-      <div class="r">69 / 79</div>
+      <div class="r">63 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -4167,7 +3930,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · ToC Report</div>
-      <div class="r">70 / 79</div>
+      <div class="r">64 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -4220,7 +3983,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · ToB IA</div>
-      <div class="r">71 / 79</div>
+      <div class="r">65 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -4243,7 +4006,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · ToB Interaction Redraw</div>
-      <div class="r">72 / 79</div>
+      <div class="r">66 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -4278,7 +4041,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · HF Workbench</div>
-      <div class="r">73 / 79</div>
+      <div class="r">67 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -4338,7 +4101,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Experiment Flow</div>
-      <div class="r">74 / 79</div>
+      <div class="r">68 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -4399,7 +4162,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Analysis Push</div>
-      <div class="r">75 / 79</div>
+      <div class="r">69 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -4454,7 +4217,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · ID Workspace</div>
-      <div class="r">76 / 79</div>
+      <div class="r">70 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -4514,7 +4277,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · AI Review</div>
-      <div class="r">77 / 79</div>
+      <div class="r">71 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -4569,7 +4332,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Usability</div>
-      <div class="r">78 / 79</div>
+      <div class="r">72 / 73</div>
     </div>
       <div class="gf-main">
         
@@ -4609,7 +4372,7 @@
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Iteration</div>
-      <div class="r">79 / 79</div>
+      <div class="r">73 / 73</div>
     </div>
       <div class="gf-main">
         
