@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 851" width="1280" height="851">
+  <rect x="0" y="0" width="1280" height="851" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1280" height="48" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="56" y="30" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" letter-spacing="2">GRIPFIT</text>
+  <rect x="1220" y="10" width="32" height="32" fill="#D0D0D0"/>
+  <line x1="1220" y1="10" x2="1252" y2="42" stroke="#FFFFFF" stroke-width="1"/>
+  <line x1="1252" y1="10" x2="1220" y2="42" stroke="#FFFFFF" stroke-width="1"/>
+  <text x="220" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#7A7A7A">仪表盘</text>
+  <text x="360" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#7A7A7A">手部测量</text>
+  <text x="500" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#7A7A7A">机型库</text>
+  <text x="640" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">报告产出</text>
+  <line x1="640" y1="44" x2="672" y2="44" stroke="#000000" stroke-width="2"/>
+  <rect x="0" y="48" width="50" height="803" fill="#D9D9D9"/>
+  <rect x="13" y="90" width="24" height="24" fill="#BFBFBF"/>
+  <rect x="13" y="155" width="24" height="24" fill="#BFBFBF"/>
+  <rect x="13" y="220" width="24" height="24" fill="#BFBFBF"/>
+  <rect x="13" y="285" width="24" height="24" fill="#7A7A7A"/>
+  <rect x="13" y="350" width="24" height="24" fill="#BFBFBF"/>
+  <rect x="13" y="415" width="24" height="24" fill="#BFBFBF"/>
+
+  <rect x="50" y="48" width="180" height="803" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="74" y="94" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">最优手机</text>
+  <rect x="50" y="129" width="180" height="32" fill="#D9D9D9"/>
+  <text x="74" y="149" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">自定义调参</text>
+  <text x="74" y="204" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">机型库</text>
+  <text x="74" y="259" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">手感报告</text>
+  <text x="74" y="314" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">我的数据</text>
+
+  <!-- Center phone placeholder -->
+  <text x="440" y="78" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">指按旋转 · 滚轮缩放</text>
+  <rect x="400" y="48" width="20" height="20" fill="#D9D9D9"/>
+  <circle cx="700" cy="170" r="50" fill="none" stroke="#D9D9D9" stroke-width="8"/>
+  <text x="700" y="165" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#000000" text-anchor="middle">7.5</text>
+  <text x="700" y="184" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A" text-anchor="middle">/10</text>
+  <text x="700" y="204" font-family="Arial, sans-serif" font-size="9" fill="#7A7A7A" text-anchor="middle">-1.4</text>
+  <rect x="430" y="220" width="340" height="580" fill="#D0D0D0"/>
+  <line x1="430" y1="220" x2="770" y2="800" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="770" y1="220" x2="430" y2="800" stroke="#FFFFFF" stroke-width="2"/>
+  <!-- Right: 参数微调 panel -->
+  <rect x="830" y="48" width="440" height="803" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="854" y="82" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#000000">参数微调</text>
+  <rect x="1080" y="68" width="100" height="28" fill="#D9D9D9" stroke="#000000" stroke-width="1"/>
+  <text x="1130" y="86" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">方案保存</text>
+  <!-- Section: 基本尺寸 -->
+  <text x="854" y="116" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">基本尺寸</text>
+  <text x="1160" y="116" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A" text-anchor="end">4项 ∨</text>
+  <text x="854" y="144" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">宽度 (mm)</text>
+  <text x="1160" y="144" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="end">70.6</text>
+  <rect x="854" y="152" width="306" height="4" fill="#D9D9D9"/>
+  <rect x="854" y="152" width="200" height="4" fill="#7A7A7A"/>
+  <circle cx="1054" cy="154" r="6" fill="#BFBFBF" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="854" y="168" font-family="Arial, sans-serif" font-size="9" fill="#BFBFBF">MIN 60</text>
+  <text x="1160" y="168" font-family="Arial, sans-serif" font-size="9" fill="#BFBFBF" text-anchor="end">MAX 80</text>
+  <text x="854" y="192" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">重量 (g)</text>
+  <text x="1160" y="192" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="end">172</text>
+  <rect x="854" y="200" width="306" height="4" fill="#D9D9D9"/>
+  <rect x="854" y="200" width="160" height="4" fill="#7A7A7A"/>
+  <circle cx="1014" cy="202" r="6" fill="#BFBFBF" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="854" y="216" font-family="Arial, sans-serif" font-size="9" fill="#BFBFBF">MIN 100</text>
+  <text x="1160" y="216" font-family="Arial, sans-serif" font-size="9" fill="#BFBFBF" text-anchor="end">MAX 350</text>
+  <text x="854" y="240" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">厚度 (mm)</text>
+  <text x="1160" y="240" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="end">7.3</text>
+  <rect x="854" y="248" width="306" height="4" fill="#D9D9D9"/>
+  <rect x="854" y="248" width="120" height="4" fill="#7A7A7A"/>
+  <circle cx="974" cy="250" r="6" fill="#BFBFBF" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="854" y="264" font-family="Arial, sans-serif" font-size="9" fill="#BFBFBF">MIN 5.0</text>
+  <text x="1160" y="264" font-family="Arial, sans-serif" font-size="9" fill="#BFBFBF" text-anchor="end">MAX 15.0</text>
+  <text x="854" y="288" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">长宽比</text>
+  <text x="1160" y="288" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="end">19.5:9</text>
+  <rect x="854" y="296" width="306" height="4" fill="#D9D9D9"/>
+  <rect x="854" y="296" width="220" height="4" fill="#7A7A7A"/>
+  <circle cx="1074" cy="298" r="6" fill="#BFBFBF" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="854" y="312" font-family="Arial, sans-serif" font-size="9" fill="#BFBFBF">MIN 15:9</text>
+  <text x="1160" y="312" font-family="Arial, sans-serif" font-size="9" fill="#BFBFBF" text-anchor="end">MAX 21:9</text>
+  <!-- Collapsed sections -->
+  <line x1="854" y1="330" x2="1160" y2="330" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="854" y="352" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">形态曲率</text>
+  <text x="1160" y="352" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A" text-anchor="end">5项 ∨</text>
+  <line x1="854" y1="362" x2="1160" y2="362" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="854" y="384" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">功能部件（后摄像头模组）</text>
+  <text x="1160" y="384" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A" text-anchor="end">5项 ∨</text>
+  <line x1="854" y1="394" x2="1160" y2="394" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="854" y="416" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">操作便利性</text>
+  <text x="1160" y="416" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A" text-anchor="end">2项 ∨</text>
+  <line x1="854" y1="426" x2="1160" y2="426" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="854" y="448" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">整机平衡</text>
+  <text x="1160" y="448" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A" text-anchor="end">1项 ∨</text>
+</svg>

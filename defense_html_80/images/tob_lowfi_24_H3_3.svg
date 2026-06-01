@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1162 730" width="1162" height="730">
+  <rect x="0" y="0" width="1162" height="730" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="220" height="730" fill="#D9D9D9"/>
+  <rect x="20" y="20" width="48" height="48" fill="#D0D0D0"/>
+  <line x1="20" y1="20" x2="68" y2="68" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="68" y1="20" x2="20" y2="68" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="80" y="40" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#000000">GripFit ToB</text>
+  <text x="80" y="58" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">xxxxxxx</text>
+  <text x="20" y="120" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A" letter-spacing="1">工作区</text>
+  <rect x="0" y="196" width="220" height="36" fill="#BFBFBF"/>
+  <text x="48" y="140" font-family="Arial, sans-serif" font-size="13" fill="#000000">工作台</text>
+  <text x="48" y="177" font-family="Arial, sans-serif" font-size="13" fill="#000000">设计参考工具</text>
+  <text x="48" y="214" font-family="Arial, sans-serif" font-size="13" fill="#000000">样机AI评审</text>
+
+  <text x="20" y="290" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A" letter-spacing="1">资源</text>
+  <text x="48" y="325" font-family="Arial, sans-serif" font-size="13" fill="#000000">设计库</text>
+  <text x="48" y="360" font-family="Arial, sans-serif" font-size="13" fill="#000000">素材归档</text>
+  <text x="48" y="395" font-family="Arial, sans-serif" font-size="13" fill="#000000">系统设置</text>
+
+  <rect x="0" y="610" width="220" height="1" fill="#7A7A7A"/>
+  <text x="48" y="640" font-family="Arial, sans-serif" font-size="12" fill="#000000">切换角色</text>
+  <rect x="20" y="662" width="36" height="36" fill="#D0D0D0"/>
+  <line x1="20" y1="662" x2="56" y2="698" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="56" y1="662" x2="20" y2="698" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="68" y="677" font-family="Arial, sans-serif" font-size="12" fill="#000000">xxx设计师</text>
+  <text x="68" y="693" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">xxxxxxx</text>
+  <rect x="220" y="0" width="942" height="56" fill="#FFFFFF"/>
+  <text x="252" y="34" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">GripFit  ›  xxxxxxx</text>
+  <rect x="1112" y="18" width="20" height="20" fill="#D9D9D9"/>
+  <text x="252" y="90" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#000000">样机AI评审</text>
+  <text x="252" y="112" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">上传样机信息，AI结合研究数据生成评审报告</text>
+  <!-- Main form card -->
+  <rect x="240" y="80" width="560" height="560" fill="#FFFFFF" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="264" y="116" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#000000">样机信息填写</text>
+
+  <!-- 产品类型 -->
+  <text x="264" y="150" font-family="Arial, sans-serif" font-size="12" fill="#000000">产品类型 *</text>
+  <rect x="264" y="162" width="490" height="36" fill="#FFFFFF" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="280" y="185" font-family="Arial, sans-serif" font-size="11" fill="#BFBFBF">请选择产品类型...</text>
+  <text x="738" y="185" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">▼</text>
+
+  <!-- 样机名称 -->
+  <text x="264" y="222" font-family="Arial, sans-serif" font-size="12" fill="#000000">样机名称 *</text>
+  <rect x="264" y="234" width="490" height="36" fill="#FFFFFF" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="280" y="257" font-family="Arial, sans-serif" font-size="11" fill="#BFBFBF">请输入样机名称...</text>
+
+  <!-- 目标用户群体 -->
+  <text x="264" y="294" font-family="Arial, sans-serif" font-size="12" fill="#000000">目标用户群体 *</text>
+  <rect x="264" y="306" width="490" height="36" fill="#FFFFFF" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="280" y="329" font-family="Arial, sans-serif" font-size="11" fill="#BFBFBF">请选择用户群体...</text>
+  <text x="738" y="329" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">▼</text>
+
+  <!-- 关键尺寸 -->
+  <text x="264" y="366" font-family="Arial, sans-serif" font-size="12" fill="#000000">关键尺寸 (mm)</text>
+  <text x="264" y="388" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">长</text>
+  <rect x="282" y="378" width="100" height="36" fill="#FFFFFF" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="296" y="401" font-family="Arial, sans-serif" font-size="11" fill="#BFBFBF">xxx</text>
+  <text x="398" y="388" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">宽</text>
+  <rect x="416" y="378" width="100" height="36" fill="#FFFFFF" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="430" y="401" font-family="Arial, sans-serif" font-size="11" fill="#BFBFBF">xxx</text>
+  <text x="532" y="388" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">厚</text>
+  <rect x="550" y="378" width="100" height="36" fill="#FFFFFF" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="564" y="401" font-family="Arial, sans-serif" font-size="11" fill="#BFBFBF">xxx</text>
+
+  <!-- 重量 -->
+  <text x="264" y="438" font-family="Arial, sans-serif" font-size="12" fill="#000000">整机重量 (g)</text>
+  <rect x="264" y="450" width="200" height="36" fill="#FFFFFF" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="280" y="473" font-family="Arial, sans-serif" font-size="11" fill="#BFBFBF">xxx</text>
+
+  <!-- 附加说明 -->
+  <text x="264" y="510" font-family="Arial, sans-serif" font-size="12" fill="#000000">附加说明</text>
+  <rect x="264" y="522" width="490" height="90" fill="#FFFFFF" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="280" y="546" font-family="Arial, sans-serif" font-size="11" fill="#BFBFBF">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</text>
+
+  <!-- Buttons -->
+  <rect x="264" y="626" width="100" height="36" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <text x="314" y="649" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">取消</text>
+  <rect x="624" y="626" width="176" height="36" fill="#D9D9D9" stroke="#000000" stroke-width="1"/>
+  <text x="712" y="649" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000" text-anchor="middle">提交AI评审</text>
+
+  <!-- Right info panel -->
+  <rect x="828" y="80" width="312" height="260" fill="#F7F7F7" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="850" y="116" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000">评审说明</text>
+  <text x="850" y="140" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">AI将根据以下维度进行评审：</text>
+  <text x="850" y="164" font-family="Arial, sans-serif" font-size="11" fill="#000000">• 握持舒适度评分</text>
+  <text x="850" y="184" font-family="Arial, sans-serif" font-size="11" fill="#000000">• 单手操作可达性</text>
+  <text x="850" y="204" font-family="Arial, sans-serif" font-size="11" fill="#000000">• 用户群体适配度</text>
+  <text x="850" y="224" font-family="Arial, sans-serif" font-size="11" fill="#000000">• 形态因素合理性</text>
+  <text x="850" y="244" font-family="Arial, sans-serif" font-size="11" fill="#000000">• 综合设计建议</text>
+  <text x="850" y="274" font-family="Arial, sans-serif" font-size="10" fill="#BFBFBF">评审通常在数秒内完成</text>
+</svg>

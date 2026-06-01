@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1162 730" width="1162" height="730">
+  <rect x="0" y="0" width="1162" height="730" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="220" height="730" fill="#D9D9D9"/>
+  <rect x="20" y="20" width="48" height="48" fill="#D0D0D0"/>
+  <line x1="20" y1="20" x2="68" y2="68" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="68" y1="20" x2="20" y2="68" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="80" y="40" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#000000">GripFit ToB</text>
+  <text x="80" y="58" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">人因工程师</text>
+  <text x="20" y="116" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">工作区</text>
+  <rect x="0" y="162" width="220" height="30" fill="#BFBFBF"/>
+  <text x="48" y="144" font-family="Arial, sans-serif" font-size="13" fill="#000000">工作看板</text>
+  <text x="48" y="180" font-family="Arial, sans-serif" font-size="13" fill="#000000">我的项目</text>
+  <text x="48" y="216" font-family="Arial, sans-serif" font-size="13" fill="#000000">+ 新建项目</text>
+  <text x="20" y="258" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">资源</text>
+  <text x="48" y="285" font-family="Arial, sans-serif" font-size="13" fill="#000000">被试库</text>
+  <text x="48" y="317" font-family="Arial, sans-serif" font-size="13" fill="#000000">数据归档</text>
+  <text x="48" y="349" font-family="Arial, sans-serif" font-size="13" fill="#000000">系统设置</text>
+  <rect x="0" y="648" width="220" height="1" fill="#7A7A7A"/>
+  <text x="48" y="672" font-family="Arial, sans-serif" font-size="12" fill="#000000">切换角色</text>
+  <rect x="20" y="682" width="36" height="36" fill="#D0D0D0"/>
+  <line x1="20" y1="682" x2="56" y2="718" stroke="#FFFFFF" stroke-width="1.5"/>
+  <line x1="56" y1="682" x2="20" y2="718" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="68" y="700" font-family="Arial, sans-serif" font-size="12" fill="#000000">张研究员</text>
+  <text x="68" y="716" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">人因工程师</text>
+  <text x="240" y="30" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">GripFit  ›  人因工程师</text>
+  <text x="240" y="52" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">← 旗舰机握持舒适度研究 A2026  /  方案执行</text>
+  <rect x="1122" y="14" width="20" height="20" fill="#D9D9D9"/>
+  <rect x="240" y="56" width="26" height="26" fill="#7A7A7A"/>
+  <text x="253" y="74" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="253" y="97" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#000000" text-anchor="middle">量表设计</text>
+  <line x1="266" y1="69" x2="372" y2="69" stroke="#BFBFBF" stroke-width="1"/>
+  <rect x="372" y="56" width="26" height="26" fill="#FFFFFF" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="385" y="74" font-family="Arial, sans-serif" font-size="9" fill="#BFBFBF" text-anchor="middle">2</text>
+  <text x="385" y="97" font-family="Arial, sans-serif" font-size="9" fill="#BFBFBF" text-anchor="middle">被试方案</text>
+  <line x1="398" y1="69" x2="504" y2="69" stroke="#BFBFBF" stroke-width="1"/>
+  <rect x="504" y="56" width="26" height="26" fill="#FFFFFF" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="517" y="74" font-family="Arial, sans-serif" font-size="9" fill="#BFBFBF" text-anchor="middle">3</text>
+  <text x="517" y="97" font-family="Arial, sans-serif" font-size="9" fill="#BFBFBF" text-anchor="middle">场地安排</text>
+  <line x1="530" y1="69" x2="636" y2="69" stroke="#BFBFBF" stroke-width="1"/>
+  <rect x="636" y="56" width="26" height="26" fill="#FFFFFF" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="649" y="74" font-family="Arial, sans-serif" font-size="9" fill="#BFBFBF" text-anchor="middle">4</text>
+  <text x="649" y="97" font-family="Arial, sans-serif" font-size="9" fill="#BFBFBF" text-anchor="middle">设备准备</text>
+  <line x1="662" y1="69" x2="768" y2="69" stroke="#BFBFBF" stroke-width="1"/>
+  <rect x="768" y="56" width="26" height="26" fill="#FFFFFF" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="781" y="74" font-family="Arial, sans-serif" font-size="9" fill="#BFBFBF" text-anchor="middle">5</text>
+  <text x="781" y="97" font-family="Arial, sans-serif" font-size="9" fill="#BFBFBF" text-anchor="middle">数据采集</text>
+  <line x1="794" y1="69" x2="900" y2="69" stroke="#BFBFBF" stroke-width="1"/>
+  <rect x="900" y="56" width="26" height="26" fill="#FFFFFF" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="913" y="74" font-family="Arial, sans-serif" font-size="9" fill="#BFBFBF" text-anchor="middle">6</text>
+  <text x="913" y="97" font-family="Arial, sans-serif" font-size="9" fill="#BFBFBF" text-anchor="middle">分析报告</text>
+  <text x="240" y="124" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#000000">量表设计·方案规划</text>
+  <text x="1060" y="124" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">步骤 1/6</text>
+  <rect x="240" y="140" width="140" height="30" fill="#FFFFFF" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="310" y="160" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A" text-anchor="middle">① 测量规划</text>
+  <rect x="382" y="140" width="140" height="30" fill="#FFFFFF" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="452" y="160" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A" text-anchor="middle">② 量表配置</text>
+  <rect x="524" y="140" width="140" height="30" fill="#D9D9D9" stroke="#000000" stroke-width="1"/>
+  <text x="594" y="160" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">③ 发放设置</text>
+  <rect x="240" y="184" width="430" height="350" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <text x="260" y="214" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#000000">发放方式</text>
+  <rect x="256" y="230" width="398" height="72" fill="#F0F0F0" stroke="#7A7A7A" stroke-width="1"/>
+  <rect x="266" y="256" width="16" height="16" fill="#7A7A7A" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="290" y="256" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000">二维码（现场扫描）</text>
+  <text x="290" y="278" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">被试到场后扫码作答，支持实时监控</text>
+  <rect x="256" y="320" width="398" height="72" fill="#FFFFFF" stroke="#BFBFBF" stroke-width="1"/>
+  <rect x="266" y="346" width="16" height="16" fill="#FFFFFF" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="290" y="346" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000">平板直接作答</text>
+  <text x="290" y="368" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">由研究员管理平板，适合实验室场景</text>
+  <rect x="256" y="410" width="398" height="72" fill="#FFFFFF" stroke="#BFBFBF" stroke-width="1"/>
+  <rect x="266" y="436" width="16" height="16" fill="#FFFFFF" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="290" y="436" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000">链接（远程发送）</text>
+  <text x="290" y="458" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">发送给被试自行填写，适合问卷调查</text>
+  <rect x="686" y="184" width="434" height="350" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <text x="706" y="214" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#000000">作答控制</text>
+  <text x="706" y="262" font-family="Arial, sans-serif" font-size="13" fill="#000000">随机题目顺序</text>
+  <text x="706" y="280" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">减少顺序效应干扰</text>
+  <rect x="1064" y="248" width="40" height="20" fill="#D9D9D9" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="1068" y="264" font-family="Arial, sans-serif" font-size="9" fill="#7A7A7A">关</text>
+  <text x="706" y="318" font-family="Arial, sans-serif" font-size="13" fill="#000000">允许返回修改</text>
+  <text x="706" y="336" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">让被试可修正之前的作答</text>
+  <rect x="1064" y="304" width="40" height="20" fill="#7A7A7A" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="1068" y="320" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF">开</text>
+  <rect x="706" y="370" width="398" height="80" fill="#F5F5F5" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="720" y="394" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">数据自动化</text>
+  <text x="720" y="414" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">实验开始后，被试作答数据自动采集并存储</text>
+  <text x="720" y="432" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">完成率、异常作答将实时报警</text>
+  <rect x="240" y="560" width="80" height="34" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <text x="280" y="582" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">返回项目</text>
+  <rect x="820" y="560" width="300" height="34" fill="#D9D9D9" stroke="#000000" stroke-width="1"/>
+  <text x="970" y="582" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000" text-anchor="middle">量表方案确定·下一步：被试方案 →</text>
+</svg>

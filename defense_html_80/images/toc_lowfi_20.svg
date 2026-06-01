@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 851" width="1280" height="851">
+  <rect x="0" y="0" width="1280" height="851" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1280" height="48" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="56" y="30" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" letter-spacing="2">GRIPFIT</text>
+  <rect x="1220" y="10" width="32" height="32" fill="#D0D0D0"/>
+  <line x1="1220" y1="10" x2="1252" y2="42" stroke="#FFFFFF" stroke-width="1"/>
+  <line x1="1252" y1="10" x2="1220" y2="42" stroke="#FFFFFF" stroke-width="1"/>
+  <text x="220" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#7A7A7A">仪表盘</text>
+  <text x="360" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#7A7A7A">手部测量</text>
+  <text x="500" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#7A7A7A">机型库</text>
+  <text x="640" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">报告产出</text>
+  <line x1="640" y1="44" x2="672" y2="44" stroke="#000000" stroke-width="2"/>
+  <rect x="0" y="48" width="50" height="803" fill="#D9D9D9"/>
+  <rect x="13" y="90" width="24" height="24" fill="#BFBFBF"/>
+  <rect x="13" y="155" width="24" height="24" fill="#BFBFBF"/>
+  <rect x="13" y="220" width="24" height="24" fill="#BFBFBF"/>
+  <rect x="13" y="285" width="24" height="24" fill="#7A7A7A"/>
+  <rect x="13" y="350" width="24" height="24" fill="#BFBFBF"/>
+  <rect x="13" y="415" width="24" height="24" fill="#BFBFBF"/>
+
+  <rect x="50" y="48" width="180" height="803" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="74" y="94" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">最优手机</text>
+  <text x="74" y="149" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">自定义调参</text>
+  <text x="74" y="204" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">机型库</text>
+  <rect x="50" y="239" width="180" height="32" fill="#D9D9D9"/>
+  <text x="74" y="259" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">手感报告</text>
+  <text x="74" y="314" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">我的数据</text>
+
+  <!-- Main content -->
+  <text x="254" y="84" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#000000">手感报告详情</text>
+  <text x="254" y="106" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">评估对象: 自定义方案 A</text>
+  <!-- Filter -->
+  <rect x="1120" y="68" width="120" height="28" fill="#D9D9D9" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="1180" y="86" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">共 18 个维度</text>
+  <!-- Summary cards -->
+  <rect x="254" y="120" width="200" height="80" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="274" y="150" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">综合评分</text>
+  <text x="340" y="182" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#000000" text-anchor="middle">8.3</text>
+  <text x="366" y="182" font-family="Arial, sans-serif" font-size="13" fill="#7A7A7A">/ 10</text>
+  <rect x="540" y="120" width="180" height="80" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="560" y="148" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">关注项</text>
+  <text x="630" y="176" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#000000" text-anchor="middle">5</text>
+  <text x="560" y="192" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">中高风险</text>
+  <rect x="800" y="120" width="180" height="80" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="820" y="148" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">良好项</text>
+  <text x="890" y="176" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#000000" text-anchor="middle">9</text>
+  <text x="820" y="192" font-family="Arial, sans-serif" font-size="10" fill="#000000">表现良好</text>
+  <!-- Table header -->
+  <rect x="254" y="218" width="986" height="28" fill="#D9D9D9"/>
+  <text x="272" y="237" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#000000">维度</text>
+  <text x="500" y="237" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#000000">当前值</text>
+  <text x="660" y="237" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#000000">评分 (/10)</text>
+  <text x="820" y="237" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#000000">AHP 权重</text>
+  <text x="980" y="237" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#000000">操作</text>
+  <!-- Row 1 expanded: 重量 -->
+  <rect x="254" y="246" width="986" height="30" fill="#F7F7F7" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="264" y="266" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">●</text>
+  <text x="280" y="266" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#000000">1  重量</text>
+  <text x="500" y="266" font-family="Arial, sans-serif" font-size="11" fill="#000000">182 g</text>
+  <text x="660" y="266" font-family="Arial, sans-serif" font-size="11" fill="#000000">5.8</text>
+  <text x="820" y="266" font-family="Arial, sans-serif" font-size="11" fill="#000000">0.126</text>
+  <text x="980" y="266" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">∧</text>
+  <!-- Expanded detail for 重量 -->
+  <rect x="254" y="276" width="986" height="110" fill="#F7F7F7"/>
+  <text x="280" y="298" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#000000">评估说明</text>
+  <text x="280" y="316" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">当前重量略超出最优上限，长时间握持易增加手部疲劳感，建议降重量以提升舒适度与可靠性。</text>
+  <!-- Mini bell curve placeholder -->
+  <rect x="560" y="286" width="200" height="90" fill="#EBEBEB"/>
+  <line x1="560" y1="286" x2="760" y2="376" stroke="#D9D9D9" stroke-width="1"/>
+  <line x1="760" y1="286" x2="560" y2="376" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="660" y="336" font-family="Arial, sans-serif" font-size="10" fill="#BFBFBF" text-anchor="middle">评分响应曲线</text>
+  <text x="280" y="370" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#000000">优化建议</text>
+  <!-- Row 2 expanded: 镜头凸起 -->
+  <rect x="254" y="386" width="986" height="30" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="264" y="406" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">●</text>
+  <text x="280" y="406" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#000000">2  镜头凸起</text>
+  <text x="500" y="406" font-family="Arial, sans-serif" font-size="11" fill="#000000">1.6 mm</text>
+  <text x="660" y="406" font-family="Arial, sans-serif" font-size="11" fill="#000000">6.0</text>
+  <text x="820" y="406" font-family="Arial, sans-serif" font-size="11" fill="#000000">0.083</text>
+  <text x="980" y="406" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">∧</text>
+  <rect x="254" y="416" width="986" height="80" fill="#FFFFFF"/>
+  <text x="280" y="436" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">镜头凸起高度，放置稳定性下降，长期持握时易产生主导手生硬接触感，进而引发握持疲劳形态。</text>
+  <rect x="560" y="424" width="200" height="64" fill="#EBEBEB"/>
+  <line x1="560" y1="424" x2="760" y2="488" stroke="#D9D9D9" stroke-width="1"/>
+  <line x1="760" y1="424" x2="560" y2="488" stroke="#D9D9D9" stroke-width="1"/>
+  <!-- Remaining rows collapsed -->
+  <rect x="254" y="496" width="986" height="28" fill="#F7F7F7" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="280" y="515" font-family="Arial, sans-serif" font-size="11" fill="#000000">3  宽度</text>
+  <text x="500" y="515" font-family="Arial, sans-serif" font-size="11" fill="#000000">71.8 mm</text>
+  <text x="660" y="515" font-family="Arial, sans-serif" font-size="11" fill="#000000">6.1</text>
+  <text x="820" y="515" font-family="Arial, sans-serif" font-size="11" fill="#000000">0.098</text>
+  <text x="980" y="515" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">∨</text>
+  <rect x="254" y="524" width="986" height="28" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="280" y="543" font-family="Arial, sans-serif" font-size="11" fill="#000000">4  四边圆角</text>
+  <text x="500" y="543" font-family="Arial, sans-serif" font-size="11" fill="#000000">R6.5</text>
+  <text x="660" y="543" font-family="Arial, sans-serif" font-size="11" fill="#000000">6.8</text>
+  <text x="820" y="543" font-family="Arial, sans-serif" font-size="11" fill="#000000">0.067</text>
+  <text x="980" y="543" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">∨</text>
+  <rect x="254" y="552" width="986" height="28" fill="#F7F7F7" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="280" y="571" font-family="Arial, sans-serif" font-size="11" fill="#000000">5  重心位置</text>
+  <text x="500" y="571" font-family="Arial, sans-serif" font-size="11" fill="#000000">上偏左 6mm</text>
+  <text x="660" y="571" font-family="Arial, sans-serif" font-size="11" fill="#000000">6.6</text>
+  <text x="820" y="571" font-family="Arial, sans-serif" font-size="11" fill="#000000">0.072</text>
+  <text x="980" y="571" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">∨</text>
+  <rect x="254" y="580" width="986" height="28" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="280" y="599" font-family="Arial, sans-serif" font-size="11" fill="#000000">6  黑边宽度</text>
+  <text x="500" y="599" font-family="Arial, sans-serif" font-size="11" fill="#000000">1.8 mm</text>
+  <text x="660" y="599" font-family="Arial, sans-serif" font-size="11" fill="#000000">6.9</text>
+  <text x="820" y="599" font-family="Arial, sans-serif" font-size="11" fill="#000000">0.061</text>
+  <text x="980" y="599" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">∨</text>
+  <rect x="254" y="608" width="986" height="28" fill="#F7F7F7" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="280" y="627" font-family="Arial, sans-serif" font-size="11" fill="#000000">7  背面弧度</text>
+  <text x="500" y="627" font-family="Arial, sans-serif" font-size="11" fill="#000000">62 %</text>
+  <text x="660" y="627" font-family="Arial, sans-serif" font-size="11" fill="#000000">8.7</text>
+  <text x="820" y="627" font-family="Arial, sans-serif" font-size="11" fill="#000000">0.074</text>
+  <text x="980" y="627" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">∨</text>
+</svg>

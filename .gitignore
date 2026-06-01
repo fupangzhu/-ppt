@@ -1,0 +1,27 @@
+node_modules/
+.claude/
+.agents/
+.playwright-cli/
+.vscode/
+tmp/
+tmp_*/
+_preview/
+~$*
+*.tmp.docx
+__pycache__/
+*.pyc
+_booklet_temp/
+
+# defense deck — process/debug artifacts (not page deps)
+defense_html_80/_pdfgen/
+defense_html_80/thesis_figures/
+defense_html_80/style_reference_current_pdf/
+defense_html_80/figma_export/
+defense_html_80/figma_capture*.html
+defense_html_80/screenshots*/
+defense_html_80/*_contact_sheet.jpg
+defense_html_80/GripFit_defense_79pages.pdf
+defense_html_80/current_pdf_text.txt
+defense_html_80/thesis_full_text.txt
+defense_html_80/index.html.bak_v3
+defense_html_80/index_print.html

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1162 730" width="1162" height="730">
+  <rect x="0" y="0" width="1162" height="730" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="220" height="730" fill="#D9D9D9"/>
+  <rect x="20" y="20" width="48" height="48" fill="#D0D0D0"/>
+  <line x1="20" y1="20" x2="68" y2="68" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="68" y1="20" x2="20" y2="68" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="80" y="40" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#000000">GripFit ToB</text>
+  <text x="80" y="58" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">xxxxxxx</text>
+  <text x="20" y="120" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A" letter-spacing="1">工作区</text>
+  <rect x="0" y="159" width="220" height="36" fill="#BFBFBF"/>
+  <text x="48" y="140" font-family="Arial, sans-serif" font-size="13" fill="#000000">工作台</text>
+  <text x="48" y="177" font-family="Arial, sans-serif" font-size="13" fill="#000000">设计参考工具</text>
+  <text x="48" y="214" font-family="Arial, sans-serif" font-size="13" fill="#000000">样机AI评审</text>
+
+  <text x="20" y="290" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A" letter-spacing="1">资源</text>
+  <text x="48" y="325" font-family="Arial, sans-serif" font-size="13" fill="#000000">设计库</text>
+  <text x="48" y="360" font-family="Arial, sans-serif" font-size="13" fill="#000000">素材归档</text>
+  <text x="48" y="395" font-family="Arial, sans-serif" font-size="13" fill="#000000">系统设置</text>
+
+  <rect x="0" y="610" width="220" height="1" fill="#7A7A7A"/>
+  <text x="48" y="640" font-family="Arial, sans-serif" font-size="12" fill="#000000">切换角色</text>
+  <rect x="20" y="662" width="36" height="36" fill="#D0D0D0"/>
+  <line x1="20" y1="662" x2="56" y2="698" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="56" y1="662" x2="20" y2="698" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="68" y="677" font-family="Arial, sans-serif" font-size="12" fill="#000000">xxx设计师</text>
+  <text x="68" y="693" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">xxxxxxx</text>
+  <rect x="220" y="0" width="942" height="56" fill="#FFFFFF"/>
+  <text x="252" y="34" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">GripFit  ›  xxxxxxx</text>
+  <rect x="1112" y="18" width="20" height="20" fill="#D9D9D9"/>
+  <text x="252" y="90" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#000000">设计参考工具</text>
+  <text x="252" y="112" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">基于研究数据的设计参考辅助</text>
+  <rect x="240" y="148" width="120" height="36" fill="#D9D9D9" stroke="#000000" stroke-width="1"/>
+  <text x="300" y="171" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000" text-anchor="middle">①目标配置</text>
+  <rect x="360" y="148" width="120" height="36" fill="#FFFFFF" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="420" y="171" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A" text-anchor="middle">②底模预览</text>
+  <rect x="480" y="148" width="120" height="36" fill="#FFFFFF" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="540" y="171" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A" text-anchor="middle">③数据&amp;图表</text>
+
+  <!-- Content area -->
+  <rect x="240" y="200" width="900" height="490" fill="#FFFFFF" stroke="#BFBFBF" stroke-width="1"/>
+
+  <!-- 左侧: 产品形态配置 -->
+  <text x="264" y="236" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#000000">产品形态配置</text>
+  <text x="264" y="260" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">目标手机形态</text>
+  <!-- 3 form factor cards -->
+  <rect x="264" y="274" width="120" height="70" fill="#D9D9D9" stroke="#000000" stroke-width="1"/>
+  <text x="324" y="305" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="middle">直板</text>
+  <text x="324" y="322" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A" text-anchor="middle">xxxxxxxxx</text>
+
+  <rect x="400" y="274" width="120" height="70" fill="#FFFFFF" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="460" y="305" font-family="Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle">竖折</text>
+  <text x="460" y="322" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A" text-anchor="middle">xxxxxxxxx</text>
+
+  <rect x="536" y="274" width="120" height="70" fill="#FFFFFF" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="596" y="305" font-family="Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle">横折</text>
+  <text x="596" y="322" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A" text-anchor="middle">xxxxxxxxx</text>
+
+  <!-- 目标用户群体 -->
+  <text x="264" y="374" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">目标用户群体</text>
+  <rect x="264" y="388" width="370" height="36" fill="#FFFFFF" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="280" y="411" font-family="Arial, sans-serif" font-size="11" fill="#BFBFBF">请选择用户群体...</text>
+  <text x="620" y="411" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">▼</text>
+
+  <!-- 研究项目关联 -->
+  <text x="264" y="448" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">关联研究项目</text>
+  <rect x="264" y="462" width="370" height="36" fill="#FFFFFF" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="280" y="485" font-family="Arial, sans-serif" font-size="11" fill="#BFBFBF">请选择关联项目...</text>
+  <text x="620" y="485" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">▼</text>
+
+  <!-- 右侧: 用户画像 -->
+  <rect x="700" y="218" width="410" height="440" fill="#FFFFFF" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="720" y="250" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#000000">用户画像摘要</text>
+  <!-- Persona placeholder image -->
+  <rect x="720" y="264" width="80" height="80" fill="#D0D0D0"/>
+  <line x1="720" y1="264" x2="800" y2="344" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="800" y1="264" x2="720" y2="344" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="816" y="286" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">普通消费者</text>
+  <text x="816" y="306" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">年龄: 25-35岁</text>
+  <text x="816" y="322" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">职业: xxxxxxx</text>
+  <text x="816" y="338" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">场景: xxxxxxx</text>
+  <!-- Trait tags -->
+  <text x="720" y="374" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">关键特征</text>
+  <rect x="720" y="386" width="70" height="22" fill="#D9D9D9"/>
+  <text x="755" y="402" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">xxxxxxx</text>
+  <rect x="800" y="386" width="70" height="22" fill="#D9D9D9"/>
+  <text x="835" y="402" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">xxxxxxx</text>
+  <rect x="880" y="386" width="70" height="22" fill="#D9D9D9"/>
+  <text x="915" y="402" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">xxxxxxx</text>
+  <!-- Needs list -->
+  <text x="720" y="432" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">核心需求</text>
+  <text x="720" y="452" font-family="Arial, sans-serif" font-size="11" fill="#000000">• xxxxxxxxxxxxxxxxxxxxxxxxxx</text>
+  <text x="720" y="472" font-family="Arial, sans-serif" font-size="11" fill="#000000">• xxxxxxxxxxxxxxxxxxxxxxxxxx</text>
+  <text x="720" y="492" font-family="Arial, sans-serif" font-size="11" fill="#000000">• xxxxxxxxxxxxxxxxxxxxxxxxxx</text>
+  <text x="720" y="512" font-family="Arial, sans-serif" font-size="11" fill="#000000">• xxxxxxxxxxxxxxxxxxxxxxxxxx</text>
+
+  <!-- Action buttons -->
+  <rect x="264" y="640" width="120" height="36" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <text x="324" y="663" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">重置</text>
+  <rect x="400" y="640" width="160" height="36" fill="#D9D9D9" stroke="#000000" stroke-width="1"/>
+  <text x="480" y="663" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000" text-anchor="middle">生成设计参考</text>
+</svg>

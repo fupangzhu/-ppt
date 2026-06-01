@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1162 730" width="1162" height="730">
+  <rect x="0" y="0" width="1162" height="730" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="220" height="730" fill="#D9D9D9"/>
+  <rect x="20" y="20" width="48" height="48" fill="#D0D0D0"/>
+  <line x1="20" y1="20" x2="68" y2="68" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="68" y1="20" x2="20" y2="68" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="80" y="40" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#000000">GripFit ToB</text>
+  <text x="80" y="58" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">人因工程师</text>
+  <text x="20" y="116" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">工作区</text>
+  <rect x="0" y="162" width="220" height="30" fill="#BFBFBF"/>
+  <text x="48" y="144" font-family="Arial, sans-serif" font-size="13" fill="#000000">工作看板</text>
+  <text x="48" y="180" font-family="Arial, sans-serif" font-size="13" fill="#000000">我的项目</text>
+  <text x="48" y="216" font-family="Arial, sans-serif" font-size="13" fill="#000000">+ 新建项目</text>
+  <text x="20" y="266" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">资源</text>
+  <text x="48" y="286" font-family="Arial, sans-serif" font-size="13" fill="#000000">被试库</text>
+  <text x="48" y="322" font-family="Arial, sans-serif" font-size="13" fill="#000000">数据归档</text>
+  <text x="48" y="358" font-family="Arial, sans-serif" font-size="13" fill="#000000">系统设置</text>
+  <rect x="0" y="648" width="220" height="1" fill="#7A7A7A"/>
+  <text x="48" y="672" font-family="Arial, sans-serif" font-size="12" fill="#000000">切换角色</text>
+  <rect x="20" y="682" width="36" height="36" fill="#D0D0D0"/>
+  <line x1="20" y1="682" x2="56" y2="718" stroke="#FFFFFF" stroke-width="1.5"/>
+  <line x1="56" y1="682" x2="20" y2="718" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="68" y="700" font-family="Arial, sans-serif" font-size="12" fill="#000000">张研究员</text>
+  <text x="68" y="716" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">人因工程师</text>
+  <text x="240" y="30" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">GripFit  ›  人因工程师</text>
+  <text x="240" y="50" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#000000">被试 P001 · 数据采集</text>
+  <text x="240" y="68" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">旗舰机握持舒适度研究 A2026 · 握持舒适度、形态适配性</text>
+  <rect x="1122" y="14" width="20" height="20" fill="#D9D9D9"/>
+  <rect x="900" y="10" width="60" height="28" fill="#D9D9D9" stroke="#000000" stroke-width="1"/>
+  <text x="930" y="28" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">保存</text>
+  <rect x="970" y="10" width="110" height="28" fill="#D9D9D9" stroke="#000000" stroke-width="1"/>
+  <text x="1025" y="28" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#000000" text-anchor="middle">提交并返回</text>
+  <rect x="240" y="82" width="310" height="210" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <rect x="262" y="100" width="40" height="40" fill="#D0D0D0"/>
+  <line x1="262" y1="100" x2="302" y2="140" stroke="#FFFFFF" stroke-width="1.5"/>
+  <line x1="302" y1="100" x2="262" y2="140" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="310" y="118" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#000000">P001</text>
+  <text x="310" y="136" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">26-35 · 单手握持</text>
+  <text x="262" y="172" font-family="Arial, sans-serif" font-size="12" fill="#000000">手长</text>
+  <text x="450" y="172" font-family="Arial, sans-serif" font-size="12" fill="#000000">178 mm</text>
+  <text x="262" y="198" font-family="Arial, sans-serif" font-size="12" fill="#000000">手宽</text>
+  <text x="450" y="198" font-family="Arial, sans-serif" font-size="12" fill="#000000">80 mm</text>
+  <text x="262" y="224" font-family="Arial, sans-serif" font-size="12" fill="#000000">拇指跨距</text>
+  <text x="450" y="224" font-family="Arial, sans-serif" font-size="12" fill="#000000">95 mm</text>
+  <text x="262" y="268" font-family="Arial, sans-serif" font-size="12" fill="#000000">量表作答进度</text>
+  <text x="500" y="268" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">0/10 题（0%）</text>
+  <rect x="262" y="282" width="280" height="6" fill="#D9D9D9"/>
+  <text x="240" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000">量表填写</text>
+  <rect x="240" y="324" width="650" height="320" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <text x="256" y="350" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">握持舒适度  0/3</text>
+  <text x="256" y="362" font-family="Arial, sans-serif" font-size="11" fill="#000000">1  请评价当前手机的整体握持舒适感受</text>
+  <rect x="306" y="370" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="328" y="392" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">1</text>
+  <rect x="364" y="370" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="386" y="392" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">2</text>
+  <rect x="422" y="370" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="444" y="392" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">3</text>
+  <rect x="480" y="370" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="502" y="392" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">4</text>
+  <rect x="538" y="370" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="560" y="392" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">5</text>
+  <rect x="596" y="370" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="618" y="392" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">6</text>
+  <rect x="654" y="370" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="676" y="392" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">7</text>
+  <rect x="712" y="370" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="734" y="392" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">8</text>
+  <rect x="770" y="370" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="792" y="392" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">9</text>
+  <text x="256" y="448" font-family="Arial, sans-serif" font-size="11" fill="#000000">2  手机握持时手掌接触面的压力感受</text>
+  <rect x="306" y="456" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="328" y="478" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">1</text>
+  <rect x="364" y="456" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="386" y="478" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">2</text>
+  <rect x="422" y="456" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="444" y="478" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">3</text>
+  <rect x="480" y="456" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="502" y="478" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">4</text>
+  <rect x="538" y="456" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="560" y="478" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">5</text>
+  <rect x="596" y="456" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="618" y="478" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">6</text>
+  <rect x="654" y="456" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="676" y="478" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">7</text>
+  <rect x="712" y="456" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="734" y="478" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">8</text>
+  <rect x="770" y="456" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="792" y="478" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">9</text>
+  <text x="256" y="534" font-family="Arial, sans-serif" font-size="11" fill="#000000">3  握持 5 分钟后的疲劳程度</text>
+  <rect x="306" y="542" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="328" y="564" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">1</text>
+  <rect x="364" y="542" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="386" y="564" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">2</text>
+  <rect x="422" y="542" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="444" y="564" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">3</text>
+  <rect x="480" y="542" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="502" y="564" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">4</text>
+  <rect x="538" y="542" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="560" y="564" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">5</text>
+  <rect x="596" y="542" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="618" y="564" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">6</text>
+  <rect x="654" y="542" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="676" y="564" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">7</text>
+  <rect x="712" y="542" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="734" y="564" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">8</text>
+  <rect x="770" y="542" width="44" height="34" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="792" y="564" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">9</text>
+  <rect x="906" y="82" width="214" height="180" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <text x="922" y="108" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000">观察记录  0 条</text>
+  <text x="922" y="136" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">行为  口述  异常  备注</text>
+  <rect x="922" y="148" width="148" height="30" fill="#FFFFFF" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="930" y="168" font-family="Arial, sans-serif" font-size="10" fill="#BFBFBF">记录观察到的行为、口述...</text>
+  <rect x="1080" y="148" width="28" height="30" fill="#7A7A7A"/>
+  <text x="1094" y="168" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">+</text>
+  <rect x="906" y="276" width="214" height="180" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <text x="922" y="302" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000">生理数据备注</text>
+  <text x="922" y="330" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">EEG 脑电</text>
+  <rect x="922" y="340" width="182" height="30" fill="#FFFFFF" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="930" y="360" font-family="Arial, sans-serif" font-size="10" fill="#BFBFBF">阻抗、信号质量...</text>
+  <text x="922" y="390" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">EDA 皮电</text>
+  <rect x="922" y="400" width="182" height="30" fill="#FFFFFF" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="930" y="420" font-family="Arial, sans-serif" font-size="10" fill="#BFBFBF">基线水平、传感器状态...</text>
+</svg>

@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1162 730" width="1162" height="730">
+  <rect x="0" y="0" width="1162" height="730" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="220" height="730" fill="#D9D9D9"/>
+  <rect x="20" y="20" width="48" height="48" fill="#D0D0D0"/>
+  <line x1="20" y1="20" x2="68" y2="68" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="68" y1="20" x2="20" y2="68" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="80" y="40" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#000000">GripFit ToB</text>
+  <text x="80" y="58" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">人因工程师</text>
+  <text x="20" y="116" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">工作区</text>
+  <rect x="0" y="162" width="220" height="30" fill="#BFBFBF"/>
+  <text x="48" y="144" font-family="Arial, sans-serif" font-size="13" fill="#000000">工作看板</text>
+  <text x="48" y="180" font-family="Arial, sans-serif" font-size="13" fill="#000000">我的项目</text>
+  <text x="48" y="216" font-family="Arial, sans-serif" font-size="13" fill="#000000">+ 新建项目</text>
+  <text x="20" y="258" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">资源</text>
+  <text x="48" y="285" font-family="Arial, sans-serif" font-size="13" fill="#000000">被试库</text>
+  <text x="48" y="317" font-family="Arial, sans-serif" font-size="13" fill="#000000">数据归档</text>
+  <text x="48" y="349" font-family="Arial, sans-serif" font-size="13" fill="#000000">系统设置</text>
+  <rect x="0" y="648" width="220" height="1" fill="#7A7A7A"/>
+  <text x="48" y="672" font-family="Arial, sans-serif" font-size="12" fill="#000000">切换角色</text>
+  <rect x="20" y="682" width="36" height="36" fill="#D0D0D0"/>
+  <line x1="20" y1="682" x2="56" y2="718" stroke="#FFFFFF" stroke-width="1.5"/>
+  <line x1="56" y1="682" x2="20" y2="718" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="68" y="700" font-family="Arial, sans-serif" font-size="12" fill="#000000">张研究员</text>
+  <text x="68" y="716" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">人因工程师</text>
+  <text x="240" y="30" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">GripFit  ›  人因工程师</text>
+  <text x="240" y="50" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">← 旗舰机握持舒适度研究 A2026  /  方案执行</text>
+  <rect x="1122" y="14" width="20" height="20" fill="#D9D9D9"/>
+  <rect x="240" y="58" width="26" height="26" fill="#7A7A7A"/>
+  <text x="253" y="76" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="253" y="99" font-family="Arial, sans-serif" font-size="9" fill="#7A7A7A" text-anchor="middle">量表设计</text>
+  <line x1="266" y1="71" x2="372" y2="71" stroke="#BFBFBF" stroke-width="1"/>
+  <rect x="372" y="58" width="26" height="26" fill="#7A7A7A"/>
+  <text x="385" y="76" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="385" y="99" font-family="Arial, sans-serif" font-size="9" fill="#7A7A7A" text-anchor="middle">被试方案</text>
+  <line x1="398" y1="71" x2="504" y2="71" stroke="#BFBFBF" stroke-width="1"/>
+  <rect x="504" y="58" width="26" height="26" fill="#7A7A7A"/>
+  <text x="517" y="76" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="517" y="99" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#000000" text-anchor="middle">场地安排</text>
+  <line x1="530" y1="71" x2="636" y2="71" stroke="#BFBFBF" stroke-width="1"/>
+  <rect x="636" y="58" width="26" height="26" fill="#FFFFFF" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="649" y="76" font-family="Arial, sans-serif" font-size="9" fill="#BFBFBF" text-anchor="middle">4</text>
+  <text x="649" y="99" font-family="Arial, sans-serif" font-size="9" fill="#BFBFBF" text-anchor="middle">设备准备</text>
+  <line x1="662" y1="71" x2="768" y2="71" stroke="#BFBFBF" stroke-width="1"/>
+  <rect x="768" y="58" width="26" height="26" fill="#FFFFFF" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="781" y="76" font-family="Arial, sans-serif" font-size="9" fill="#BFBFBF" text-anchor="middle">5</text>
+  <text x="781" y="99" font-family="Arial, sans-serif" font-size="9" fill="#BFBFBF" text-anchor="middle">数据采集</text>
+  <line x1="794" y1="71" x2="900" y2="71" stroke="#BFBFBF" stroke-width="1"/>
+  <rect x="900" y="58" width="26" height="26" fill="#FFFFFF" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="913" y="76" font-family="Arial, sans-serif" font-size="9" fill="#BFBFBF" text-anchor="middle">6</text>
+  <text x="913" y="99" font-family="Arial, sans-serif" font-size="9" fill="#BFBFBF" text-anchor="middle">分析报告</text>
+  <text x="240" y="122" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#000000">场地安排</text>
+  <text x="240" y="142" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">已确认被试 8 人，预约实验室并完成场地准备核查</text>
+  <text x="1060" y="122" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">步骤 3/6</text>
+  <rect x="240" y="152" width="220" height="30" fill="#D9D9D9" stroke="#000000" stroke-width="1"/>
+  <text x="350" y="172" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">① 实验室预约</text>
+  <rect x="462" y="152" width="220" height="30" fill="#FFFFFF" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="572" y="172" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A" text-anchor="middle">② 场地准备核查</text>
+  <rect x="240" y="194" width="288" height="140" fill="#F5F5F5" stroke="#000000" stroke-width="1"/>
+  <text x="256" y="220" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000">人因实验室 A</text>
+  <rect x="480" y="206" width="32" height="20" fill="#7A7A7A"/>
+  <text x="496" y="220" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle">✓</text>
+  <text x="256" y="244" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">B栋3楼 301室</text>
+  <text x="256" y="266" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">容纳 8 人</text>
+  <text x="256" y="312" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">摄像头×4 录音设备 压力板×2</text>
+  <rect x="546" y="194" width="288" height="140" fill="#FFFFFF" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="562" y="220" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000">声学暗室</text>
+  <text x="562" y="244" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">B栋2楼 205室</text>
+  <text x="562" y="266" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">容纳 4 人</text>
+  <text x="562" y="312" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">专业麦克风×4 隔音设备</text>
+  <rect x="852" y="194" width="288" height="140" fill="#FFFFFF" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="868" y="220" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000">开放实验区</text>
+  <rect x="1052" y="208" width="72" height="18" fill="#D9D9D9" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="1088" y="221" font-family="Arial, sans-serif" font-size="9" fill="#000000" text-anchor="middle">已占用</text>
+  <text x="868" y="244" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">C栋1楼 大厅</text>
+  <text x="868" y="266" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">容纳 12 人</text>
+  <text x="868" y="312" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">摄像头×2 录音设备</text>
+  <text x="240" y="368" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#000000">排期规划</text>
+  <text x="240" y="386" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">点击可用时间槽进行预约，灰色=已被他人占用</text>
+  <text x="240" y="408" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">时间</text>
+  <text x="372" y="408" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">周一 3/24</text>
+  <text x="504" y="408" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">周二 3/25</text>
+  <text x="636" y="408" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">周三 3/26</text>
+  <text x="768" y="408" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">周四 3/27</text>
+  <text x="900" y="408" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">周五 3/28</text>
+  <text x="1032" y="408" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">下周一 3/31</text>
+  <text x="240" y="442" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">09:00</text>
+  <rect x="372" y="416" width="120" height="40" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="432" y="440" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">可用</text>
+  <rect x="504" y="416" width="120" height="40" fill="#BFBFBF" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="564" y="440" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">占用</text>
+  <rect x="636" y="416" width="120" height="40" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="696" y="440" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">可用</text>
+  <rect x="768" y="416" width="120" height="40" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="828" y="440" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">可用</text>
+  <rect x="900" y="416" width="120" height="40" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="960" y="440" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">可用</text>
+  <rect x="1032" y="416" width="120" height="40" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="1092" y="440" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">可用</text>
+  <text x="240" y="498" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">10:00</text>
+  <rect x="372" y="472" width="120" height="40" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="432" y="496" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">可用</text>
+  <rect x="504" y="472" width="120" height="40" fill="#BFBFBF" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="564" y="496" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">占用</text>
+  <rect x="636" y="472" width="120" height="40" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="696" y="496" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">可用</text>
+  <rect x="768" y="472" width="120" height="40" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="828" y="496" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">可用</text>
+  <rect x="900" y="472" width="120" height="40" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="960" y="496" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">可用</text>
+  <rect x="1032" y="472" width="120" height="40" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="1092" y="496" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">可用</text>
+  <text x="240" y="554" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">11:00</text>
+  <rect x="372" y="528" width="120" height="40" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="432" y="552" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">可用</text>
+  <rect x="504" y="528" width="120" height="40" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="564" y="552" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">可用</text>
+  <rect x="636" y="528" width="120" height="40" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="696" y="552" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">可用</text>
+  <rect x="768" y="528" width="120" height="40" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="828" y="552" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">可用</text>
+  <rect x="900" y="528" width="120" height="40" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="960" y="552" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">可用</text>
+  <rect x="1032" y="528" width="120" height="40" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="1092" y="552" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">可用</text>
+  <text x="240" y="610" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">13:00</text>
+  <rect x="372" y="584" width="120" height="40" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="432" y="608" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">可用</text>
+  <rect x="504" y="584" width="120" height="40" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="564" y="608" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">可用</text>
+  <rect x="636" y="584" width="120" height="40" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="696" y="608" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">可用</text>
+  <rect x="768" y="584" width="120" height="40" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="828" y="608" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">可用</text>
+  <rect x="900" y="584" width="120" height="40" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="960" y="608" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">可用</text>
+  <rect x="1032" y="584" width="120" height="40" fill="#D9D9D9" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="1092" y="608" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">可用</text>
+</svg>

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1162 730" width="1162" height="730">
+  <rect x="0" y="0" width="1162" height="730" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="220" height="730" fill="#D9D9D9"/>
+  <rect x="20" y="20" width="48" height="48" fill="#D0D0D0"/>
+  <line x1="20" y1="20" x2="68" y2="68" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="68" y1="20" x2="20" y2="68" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="80" y="40" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#000000">GripFit ToB</text>
+  <text x="80" y="58" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">人因工程师</text>
+  <text x="20" y="116" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">工作区</text>
+  <rect x="0" y="162" width="220" height="30" fill="#BFBFBF"/>
+  <text x="48" y="144" font-family="Arial, sans-serif" font-size="13" fill="#000000">工作看板</text>
+  <text x="48" y="180" font-family="Arial, sans-serif" font-size="13" fill="#000000">我的项目</text>
+  <text x="48" y="216" font-family="Arial, sans-serif" font-size="13" fill="#000000">+ 新建项目</text>
+  <text x="20" y="266" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">资源</text>
+  <text x="48" y="286" font-family="Arial, sans-serif" font-size="13" fill="#000000">被试库</text>
+  <text x="48" y="322" font-family="Arial, sans-serif" font-size="13" fill="#000000">数据归档</text>
+  <text x="48" y="358" font-family="Arial, sans-serif" font-size="13" fill="#000000">系统设置</text>
+  <rect x="0" y="648" width="220" height="1" fill="#7A7A7A"/>
+  <text x="48" y="672" font-family="Arial, sans-serif" font-size="12" fill="#000000">切换角色</text>
+  <rect x="20" y="682" width="36" height="36" fill="#D0D0D0"/>
+  <line x1="20" y1="682" x2="56" y2="718" stroke="#FFFFFF" stroke-width="1.5"/>
+  <line x1="56" y1="682" x2="20" y2="718" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="68" y="700" font-family="Arial, sans-serif" font-size="12" fill="#000000">张研究员</text>
+  <text x="68" y="716" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">人因工程师</text>
+  <text x="240" y="30" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">GripFit  ›  人因工程师</text>
+  <text x="240" y="50" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">← 旗舰机握持舒适度研究 A2026  /  方案执行</text>
+  <rect x="1122" y="14" width="20" height="20" fill="#D9D9D9"/>
+  <rect x="240" y="58" width="26" height="26" fill="#7A7A7A"/>
+  <text x="253" y="76" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="253" y="99" font-family="Arial, sans-serif" font-size="9" fill="#7A7A7A" text-anchor="middle">量表设计</text>
+  <line x1="266" y1="71" x2="372" y2="71" stroke="#BFBFBF" stroke-width="1"/>
+  <rect x="372" y="58" width="26" height="26" fill="#7A7A7A"/>
+  <text x="385" y="76" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="385" y="99" font-family="Arial, sans-serif" font-size="9" fill="#7A7A7A" text-anchor="middle">被试方案</text>
+  <line x1="398" y1="71" x2="504" y2="71" stroke="#BFBFBF" stroke-width="1"/>
+  <rect x="504" y="58" width="26" height="26" fill="#7A7A7A"/>
+  <text x="517" y="76" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="517" y="99" font-family="Arial, sans-serif" font-size="9" fill="#7A7A7A" text-anchor="middle">场地安排</text>
+  <line x1="530" y1="71" x2="636" y2="71" stroke="#BFBFBF" stroke-width="1"/>
+  <rect x="636" y="58" width="26" height="26" fill="#7A7A7A"/>
+  <text x="649" y="76" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="649" y="99" font-family="Arial, sans-serif" font-size="9" fill="#7A7A7A" text-anchor="middle">设备准备</text>
+  <line x1="662" y1="71" x2="768" y2="71" stroke="#BFBFBF" stroke-width="1"/>
+  <rect x="768" y="58" width="26" height="26" fill="#7A7A7A"/>
+  <text x="781" y="76" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle">5</text>
+  <text x="781" y="99" font-family="Arial, sans-serif" font-size="9" fill="#7A7A7A" text-anchor="middle">数据采集</text>
+  <line x1="794" y1="71" x2="900" y2="71" stroke="#BFBFBF" stroke-width="1"/>
+  <rect x="900" y="58" width="26" height="26" fill="#7A7A7A"/>
+  <text x="913" y="76" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">6</text>
+  <text x="913" y="99" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#000000" text-anchor="middle">分析报告</text>
+  <text x="240" y="122" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#000000">自动化数据分析与研究报告</text>
+  <text x="240" y="142" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">基于 12 份有效数据 · 全自动统计分析 · 多模态数据融合</text>
+  <text x="1060" y="122" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">步骤 6/6</text>
+  <rect x="240" y="152" width="280" height="30" fill="#D9D9D9" stroke="#000000" stroke-width="1"/>
+  <text x="380" y="172" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">统计分析全览</text>
+  <rect x="522" y="152" width="280" height="30" fill="#FFFFFF" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="662" y="172" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A" text-anchor="middle">综合研究报告</text>
+  <rect x="240" y="196" width="880" height="34" fill="#D9D9D9"/>
+  <text x="284" y="218" font-family="Arial, sans-serif" font-size="8" fill="#7A7A7A" text-anchor="middle">Step 1</text>
+  <text x="382" y="218" font-family="Arial, sans-serif" font-size="8" fill="#7A7A7A" text-anchor="middle">Step 2</text>
+  <text x="480" y="218" font-family="Arial, sans-serif" font-size="8" fill="#7A7A7A" text-anchor="middle">Step 3</text>
+  <text x="578" y="218" font-family="Arial, sans-serif" font-size="8" fill="#7A7A7A" text-anchor="middle">Step 4</text>
+  <text x="676" y="218" font-family="Arial, sans-serif" font-size="8" fill="#7A7A7A" text-anchor="middle">Step 5</text>
+  <text x="774" y="218" font-family="Arial, sans-serif" font-size="8" fill="#7A7A7A" text-anchor="middle">Step 6</text>
+  <text x="872" y="218" font-family="Arial, sans-serif" font-size="8" fill="#7A7A7A" text-anchor="middle">Step 7</text>
+  <text x="970" y="218" font-family="Arial, sans-serif" font-size="8" fill="#7A7A7A" text-anchor="middle">Step 8</text>
+  <text x="1068" y="218" font-family="Arial, sans-serif" font-size="8" fill="#7A7A7A" text-anchor="middle">Step 9</text>
+  <rect x="240" y="240" width="880" height="36" fill="#F5F5F5" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="260" y="263" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">① 数据预处理  ∨</text>
+  <rect x="240" y="284" width="880" height="36" fill="#F5F5F5" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="260" y="307" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">② 量表信效度分析  ∨</text>
+  <rect x="240" y="328" width="880" height="36" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <text x="260" y="351" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000">③ 数据分布与正态性检验</text>
+  <text x="1090" y="351" font-family="Arial, sans-serif" font-size="12" fill="#000000">∧</text>
+  <rect x="240" y="372" width="880" height="260" fill="#FFFFFF" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="256" y="400" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">Shapiro-Wilk 正态性检验结果</text>
+  <rect x="256" y="412" width="360" height="36" fill="#D9D9D9"/>
+  <text x="270" y="435" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#000000">变量</text>
+  <text x="430" y="435" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#000000">W统计量</text>
+  <text x="530" y="435" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#000000">p值</text>
+  <text x="590" y="435" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#000000">结论</text>
+  <rect x="256" y="448" width="360" height="30" fill="#F5F5F5" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="270" y="468" font-family="Arial, sans-serif" font-size="11" fill="#000000">握持舒适度</text>
+  <text x="430" y="468" font-family="Arial, sans-serif" font-size="11" fill="#000000">0.963</text>
+  <rect x="518" y="454" width="48" height="18" fill="#D9D9D9" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="542" y="467" font-family="Arial, sans-serif" font-size="9" fill="#000000" text-anchor="middle">0.612</text>
+  <text x="590" y="468" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">正态</text>
+  <rect x="256" y="486" width="360" height="30" fill="#FFFFFF" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="270" y="506" font-family="Arial, sans-serif" font-size="11" fill="#000000">拇指可达性</text>
+  <text x="430" y="506" font-family="Arial, sans-serif" font-size="11" fill="#000000">0.948</text>
+  <rect x="518" y="492" width="48" height="18" fill="#D9D9D9" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="542" y="505" font-family="Arial, sans-serif" font-size="9" fill="#000000" text-anchor="middle">0.387</text>
+  <text x="590" y="506" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">正态</text>
+  <rect x="256" y="524" width="360" height="30" fill="#F5F5F5" stroke="#BFBFBF" stroke-width="1"/>
+  <text x="270" y="544" font-family="Arial, sans-serif" font-size="11" fill="#000000">握持稳定性</text>
+  <text x="430" y="544" font-family="Arial, sans-serif" font-size="11" fill="#000000">0.971</text>
+  <rect x="518" y="530" width="48" height="18" fill="#D9D9D9" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="542" y="543" font-family="Arial, sans-serif" font-size="9" fill="#000000" text-anchor="middle">0.748</text>
+  <text x="590" y="544" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">正态</text>
+  <text x="680" y="400" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">Q-Q 正态概率图（握持舒适度）</text>
+  <rect x="680" y="412" width="424" height="200" fill="#D0D0D0"/>
+  <line x1="680" y1="412" x2="1104" y2="612" stroke="#FFFFFF" stroke-width="1.5"/>
+  <line x1="1104" y1="412" x2="680" y2="612" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="892" y="516" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A" text-anchor="middle">Q-Q 图占位</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1166 730" width="1166" height="730">
+  <rect x="0" y="0" width="1166" height="730" fill="#FFFFFF"/>
+  <!-- Header bar -->
+  <rect x="0" y="0" width="1166" height="56" fill="#D9D9D9"/>
+  <rect x="20" y="8" width="40" height="40" fill="#D0D0D0"/>
+  <line x1="20" y1="8" x2="60" y2="48" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="60" y1="8" x2="20" y2="48" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="76" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#000000">GripFit ToB</text>
+  <text x="76" y="48" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">xxxxxxx</text>
+
+  <!-- Title -->
+  <text x="583" y="160" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#000000" text-anchor="middle">选择你的工作角色</text>
+  <text x="583" y="190" font-family="Arial, sans-serif" font-size="13" fill="#7A7A7A" text-anchor="middle">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</text>
+
+  <!-- Role card 1: 人因工程师 -->
+  <rect x="183" y="230" width="360" height="300" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <rect x="223" y="266" width="60" height="60" fill="#D0D0D0"/>
+  <line x1="223" y1="266" x2="283" y2="326" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="283" y1="266" x2="223" y2="326" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="223" y="364" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#000000">人因工程师</text>
+  <text x="223" y="390" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</text>
+  <text x="223" y="410" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</text>
+  <text x="223" y="430" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">xxxxxxxxxxxxxxxx</text>
+  <rect x="223" y="466" width="280" height="36" fill="#D9D9D9" stroke="#000000" stroke-width="1"/>
+  <text x="363" y="489" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000" text-anchor="middle">以此角色进入</text>
+
+  <!-- Role card 2: ID设计师 -->
+  <rect x="623" y="230" width="360" height="300" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <rect x="663" y="266" width="60" height="60" fill="#D0D0D0"/>
+  <line x1="663" y1="266" x2="723" y2="326" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="723" y1="266" x2="663" y2="326" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="663" y="364" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#000000">ID设计师</text>
+  <text x="663" y="390" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</text>
+  <text x="663" y="410" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</text>
+  <text x="663" y="430" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">xxxxxxxxxxxxxxxx</text>
+  <rect x="663" y="466" width="280" height="36" fill="#D9D9D9" stroke="#000000" stroke-width="1"/>
+  <text x="803" y="489" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000" text-anchor="middle">以此角色进入</text>
+</svg>

@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 851 " width="1280" height="851">
+  <rect x="0" y="0" width="1280" height="851" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1280" height="48" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="56" y="30" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" letter-spacing="2">GRIPFIT</text>
+  <rect x="1220" y="10" width="32" height="32" fill="#D0D0D0"/>
+  <line x1="1220" y1="10" x2="1252" y2="42" stroke="#FFFFFF" stroke-width="1"/>
+  <line x1="1252" y1="10" x2="1220" y2="42" stroke="#FFFFFF" stroke-width="1"/>
+  <text x="220" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#7A7A7A">仪表盘</text>
+  <text x="360" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#7A7A7A">手部测量</text>
+  <text x="500" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">机型库</text>
+  <line x1="500" y1="44" x2="524" y2="44" stroke="#000000" stroke-width="2"/>
+  <text x="640" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#7A7A7A">报告产出</text>
+  <rect x="0" y="48" width="50" height="803" fill="#D9D9D9"/>
+  <rect x="13" y="90" width="24" height="24" fill="#BFBFBF"/>
+  <rect x="13" y="155" width="24" height="24" fill="#BFBFBF"/>
+  <rect x="13" y="220" width="24" height="24" fill="#7A7A7A"/>
+  <rect x="13" y="285" width="24" height="24" fill="#BFBFBF"/>
+  <rect x="13" y="350" width="24" height="24" fill="#BFBFBF"/>
+  <rect x="13" y="415" width="24" height="24" fill="#BFBFBF"/>
+  <rect x="50" y="48" width="180" height="803" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="254" y="84" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#000000">最佳匹配在售机型</text>
+  <text x="254" y="106" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">基于人机握持舒适度模型</text>
+  <rect x="254" y="120" width="200" height="80" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <rect x="266" y="136" width="24" height="24" fill="#D0D0D0"/>
+  <text x="330" y="172" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#000000" text-anchor="middle">128 款</text>
+  <text x="266" y="192" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">匹配机型总数</text>
+  <rect x="540" y="120" width="280" height="80" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="680" y="158" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#000000" text-anchor="middle">92.6%</text>
+  <text x="554" y="176" font-family="Arial, sans-serif" font-size="10" fill="#000000">最高匹配度</text>
+  <text x="554" y="192" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">Samsung Galaxy S24 Ultra</text>
+  <rect x="254" y="216" width="110" height="28" fill="#D9D9D9" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="309" y="234" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">匹配度区间</text>
+  <rect x="376" y="216" width="100" height="28" fill="#D9D9D9" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="426" y="234" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">全部品牌</text>
+  <rect x="488" y="216" width="100" height="28" fill="#D9D9D9" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="538" y="234" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">全部价格</text>
+  <text x="1100" y="234" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">排序: 匹配度从高到低</text>
+  <rect x="254" y="254" width="986" height="28" fill="#D9D9D9"/>
+  <text x="272" y="273" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#000000">排名</text>
+  <text x="320" y="273" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#000000">机型</text>
+  <text x="560" y="273" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#000000">关键参数</text>
+  <text x="760" y="273" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#000000">匹配度</text>
+  <text x="860" y="273" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#000000">握持评分</text>
+  <text x="980" y="273" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#000000">价格</text>
+  <rect x="254" y="282" width="986" height="56" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="272" y="314" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#000000">1</text>
+  <rect x="306" y="288" width="42" height="42" fill="#D0D0D0"/>
+  <line x1="306" y1="288" x2="348" y2="330" stroke="#FFFFFF" stroke-width="1"/>
+  <line x1="348" y1="288" x2="306" y2="330" stroke="#FFFFFF" stroke-width="1"/>
+  <text x="360" y="308" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">Samsung Galaxy S24 Ultra</text>
+  <text x="360" y="326" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">xxxx.xx 上市</text>
+  <text x="560" y="314" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">79.0mm  232g  8.6mm</text>
+  <text x="790" y="314" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="middle">92.6%</text>
+  <text x="895" y="314" font-family="Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle">88.7</text>
+  <text x="990" y="314" font-family="Arial, sans-serif" font-size="12" fill="#000000">¥9,699</text>
+  <rect x="1100" y="296" width="50" height="26" fill="#D9D9D9" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="1125" y="314" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">+对比</text>
+  <rect x="254" y="342" width="986" height="56" fill="#F7F7F7" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="272" y="374" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#000000">2</text>
+  <rect x="306" y="348" width="42" height="42" fill="#D0D0D0"/>
+  <line x1="306" y1="348" x2="348" y2="390" stroke="#FFFFFF" stroke-width="1"/>
+  <line x1="348" y1="348" x2="306" y2="390" stroke="#FFFFFF" stroke-width="1"/>
+  <text x="360" y="368" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">vivo X100 Pro</text>
+  <text x="360" y="386" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">xxxx.xx 上市</text>
+  <text x="560" y="374" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">75.6mm  221g  8.9mm</text>
+  <text x="790" y="374" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="middle">90.1%</text>
+  <text x="895" y="374" font-family="Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle">86.3</text>
+  <text x="990" y="374" font-family="Arial, sans-serif" font-size="12" fill="#000000">¥5,499</text>
+  <rect x="1100" y="356" width="50" height="26" fill="#D9D9D9" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="1125" y="374" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">+对比</text>
+  <rect x="254" y="402" width="986" height="56" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="272" y="434" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#000000">3</text>
+  <rect x="306" y="408" width="42" height="42" fill="#D0D0D0"/>
+  <line x1="306" y1="408" x2="348" y2="450" stroke="#FFFFFF" stroke-width="1"/>
+  <line x1="348" y1="408" x2="306" y2="450" stroke="#FFFFFF" stroke-width="1"/>
+  <text x="360" y="428" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">iPhone 15 Pro Max</text>
+  <text x="360" y="446" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">xxxx.xx 上市</text>
+  <text x="560" y="434" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">76.7mm  221g  8.3mm</text>
+  <text x="790" y="434" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="middle">88.7%</text>
+  <text x="895" y="434" font-family="Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle">84.2</text>
+  <text x="990" y="434" font-family="Arial, sans-serif" font-size="12" fill="#000000">¥9,999</text>
+  <rect x="1100" y="416" width="50" height="26" fill="#D9D9D9" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="1125" y="434" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">+对比</text>
+  <rect x="254" y="462" width="986" height="56" fill="#F7F7F7" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="272" y="494" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#000000">4</text>
+  <rect x="306" y="468" width="42" height="42" fill="#D0D0D0"/>
+  <line x1="306" y1="468" x2="348" y2="510" stroke="#FFFFFF" stroke-width="1"/>
+  <line x1="348" y1="468" x2="306" y2="510" stroke="#FFFFFF" stroke-width="1"/>
+  <text x="360" y="488" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">OPPO Find X7 Ultra</text>
+  <text x="360" y="506" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">xxxx.xx 上市</text>
+  <text x="560" y="494" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">75.4mm  221g  9.5mm</text>
+  <text x="790" y="494" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="middle">87.3%</text>
+  <text x="895" y="494" font-family="Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle">83.1</text>
+  <text x="990" y="494" font-family="Arial, sans-serif" font-size="12" fill="#000000">¥5,999</text>
+  <rect x="1100" y="476" width="50" height="26" fill="#D9D9D9" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="1125" y="494" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">+对比</text>
+  <rect x="254" y="522" width="986" height="56" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="272" y="554" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#000000">5</text>
+  <rect x="306" y="528" width="42" height="42" fill="#D0D0D0"/>
+  <line x1="306" y1="528" x2="348" y2="570" stroke="#FFFFFF" stroke-width="1"/>
+  <line x1="348" y1="528" x2="306" y2="570" stroke="#FFFFFF" stroke-width="1"/>
+  <text x="360" y="548" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">Xiaomi 14 Ultra</text>
+  <text x="360" y="566" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">xxxx.xx 上市</text>
+  <text x="560" y="554" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">75.3mm  229g  9.2mm</text>
+  <text x="790" y="554" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="middle">85.9%</text>
+  <text x="895" y="554" font-family="Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle">81.6</text>
+  <text x="990" y="554" font-family="Arial, sans-serif" font-size="12" fill="#000000">¥6,499</text>
+  <rect x="1100" y="536" width="50" height="26" fill="#D9D9D9" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="1125" y="554" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">+对比</text>
+  <rect x="1160" y="0" width="120" height="851" fill="#F7F7F7" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="1220" y="80" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#000000" text-anchor="middle">查看对比</text>
+  <text x="1220" y="98" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A" text-anchor="middle">(0)</text>
+</svg>

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 851" width="1280" height="851">
+  <rect x="0" y="0" width="1280" height="851" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1280" height="48" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="56" y="30" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" letter-spacing="2">GRIPFIT</text>
+  <rect x="1220" y="10" width="32" height="32" fill="#D0D0D0"/>
+  <line x1="1220" y1="10" x2="1252" y2="42" stroke="#FFFFFF" stroke-width="1"/>
+  <line x1="1252" y1="10" x2="1220" y2="42" stroke="#FFFFFF" stroke-width="1"/>
+  <text x="220" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#7A7A7A">仪表盘</text>
+  <text x="360" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#7A7A7A">手部测量</text>
+  <text x="500" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#7A7A7A">机型库</text>
+  <text x="640" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#7A7A7A">报告产出</text>
+  <text x="780" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">参数微调</text>
+  <line x1="780" y1="44" x2="812" y2="44" stroke="#000000" stroke-width="2"/>
+  <rect x="0" y="48" width="50" height="803" fill="#D9D9D9"/>
+  <rect x="13" y="90" width="24" height="24" fill="#BFBFBF"/>
+  <rect x="13" y="155" width="24" height="24" fill="#BFBFBF"/>
+  <rect x="13" y="220" width="24" height="24" fill="#BFBFBF"/>
+  <rect x="13" y="285" width="24" height="24" fill="#BFBFBF"/>
+  <rect x="13" y="350" width="24" height="24" fill="#7A7A7A"/>
+  <rect x="13" y="415" width="24" height="24" fill="#BFBFBF"/>
+  <rect x="50" y="48" width="180" height="803" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="74" y="94" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">最优手机</text>
+  <text x="74" y="149" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">自定义调参</text>
+  <text x="74" y="204" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">机型库</text>
+  <text x="74" y="259" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">手感报告</text>
+  <rect x="50" y="294" width="180" height="32" fill="#D9D9D9"/>
+  <text x="74" y="314" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">我的数据</text>
+  <text x="254" y="84" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#000000">我的数据</text>
+  <!-- 手部数据 card -->
+  <rect x="254" y="100" width="580" height="200" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="274" y="128" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000">手部数据</text>
+  <!-- 手长 -->
+  <rect x="274" y="140" width="24" height="24" fill="#D0D0D0"/>
+  <text x="310" y="158" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">手长</text>
+  <text x="310" y="188" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#000000">183</text>
+  <text x="390" y="188" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">mm</text>
+  <text x="310" y="208" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">超过62%的中国成年人</text>
+  <!-- Bell curve placeholder -->
+  <rect x="274" y="220" width="230" height="60" fill="#F0F0F0"/>
+  <line x1="274" y1="220" x2="504" y2="280" stroke="#BFBFBF" stroke-width="1"/>
+  <line x1="504" y1="220" x2="274" y2="280" stroke="#BFBFBF" stroke-width="1"/>
+  <!-- 手宽 -->
+  <rect x="524" y="140" width="24" height="24" fill="#D0D0D0"/>
+  <text x="560" y="158" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">手宽</text>
+  <text x="560" y="188" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#000000">83</text>
+  <text x="640" y="188" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">mm</text>
+  <text x="560" y="208" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">超过58%的中国成年人</text>
+  <rect x="524" y="220" width="270" height="60" fill="#F0F0F0"/>
+  <line x1="524" y1="220" x2="794" y2="280" stroke="#BFBFBF" stroke-width="1"/>
+  <line x1="794" y1="220" x2="524" y2="280" stroke="#BFBFBF" stroke-width="1"/>
+  <!-- Hand type selector -->
+  <rect x="274" y="294" width="120" height="38" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="334" y="318" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A" text-anchor="middle">小手型</text>
+  <rect x="404" y="294" width="120" height="38" fill="#D9D9D9" stroke="#000000" stroke-width="1"/>
+  <text x="464" y="318" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000" text-anchor="middle">中手型</text>
+  <rect x="534" y="294" width="120" height="38" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="594" y="318" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A" text-anchor="middle">大手型</text>
+  <!-- Action buttons -->
+  <rect x="274" y="350" width="140" height="36" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <text x="344" y="372" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">重新测量</text>
+  <rect x="428" y="350" width="140" height="36" fill="#D9D9D9" stroke="#000000" stroke-width="1"/>
+  <text x="498" y="372" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000" text-anchor="middle">修改画像</text>
+  <!-- 右侧: 用户画像 + 最优参数摘要 -->
+  <rect x="854" y="100" width="380" height="200" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="874" y="128" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000">用户画像</text>
+  <rect x="874" y="144" width="24" height="24" fill="#D0D0D0"/>
+  <text x="908" y="162" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">性别</text>
+  <rect x="874" y="180" width="24" height="24" fill="#D0D0D0"/>
+  <text x="908" y="198" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">年龄段</text>
+  <text x="874" y="240" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000">最优参数摘要</text>
+  <rect x="874" y="256" width="24" height="24" fill="#D0D0D0"/>
+  <text x="908" y="274" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">最优宽度</text>
+  <rect x="874" y="284" width="24" height="24" fill="#D0D0D0"/>
+  <text x="908" y="302" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">最优高度</text>
+  <!-- 历史记录 -->
+  <text x="254" y="416" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#000000">历史记录</text>
+  <text x="700" y="416" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">查看全部</text>
+  <rect x="254" y="428" width="560" height="56" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <rect x="274" y="444" width="36" height="36" fill="#D0D0D0"/>
+  <text x="322" y="462" font-family="Arial, sans-serif" font-size="12" fill="#000000">Galaxy S24 Ultra vs 自定义方案 A</text>
+  <text x="322" y="478" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">2024.05.22</text>
+  <text x="780" y="466" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="end">92.6 /10</text>
+  <rect x="254" y="490" width="560" height="56" fill="#F7F7F7" stroke="#D9D9D9" stroke-width="1"/>
+  <rect x="274" y="506" width="36" height="36" fill="#D0D0D0"/>
+  <text x="322" y="524" font-family="Arial, sans-serif" font-size="12" fill="#000000">iPhone 15 Pro Max vs 自定义方案 A</text>
+  <text x="322" y="540" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">2024.05.20</text>
+  <text x="780" y="528" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="end">88.7 /10</text>
+  <rect x="254" y="552" width="560" height="56" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <rect x="274" y="568" width="36" height="36" fill="#D0D0D0"/>
+  <text x="322" y="586" font-family="Arial, sans-serif" font-size="12" fill="#000000">Xiaomi 14 Ultra vs 自定义方案 B</text>
+  <text x="322" y="602" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">2024.05.18</text>
+  <text x="780" y="590" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="end">85.9 /10</text>
+  <!-- 自定义手机历史 -->
+  <text x="854" y="416" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#000000">自定义手机历史</text>
+  <rect x="854" y="428" width="380" height="56" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <rect x="874" y="444" width="28" height="28" fill="#D0D0D0"/>
+  <text x="914" y="462" font-family="Arial, sans-serif" font-size="12" fill="#000000">自定义方案 A</text>
+  <text x="914" y="478" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">最近编辑: 2024.05.22 14:xx</text>
+  <rect x="854" y="490" width="380" height="56" fill="#F7F7F7" stroke="#D9D9D9" stroke-width="1"/>
+  <rect x="874" y="506" width="28" height="28" fill="#D0D0D0"/>
+  <text x="914" y="524" font-family="Arial, sans-serif" font-size="12" fill="#000000">轻量化方案 B</text>
+  <text x="914" y="540" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">最近编辑: 2024.05.20</text>
+</svg>

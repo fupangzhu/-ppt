@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 851" width="1280" height="851">
+  <rect x="0" y="0" width="1280" height="851" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1280" height="48" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="56" y="30" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" letter-spacing="2">GRIPFIT</text>
+  <rect x="1220" y="10" width="32" height="32" fill="#D0D0D0"/>
+  <line x1="1220" y1="10" x2="1252" y2="42" stroke="#FFFFFF" stroke-width="1"/>
+  <line x1="1252" y1="10" x2="1220" y2="42" stroke="#FFFFFF" stroke-width="1"/>
+  <text x="220" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#7A7A7A">仪表盘</text>
+  <text x="360" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#7A7A7A">手部测量</text>
+  <text x="500" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#7A7A7A">机型库</text>
+  <text x="640" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">报告产出</text>
+  <line x1="640" y1="44" x2="672" y2="44" stroke="#000000" stroke-width="2"/>
+  <rect x="0" y="48" width="50" height="803" fill="#D9D9D9"/>
+  <rect x="13" y="90" width="24" height="24" fill="#BFBFBF"/>
+  <rect x="13" y="155" width="24" height="24" fill="#BFBFBF"/>
+  <rect x="13" y="220" width="24" height="24" fill="#BFBFBF"/>
+  <rect x="13" y="285" width="24" height="24" fill="#7A7A7A"/>
+  <rect x="13" y="350" width="24" height="24" fill="#BFBFBF"/>
+  <rect x="13" y="415" width="24" height="24" fill="#BFBFBF"/>
+
+  <rect x="50" y="48" width="180" height="803" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <rect x="50" y="74" width="180" height="32" fill="#D9D9D9"/>
+  <text x="74" y="94" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">最优手机</text>
+  <text x="74" y="149" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">自定义调参</text>
+  <text x="74" y="204" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">机型库</text>
+  <text x="74" y="259" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">手感报告</text>
+  <text x="74" y="314" font-family="Arial, sans-serif" font-size="12" fill="#7A7A7A">我的数据</text>
+
+  <!-- Center: phone viewport hint -->
+  <text x="440" y="78" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A">指按旋转 · 滚轮缩放</text>
+  <rect x="400" y="48" width="20" height="20" fill="#D9D9D9"/>
+  <!-- Score ring placeholder -->
+  <circle cx="700" cy="170" r="50" fill="none" stroke="#D9D9D9" stroke-width="8"/>
+  <text x="700" y="165" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#000000" text-anchor="middle">8.9</text>
+  <text x="700" y="184" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A" text-anchor="middle">/10</text>
+  <!-- Phone placeholder in center -->
+  <rect x="430" y="220" width="340" height="580" fill="#D0D0D0"/>
+  <line x1="430" y1="220" x2="770" y2="800" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="770" y1="220" x2="430" y2="800" stroke="#FFFFFF" stroke-width="2"/>
+  <!-- Right panel: 理论最优参数 -->
+  <rect x="830" y="48" width="440" height="803" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="854" y="82" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#000000">理论最优参数</text>
+  <rect x="854" y="90" width="320" height="28" fill="#D9D9D9" stroke="#7A7A7A" stroke-width="1"/>
+  <text x="1014" y="109" font-family="Arial, sans-serif" font-size="11" fill="#7A7A7A" text-anchor="middle">参数微调</text>
+  <!-- 9 param rows -->
+  <text x="854" y="140" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">01  最优宽度</text>
+  <text x="1160" y="140" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="end">70.6 mm</text>
+  <line x1="854" y1="148" x2="1160" y2="148" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="854" y="172" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">02  最优高度</text>
+  <text x="1160" y="172" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="end">151.4 mm</text>
+  <line x1="854" y1="180" x2="1160" y2="180" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="854" y="204" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">03  最优厚度</text>
+  <text x="1160" y="204" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="end">7.6 mm</text>
+  <line x1="854" y1="212" x2="1160" y2="212" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="854" y="236" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">04  最优重量</text>
+  <text x="1160" y="236" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="end">180 g</text>
+  <line x1="854" y1="244" x2="1160" y2="244" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="854" y="268" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">05  屏幕尺寸</text>
+  <text x="1160" y="268" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="end">6.3 in</text>
+  <line x1="854" y1="276" x2="1160" y2="276" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="854" y="300" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">06  侧边弧度</text>
+  <text x="1160" y="300" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="end">3.8 mm</text>
+  <line x1="854" y1="308" x2="1160" y2="308" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="854" y="332" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">07  四边圆角</text>
+  <text x="1160" y="332" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="end">R10.5 mm</text>
+  <line x1="854" y1="340" x2="1160" y2="340" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="854" y="364" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">08  重心位置</text>
+  <text x="1160" y="364" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="end">52 %</text>
+  <line x1="854" y1="372" x2="1160" y2="372" stroke="#D9D9D9" stroke-width="1"/>
+  <text x="854" y="396" font-family="Arial, sans-serif" font-size="10" fill="#7A7A7A">09  背板曲率</text>
+  <text x="1160" y="396" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="end">0 mm</text>
+</svg>
