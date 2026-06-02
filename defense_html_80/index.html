@@ -1491,6 +1491,22 @@
 .gf-hifi-sub{background:var(--grey-1);border:1px solid var(--border-subtle);overflow:hidden;height:11.5vh}
 .gf-hifi-sub img{width:100%;height:100%;object-fit:contain;display:block}
 .gf-hifi-side{display:flex;flex-direction:column;gap:1.1vh}
+/* ===== hifi wide (large-image-first) ===== */
+.gf-hifi-wide{width:100%;display:flex;flex-direction:column;gap:1.3vh;height:100%}
+.hw-top{display:grid;grid-template-columns:1.4fr 1fr;gap:1vw;flex:1;min-height:0}
+.hw-hero{position:relative;background:#0d1320;border:1px solid var(--border-subtle);border-radius:4px;overflow:hidden;display:flex}
+.hw-hero img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+.hw-hero .hw-tag{position:absolute;left:0;bottom:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:.8vh 1vw;background:linear-gradient(transparent,rgba(0,0,0,.55));color:#fff}
+.hw-hero .hw-tag b{font-size:max(13px,.92vw);font-weight:600}
+.hw-hero .hw-tag span{font-family:var(--mono);font-size:max(10px,.66vw);color:#ff8a5c;letter-spacing:.06em}
+.hw-subs{display:grid;grid-template-rows:1fr 1fr;gap:1vh;min-height:0}
+.hw-sub{position:relative;background:#0d1320;border:1px solid var(--border-subtle);border-radius:4px;overflow:hidden;display:flex}
+.hw-sub img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+.hw-sub figcaption{position:absolute;left:0;bottom:0;right:0;padding:.5vh .8vw;background:linear-gradient(transparent,rgba(0,0,0,.5));color:#fff;font-size:max(10px,.66vw)}
+.hw-feats{display:grid;grid-template-columns:repeat(3,1fr);gap:1vw;flex:none}
+.hw-feat{border-top:2px solid #ff6b35;padding-top:.7vh}
+.hw-feat h4{margin:0 0 .35vh;font-size:max(12px,.84vw);color:#1a1a1a;font-weight:650}
+.hw-feat p{margin:0;font-size:max(10px,.7vw);line-height:1.4;color:#666}
 .gf-hifi-feature{background:rgba(255,255,255,.88);border-left:3px solid var(--accent);padding:.9vh .9vw}
 .gf-hifi-feature h4{font-size:max(14px,.82vw);font-weight:650;margin-bottom:.5vh}
 .gf-hifi-feature p{font-size:max(12px,.7vw);line-height:1.42;color:var(--text-secondary);margin:0}
@@ -3783,44 +3799,13 @@
       <h2 class="gf-title">手部测量页</h2>
       <p class="gf-lead">预设手型、PalmScan、滑块输入和三维手部预览共同降低用户录入门槛。</p>
     </div>
-        <div class="gf-body"><div class="gf-hifi-detail">
-    <div class="gf-hifi-hero">
-      <div class="gf-hero-img"><img src="images/toc_hifi_10.jpg" alt="手部数据采集入口" /></div>
-      <div class="gf-hero-cap"><b>手部数据采集入口</b><span>STEP 2 / 5 · HAND SCAN</span></div>
-      <div class="gf-hifi-nav">
-        <span class="nav-step">引导完成</span>
-        <span class="nav-arr">→</span>
-        <span class="nav-step active">手部测量</span>
-        <span class="nav-arr">→</span>
-        <span class="nav-step">机型选择</span>
-        <span class="nav-arr">→</span>
-        <span class="nav-step">手感预览</span>
-        <span class="nav-arr">→</span>
-        <span class="nav-step">综合报告</span>
-      </div>
-      <div class="gf-hifi-sub-row">
-        <div class="gf-hifi-sub"><img src="images/toc_hifi_11.jpg" alt="PalmScan 识别中" /></div>
-        <div class="gf-hifi-sub"><img src="images/toc_hifi_13.jpg" alt="参数确认与手动校准" /></div>
-      </div>
-    </div>
-    <div class="gf-hifi-side">
-      <div class="gf-hifi-feature">
-        <h4>① PalmScan 相机识别</h4>
-        <p>系统引导用户将手掌置于摄像头前，通过图像识别自动估算手长、掌宽等关键参数，用视觉反馈替代空白数字表单，大幅降低首次测量的认知门槛。此步骤建立了"手部输入 → 评分模型"的核心数据通路。</p>
-        <div class="gf-hifi-tags"><span class="acc">UI 决策</span><span>减少空白输入</span><span>识别置信度提示</span></div>
-      </div>
-      <div class="gf-hifi-feature">
-        <h4>② 三维手型可视化（toc_hifi_12）</h4>
-        <p>采集完成后立即渲染对应的三维手部模型，让用户看到"我的手"和推荐结果之间的具体关系。对应论文第五章感知层设计原则：让数据可理解，不停留在数字层面。</p>
-        <div class="gf-hifi-tags"><span class="acc">UI 决策</span><span>增强数据信任度</span><span>为报告页铺垫</span></div>
-      </div>
-      <div class="gf-hifi-feature">
-        <h4>③ 手动校准安全网</h4>
-        <p>相机识别后保留滑块手动修正入口，避免识别误差直接影响预测模型评分。用户可在不跳出流程的情况下逐项调整，确认后方才提交，兼顾效率与数据精度。</p>
-        <div class="gf-hifi-tags"><span>防呆设计</span><span>模型精度保障</span><span>流程不中断</span></div>
-      </div>
-    </div>
-  </div></div>
+        <div class="gf-body"><div class="gf-hifi-wide">
+        <div class="hw-top">
+          <div class="hw-hero"><img src="images/toc_hifi_10.jpg" alt="手部数据采集入口"><div class="hw-tag"><b>手部数据采集入口</b><span>STEP 2 / 5 · HAND SCAN</span></div></div>
+          <div class="hw-subs"><figure class="hw-sub"><img src="images/toc_hifi_11.jpg" alt="PalmScan 识别中"><figcaption>PalmScan 识别中</figcaption></figure><figure class="hw-sub"><img src="images/toc_hifi_13.jpg" alt="参数确认与手动校准"><figcaption>参数确认与手动校准</figcaption></figure></div>
+        </div>
+        <div class="hw-feats"><div class="hw-feat"><h4>① PalmScan 相机识别</h4><p>系统引导用户将手掌置于摄像头前，通过图像识别自动估算手长、掌宽等关键参数，用视觉反馈替代空白数字表单，大幅降低首次测量的认知门槛。此步骤建立了"手部输入 → 评分模型"的核心数据通路。</p></div><div class="hw-feat"><h4>② 三维手型可视化</h4><p>采集完成后立即渲染对应的三维手部模型，让用户看到"我的手"和推荐结果之间的具体关系。对应论文第五章感知层设计原则：让数据可理解，不停留在数字层面。</p></div><div class="hw-feat"><h4>③ 手动校准安全网</h4><p>相机识别后保留滑块手动修正入口，避免识别误差直接影响预测模型评分。用户可在不跳出流程的情况下逐项调整，确认后方才提交，兼顾效率与数据精度。</p></div></div>
+      </div></div>
         
         
       </div>
@@ -3840,42 +3825,13 @@
       <h2 class="gf-title">机型选择与预设</h2>
       <p class="gf-lead">用户不必等到报告页才看到结论，机型列表和预设模板都会持续反馈个性化握持评分。</p>
     </div>
-        <div class="gf-body"><div class="gf-hifi-detail">
-    <div class="gf-hifi-hero">
-      <div class="gf-hero-img"><img src="images/toc_hifi_14.jpg" alt="机型列表内联评分" /></div>
-      <div class="gf-hero-cap"><b>机型列表 · 内联个性化评分</b><span>STEP 3 / 5 · PHONE SELECT</span></div>
-      <div class="gf-hifi-nav">
-        <span class="nav-step">手部测量</span>
-        <span class="nav-arr">→</span>
-        <span class="nav-step active">机型选择</span>
-        <span class="nav-arr">→</span>
-        <span class="nav-step">手感预览</span>
-        <span class="nav-arr">→</span>
-        <span class="nav-step">综合报告</span>
-      </div>
-      <div class="gf-hifi-sub-row">
-        <div class="gf-hifi-sub"><img src="images/toc_hifi_15.jpg" alt="筛选器与高权重参数" /></div>
-        <div class="gf-hifi-sub"><img src="images/toc_hifi_16.jpg" alt="机型详情与评分依据" /></div>
-      </div>
-    </div>
-    <div class="gf-hifi-side">
-      <div class="gf-hifi-feature">
-        <h4>① 评分前置到浏览过程</h4>
-        <p>不等到报告页才告知结果——机型列表卡片内直接显示与用户手型的匹配分，帮助用户在浏览时即从"品牌 / 屏幕惯性"转向"手感适配优先"的决策框架。</p>
-        <div class="gf-hifi-tags"><span class="acc">交互决策</span><span>结论前置原则</span><span>降低选择焦虑</span></div>
-      </div>
-      <div class="gf-hifi-feature">
-        <h4>② 筛选维度对应高权重因子</h4>
-        <p>筛选栏中的宽度、整机重量、厚度、圆角直接对应论文第四章 AHP 权重最高的维度（整机宽度权重 0.21、重量权重 0.19），使用户的筛选行为具备人因依据而非仅是规格过滤。</p>
-        <div class="gf-hifi-tags"><span class="acc">设计依据</span><span>AHP 高权重维度</span><span>论文 §4.3</span></div>
-      </div>
-      <div class="gf-hifi-feature">
-        <h4>③ 黑箱破除：评分依据可见</h4>
-        <p>机型详情页（toc_hifi_16）展示评分由哪些维度构成、各维度得分如何，避免推荐结果像黑箱输出。用户当前手机（toc_hifi_09）作为基准，解释新机型相对现有体验的变化方向。</p>
-        <div class="gf-hifi-tags"><span>透明度设计</span><span>可解释 AI</span><span>基准对比</span></div>
-      </div>
-    </div>
-  </div></div>
+        <div class="gf-body"><div class="gf-hifi-wide">
+        <div class="hw-top">
+          <div class="hw-hero"><img src="images/toc_hifi_14.jpg" alt="机型列表 · 内联个性化评分"><div class="hw-tag"><b>机型列表 · 内联个性化评分</b><span>STEP 3 / 5 · PHONE SELECT</span></div></div>
+          <div class="hw-subs"><figure class="hw-sub"><img src="images/toc_hifi_15.jpg" alt="筛选器与高权重参数"><figcaption>筛选器与高权重参数</figcaption></figure><figure class="hw-sub"><img src="images/toc_hifi_16.jpg" alt="机型详情与评分依据"><figcaption>机型详情与评分依据</figcaption></figure></div>
+        </div>
+        <div class="hw-feats"><div class="hw-feat"><h4>① 评分前置到浏览过程</h4><p>不等到报告页才告知结果——机型列表卡片内直接显示与用户手型的匹配分，帮助用户在浏览时即从"品牌 / 屏幕惯性"转向"手感适配优先"的决策框架。</p></div><div class="hw-feat"><h4>② 筛选维度对应高权重因子</h4><p>筛选栏中的宽度、整机重量、厚度、圆角直接对应论文第四章 AHP 权重最高的维度（整机宽度权重 0.21、重量权重 0.19），使用户的筛选行为具备人因依据而非仅是规格过滤。</p></div><div class="hw-feat"><h4>③ 黑箱破除：评分依据可见</h4><p>机型详情页（toc_hifi_16）展示评分由哪些维度构成、各维度得分如何，避免推荐结果像黑箱输出。用户当前手机（toc_hifi_09）作为基准，解释新机型相对现有体验的变化方向。</p></div></div>
+      </div></div>
         
         
       </div>
@@ -3895,40 +3851,13 @@
       <h2 class="gf-title">手感预览页</h2>
       <p class="gf-lead">宽度、厚度、圆角、重量等参数调整后，三维模型与评分雷达实时联动。</p>
     </div>
-        <div class="gf-body"><div class="gf-hifi-detail">
-    <div class="gf-hifi-hero">
-      <div class="gf-hero-img"><img src="images/toc_hifi_17.jpg" alt="三维机型 + 握持预览" /></div>
-      <div class="gf-hero-cap"><b>三维手感预览 · 参数联动</b><span>STEP 4 / 5 · GRIP PREVIEW</span></div>
-      <div class="gf-hifi-nav">
-        <span class="nav-step">机型选择</span>
-        <span class="nav-arr">→</span>
-        <span class="nav-step active">手感预览</span>
-        <span class="nav-arr">→</span>
-        <span class="nav-step">综合报告</span>
-      </div>
-      <div class="gf-hifi-sub-row">
-        <div class="gf-hifi-sub"><img src="images/toc_hifi_18.jpg" alt="握持方式与受力区域" /></div>
-        <div class="gf-hifi-sub"><img src="images/iteration_08.jpg" alt="厚度侧视图迭代版" /></div>
-      </div>
-    </div>
-    <div class="gf-hifi-side">
-      <div class="gf-hifi-feature">
-        <h4>① 参数 → 三维形体实时联动</h4>
-        <p>调节宽度、厚度、中框圆角、重量等参数（toc_hifi_19），三维机身模型与评分雷达图同步响应。用户可直观感受"宽度增加 2mm 对我的手意味着什么"，把抽象数值翻译为形体变化。</p>
-        <div class="gf-hifi-tags"><span class="acc">核心交互</span><span>参数→模型实时渲染</span><span>雷达图同步</span></div>
-      </div>
-      <div class="gf-hifi-feature">
-        <h4>② 握持姿态与受力区域可视化</h4>
-        <p>展示单手握持、横持、双手操作三种典型姿态下手部与机身的接触关系（toc_hifi_18），解释为何同一宽度对不同手长用户影响不同。压力热力图对应论文第三章接触压力分布理论。</p>
-        <div class="gf-hifi-tags"><span class="acc">设计依据</span><span>人因实验结论</span><span>论文 §3.3</span></div>
-      </div>
-      <div class="gf-hifi-feature">
-        <h4>③ 厚度侧视反馈（可用性迭代）</h4>
-        <p>初版测试中 C-2 问题：用户反映厚度变化在正视图中不明显。迭代后自动触发侧视图并标注数值差，强化厚度的感知线索，同时保持与正视模型的视觉连续性。</p>
-        <div class="gf-hifi-tags"><span>可用性测试改版</span><span>C-2 问题解决</span><span>多视角策略</span></div>
-      </div>
-    </div>
-  </div></div>
+        <div class="gf-body"><div class="gf-hifi-wide">
+        <div class="hw-top">
+          <div class="hw-hero"><img src="images/toc_hifi_17.jpg" alt="三维手感预览 · 参数联动"><div class="hw-tag"><b>三维手感预览 · 参数联动</b><span>STEP 4 / 5 · GRIP PREVIEW</span></div></div>
+          <div class="hw-subs"><figure class="hw-sub"><img src="images/toc_hifi_18.jpg" alt="握持方式与受力区域"><figcaption>握持方式与受力区域</figcaption></figure><figure class="hw-sub"><img src="images/iteration_08.jpg" alt="厚度侧视图迭代版"><figcaption>厚度侧视图迭代版</figcaption></figure></div>
+        </div>
+        <div class="hw-feats"><div class="hw-feat"><h4>① 参数 → 三维形体实时联动</h4><p>调节宽度、厚度、中框圆角、重量等参数（toc_hifi_19），三维机身模型与评分雷达图同步响应。用户可直观感受"宽度增加 2mm 对我的手意味着什么"，把抽象数值翻译为形体变化。</p></div><div class="hw-feat"><h4>② 握持姿态与受力区域可视化</h4><p>展示单手握持、横持、双手操作三种典型姿态下手部与机身的接触关系（toc_hifi_18），解释为何同一宽度对不同手长用户影响不同。压力热力图对应论文第三章接触压力分布理论。</p></div><div class="hw-feat"><h4>③ 厚度侧视反馈</h4><p>初版测试中 C-2 问题：用户反映厚度变化在正视图中不明显。迭代后自动触发侧视图并标注数值差，强化厚度的感知线索，同时保持与正视模型的视觉连续性。</p></div></div>
+      </div></div>
         
         
       </div>
@@ -3948,40 +3877,13 @@
       <h2 class="gf-title">综合报告页</h2>
       <p class="gf-lead">报告页展示理想手感模型、关键尺寸建议、多维对比、规格表和匹配度排行。</p>
     </div>
-        <div class="gf-body"><div class="gf-hifi-detail">
-    <div class="gf-hifi-hero">
-      <div class="gf-hero-img"><img src="images/toc_hifi_20.jpg" alt="综合报告总览" /></div>
-      <div class="gf-hero-cap"><b>综合报告 · 购买决策支撑</b><span>STEP 5 / 5 · REPORT</span></div>
-      <div class="gf-hifi-nav">
-        <span class="nav-step">手感预览</span>
-        <span class="nav-arr">→</span>
-        <span class="nav-step active">综合报告</span>
-        <span class="nav-arr">→</span>
-        <span class="nav-step">收藏 / 对比 / 分享</span>
-      </div>
-      <div class="gf-hifi-sub-row">
-        <div class="gf-hifi-sub"><img src="images/toc_hifi_24.jpg" alt="维度评分细分" /></div>
-        <div class="gf-hifi-sub"><img src="images/iteration_14.jpg" alt="结论区强化迭代版" /></div>
-      </div>
-    </div>
-    <div class="gf-hifi-side">
-      <div class="gf-hifi-feature">
-        <h4>① 三级信息架构：结论 → 依据 → 行动</h4>
-        <p>报告顶部固定推荐结论（C-1 迭代后强化），中部拆解各维度得分说明匹配原因（宽度、重量、厚度、圆角等），底部提供对比、收藏与直跳购买链接，对应真实购买决策的三个认知步骤。</p>
-        <div class="gf-hifi-tags"><span class="acc">信息架构</span><span>C-1 可用性迭代</span><span>结论前置</span></div>
-      </div>
-      <div class="gf-hifi-feature">
-        <h4>② 模型结果翻译为自然语言</h4>
-        <p>维度评分页（toc_hifi_24）不直接呈现回归系数，而是将"宽度 73mm → 此宽度对您的手型评分为 82 分"转为可理解的描述，并说明改善空间，打通从统计结论到用户理解的最后一公里。</p>
-        <div class="gf-hifi-tags"><span class="acc">UX 策略</span><span>可解释模型</span><span>论文 §5.4 输出层</span></div>
-      </div>
-      <div class="gf-hifi-feature">
-        <h4>③ 多机型对比（toc_hifi_27）</h4>
-        <p>支持在候选机型间横向比较各维度评分，适配真实购买决策中"货比三家"的场景。对比数据共用同一预测模型，保证评分口径一致，不出现因基准不统一导致的误导。</p>
-        <div class="gf-hifi-tags"><span>横向对比</span><span>统一评分口径</span><span>购买决策场景</span></div>
-      </div>
-    </div>
-  </div></div>
+        <div class="gf-body"><div class="gf-hifi-wide">
+        <div class="hw-top">
+          <div class="hw-hero"><img src="images/toc_hifi_20.jpg" alt="综合报告 · 购买决策支撑"><div class="hw-tag"><b>综合报告 · 购买决策支撑</b><span>STEP 5 / 5 · REPORT</span></div></div>
+          <div class="hw-subs"><figure class="hw-sub"><img src="images/toc_hifi_24.jpg" alt="维度评分细分"><figcaption>维度评分细分</figcaption></figure><figure class="hw-sub"><img src="images/iteration_14.jpg" alt="结论区强化迭代版"><figcaption>结论区强化迭代版</figcaption></figure></div>
+        </div>
+        <div class="hw-feats"><div class="hw-feat"><h4>① 三级信息架构：结论 → 依据 → 行动</h4><p>报告顶部固定推荐结论（C-1 迭代后强化），中部拆解各维度得分说明匹配原因（宽度、重量、厚度、圆角等），底部提供对比、收藏与直跳购买链接，对应真实购买决策的三个认知步骤。</p></div><div class="hw-feat"><h4>② 模型结果翻译为自然语言</h4><p>维度评分页（toc_hifi_24）不直接呈现回归系数，而是将"宽度 73mm → 此宽度对您的手型评分为 82 分"转为可理解的描述，并说明改善空间，打通从统计结论到用户理解的最后一公里。</p></div><div class="hw-feat"><h4>③ 多机型对比</h4><p>支持在候选机型间横向比较各维度评分，适配真实购买决策中"货比三家"的场景。对比数据共用同一预测模型，保证评分口径一致，不出现因基准不统一导致的误导。</p></div></div>
+      </div></div>
         
         
       </div>
