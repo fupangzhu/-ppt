@@ -1655,7 +1655,7 @@
      ============================================================ -->
 <section class="slide accent fg-figma fg-cover-slide" data-layout="F01" data-animate="hero">
     <div class="canvas-card">
-      <div class="chrome-min fg-chrome"><div class="l">GripFit · Thesis Defense</div><div class="r">01 / 74</div></div>
+      <div class="chrome-min fg-chrome"><div class="l">GripFit · Thesis Defense</div><div class="r">01 / 68</div></div>
       <div class="fg-cover-title">GripFit</div>
       <img class="fg-cover-hand" src="images/figma_cover_hand_phone.png" alt="" />
       <div class="fg-cover-cn">手机握持舒适度数字化辅助系统设计</div>
@@ -1665,18 +1665,6 @@
         <p><span>导&nbsp;&nbsp;&nbsp;&nbsp;师</span>：马超民 副教授</p>
         <p><span>日&nbsp;&nbsp;&nbsp;&nbsp;期</span>：2026年 6月</p>
       </div>
-    </div>
-  </section>
-<section class="slide fg-figma fg-roadmap-slide" data-layout="F02" data-animate="grid-reveal">
-    <div class="canvas-card">
-      <div class="chrome-min fg-chrome"><div class="l">GripFit Defense · Structure</div><div class="r">02 / 74</div></div>
-      <h1 class="fg-page-title">Presentation Roadmap</h1>
-      <div class="fg-rm-card c1"><b>01</b><strong>背景研究</strong><span>市场、健康、人因工具空白</span></div>
-      <div class="fg-rm-card c2"><b>02</b><strong>需求定位</strong><span>ToB / ToC 双用户研究</span></div>
-      <div class="fg-rm-card c3"><b>03</b><strong>理论指标确定</strong><span>手感定义、18维评价空间</span></div>
-      <div class="fg-rm-card c4"><b>04</b><strong>参数模型构架</strong><span>1026问卷、360实验、验证</span></div>
-      <div class="fg-rm-card c5"><b>05</b><strong>系统设计与迭代</strong><span>GripFit 双端设计与可用性测试</span></div>
-      <div class="fg-rm-arrow a1">→</div><div class="fg-rm-arrow a2">→</div><div class="fg-rm-arrow a3">→</div><div class="fg-rm-arrow a4">→</div>
     </div>
   </section>
 <style id="navmap-style">
@@ -1714,7 +1702,9 @@
 .nf-subcol .nf-node{flex:0 0 auto}
 .nf-glabel{font-family:var(--mono);font-size:max(8px,.55vw);letter-spacing:.1em;color:var(--accent);font-weight:600;text-align:center;padding-bottom:.4vh;text-transform:uppercase}
 /* arrow gutter between chapters */
-.nf-gut{display:flex;align-items:flex-start;justify-content:center;padding-top:1.5vh;color:var(--accent);font-size:min(1.05vw,1.9vh);opacity:.65;user-select:none}
+.nf-gut{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding-top:1.2vh;gap:.4vh;color:var(--accent);font-size:min(1.05vw,1.9vh);opacity:.65;user-select:none}
+.nf-gut-lbl{writing-mode:vertical-rl;text-orientation:mixed;font-family:var(--sans),var(--sans-zh);font-size:max(7px,.44vw);color:var(--text-secondary);letter-spacing:.12em;opacity:.85;line-height:1}
+.nf-out{flex:0 0 auto;margin-top:.55vh;padding:.27vh .42vw;background:rgba(0,47,167,.05);border-left:2px solid var(--accent);border-radius:0 2px 2px 0;font-family:var(--mono),var(--sans-zh);font-size:max(7px,.47vw);color:var(--text-secondary);line-height:1.35;letter-spacing:.02em}
 /* ===== 全局返回导航按钮 ===== */
 #gf-nav-home{position:fixed;bottom:3.2vh;right:2.4vw;z-index:90;padding:4px 11px;border:1.5px solid var(--border-subtle);border-radius:3px;background:rgba(var(--paper-rgb),.9);backdrop-filter:blur(6px);font-family:var(--mono);font-size:max(10px,.63vw);letter-spacing:.12em;color:var(--text-helper);cursor:pointer;transition:all .16s;user-select:none}
 #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
@@ -1726,61 +1716,65 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
   <div class="canvas-card">
     <div class="chrome-min">
       <div class="l">GripFit Defense · 研究框架导航</div>
-      <div class="r">03 / 74</div>
+      <div class="r">02 / 68</div>
     </div>
     <div class="nm-wrap">
       <div class="nm-lead">
         <h3>研究汇报框架总览</h3>
-        <small>点击任意模块直接跳转 · 箭头表示推导 / 汇总关系</small>
       </div>
       <div class="nm-grid">
 <div class="nf-col">
-  <div class="nf-head" onclick="go(4)">
+  <div class="nf-head" onclick="go(3)">
     <span class="nf-num">Chapter 01 · 背景概述</span>
-    <span class="nf-htitle">绪论</span>
+    <span class="nf-htitle">研究背景</span>
   </div>
-  <div class="nf-flow"><div class="nf-row"><div class="nf-node key" onclick="go(4)">研究背景</div></div><div class="nf-c"><i class="nf-v" style="left:50%;top:0%;height:50%"></i><i class="nf-h" style="left:25%;width:50%;top:50%"></i><i class="nf-v" style="left:25%;top:50%;height:50%"></i><i class="nf-v" style="left:75%;top:50%;height:50%"></i><i class="nf-ar" style="left:25%"></i><i class="nf-ar" style="left:75%"></i></div><div class="nf-row"><div class="nf-node " onclick="go(5)">课题来源</div><div class="nf-node " onclick="go(6)">研究意义</div></div><div class="nf-c"><i class="nf-v" style="left:25%;top:0%;height:50%"></i><i class="nf-v" style="left:75%;top:0%;height:50%"></i><i class="nf-h" style="left:25%;width:50%;top:50%"></i><i class="nf-v" style="left:50%;top:50%;height:50%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-row"><div class="nf-node " onclick="go(9)">国内外研究现状</div></div><div class="nf-c"><i class="nf-v" style="left:50%;top:0%;height:100%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-row"><div class="nf-node " onclick="go(3)">研究框架与组织架构</div></div></div>
+  <div class="nf-flow"><div class="nf-row"><div class="nf-node key" onclick="go(3)">研究背景</div></div><div class="nf-c"><i class="nf-v" style="left:50%;top:0%;height:50%"></i><i class="nf-h" style="left:25%;width:50%;top:50%"></i><i class="nf-v" style="left:25%;top:50%;height:50%"></i><i class="nf-v" style="left:75%;top:50%;height:50%"></i><i class="nf-ar" style="left:25%"></i><i class="nf-ar" style="left:75%"></i></div><div class="nf-row"><div class="nf-node " onclick="go(4)">课题来源</div><div class="nf-node " onclick="go(5)">研究意义</div></div><div class="nf-c"><i class="nf-v" style="left:25%;top:0%;height:50%"></i><i class="nf-v" style="left:75%;top:0%;height:50%"></i><i class="nf-h" style="left:25%;width:50%;top:50%"></i><i class="nf-v" style="left:50%;top:50%;height:50%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-row"><div class="nf-node " onclick="go(6)">国内外研究现状</div></div><div class="nf-c"><i class="nf-v" style="left:50%;top:0%;height:100%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-row"><div class="nf-node " onclick="go(2)">研究框架与组织架构</div></div></div>
+<div class="nf-out">产出 · 确认握持痛点与研究空白</div>
 </div>
-<div class="nf-gut">→</div>
+<div class="nf-gut"><span>→</span><span class="nf-gut-lbl">缺口驱调研</span></div>
 <div class="nf-col">
-  <div class="nf-head" onclick="go(10)">
+  <div class="nf-head" onclick="go(7)">
     <span class="nf-num">Chapter 02 · 需求调研</span>
     <span class="nf-htitle">系统需求调研与设计规划</span>
   </div>
-  <div class="nf-flow"><div class="nf-row"><div class="nf-node " onclick="go(12)">半结构用户访谈</div><div class="nf-node " onclick="go(11)">界面案例分析</div><div class="nf-node " onclick="go(13)">用户旅程图分析</div></div><div class="nf-c"><i class="nf-v" style="left:16.67%;top:0%;height:50%"></i><i class="nf-v" style="left:50%;top:0%;height:50%"></i><i class="nf-v" style="left:83.33%;top:0%;height:50%"></i><i class="nf-h" style="left:16.67%;width:66.66%;top:50%"></i><i class="nf-v" style="left:50%;top:50%;height:50%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-row"><div class="nf-node sum" onclick="go(18)">系统差异化定位与设计策略</div></div><div class="nf-c"><i class="nf-v" style="left:50%;top:0%;height:50%"></i><i class="nf-h" style="left:25%;width:50%;top:50%"></i><i class="nf-v" style="left:25%;top:50%;height:50%"></i><i class="nf-v" style="left:75%;top:50%;height:50%"></i><i class="nf-ar" style="left:25%"></i><i class="nf-ar" style="left:75%"></i></div><div class="nf-row"><div class="nf-node " onclick="go(19)">功能模块规划</div><div class="nf-node " onclick="go(19)">底层数据资源整合</div></div><div class="nf-c"><i class="nf-v" style="left:25%;top:0%;height:50%"></i><i class="nf-v" style="left:75%;top:0%;height:50%"></i><i class="nf-h" style="left:25%;width:50%;top:50%"></i><i class="nf-v" style="left:50%;top:50%;height:50%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-row"><div class="nf-node sum" onclick="go(19)">面向验证与个性化推荐两类场景</div></div></div>
+  <div class="nf-flow"><div class="nf-row"><div class="nf-node " onclick="go(9)">半结构用户访谈</div><div class="nf-node " onclick="go(8)">界面案例分析</div><div class="nf-node " onclick="go(10)">用户旅程图分析</div></div><div class="nf-c"><i class="nf-v" style="left:16.67%;top:0%;height:50%"></i><i class="nf-v" style="left:50%;top:0%;height:50%"></i><i class="nf-v" style="left:83.33%;top:0%;height:50%"></i><i class="nf-h" style="left:16.67%;width:66.66%;top:50%"></i><i class="nf-v" style="left:50%;top:50%;height:50%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-row"><div class="nf-node sum" onclick="go(15)">系统差异化定位与设计策略</div></div><div class="nf-c"><i class="nf-v" style="left:50%;top:0%;height:50%"></i><i class="nf-h" style="left:25%;width:50%;top:50%"></i><i class="nf-v" style="left:25%;top:50%;height:50%"></i><i class="nf-v" style="left:75%;top:50%;height:50%"></i><i class="nf-ar" style="left:25%"></i><i class="nf-ar" style="left:75%"></i></div><div class="nf-row"><div class="nf-node " onclick="go(16)">功能模块规划</div><div class="nf-node " onclick="go(16)">底层数据资源整合</div></div><div class="nf-c"><i class="nf-v" style="left:25%;top:0%;height:50%"></i><i class="nf-v" style="left:75%;top:0%;height:50%"></i><i class="nf-h" style="left:25%;width:50%;top:50%"></i><i class="nf-v" style="left:50%;top:50%;height:50%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-row"><div class="nf-node sum" onclick="go(16)">面向验证与个性化推荐两类场景</div></div></div>
+<div class="nf-out">产出 · 双端需求图谱 + 功能规划框架</div>
 </div>
-<div class="nf-gut">→</div>
+<div class="nf-gut"><span>→</span><span class="nf-gut-lbl">需求驱建构</span></div>
 <div class="nf-col">
-  <div class="nf-head" onclick="go(20)">
+  <div class="nf-head" onclick="go(17)">
     <span class="nf-num">Chapter 03 · 理论研究</span>
     <span class="nf-htitle">手机握持舒适度理论研究</span>
   </div>
-  <div class="nf-flow"><div class="nf-row"><div class="nf-node " onclick="go(21)">握持体验舒适度理论</div><div class="nf-node " onclick="go(23)">手部人因特征与行为</div><div class="nf-node " onclick="go(25)">手机形态要素分析</div><div class="nf-node " onclick="go(39)">因子分析</div></div><div class="nf-c"><i class="nf-v" style="left:12.5%;top:0%;height:50%"></i><i class="nf-v" style="left:37.5%;top:0%;height:50%"></i><i class="nf-v" style="left:62.5%;top:0%;height:50%"></i><i class="nf-v" style="left:87.5%;top:0%;height:50%"></i><i class="nf-h" style="left:12.5%;width:75%;top:50%"></i><i class="nf-v" style="left:50%;top:50%;height:50%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-row"><div class="nf-node sum key" onclick="go(22)">手机手感评价理论体系</div></div></div>
+  <div class="nf-flow"><div class="nf-row"><div class="nf-node " onclick="go(19)">研究动因</div><div class="nf-node " onclick="go(20)">理论框架与人因</div><div class="nf-node sum key" onclick="go(21)">形态要素分析</div></div><div class="nf-c"><i class="nf-v" style="left:16.6%;top:0%;height:50%"></i><i class="nf-v" style="left:50%;top:0%;height:50%"></i><i class="nf-v" style="left:83.3%;top:0%;height:50%"></i><i class="nf-h" style="left:16.6%;width:66.7%;top:50%"></i><i class="nf-v" style="left:50%;top:50%;height:50%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-row"><div class="nf-node sum key" onclick="go(21)">手机手感评价理论体系</div></div></div>
+<div class="nf-out">产出 · 18 维握持舒适感评价理论体系</div>
 </div>
-<div class="nf-gut">→</div>
+<div class="nf-gut"><span>→</span><span class="nf-gut-lbl">框架驱实验</span></div>
 <div class="nf-col">
-  <div class="nf-head" onclick="go(29)">
+  <div class="nf-head" onclick="go(22)">
     <span class="nf-num">Chapter 04 · 实验研究</span>
     <span class="nf-htitle">握持舒适度评价模型建立</span>
   </div>
   <div class="nf-flow"><div class="nf-twocol">
     <div class="nf-subcol">
       <div class="nf-glabel">指标体系建立</div>
-      <div class="nf-node " onclick="go(30)">文献研究</div><div class="nf-cm"><i class="nf-v" style="left:50%;top:0%;height:100%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-node " onclick="go(33)">Leading User 访谈</div><div class="nf-cm"><i class="nf-v" style="left:50%;top:0%;height:100%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-node " onclick="go(35)">线上问卷调研</div><div class="nf-cm"><i class="nf-v" style="left:50%;top:0%;height:100%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-node " onclick="go(38)">PCA降维 / AHP赋权</div><div class="nf-cm"><i class="nf-v" style="left:50%;top:0%;height:100%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-node sum" onclick="go(41)">评价维度汇总</div>
+      <div class="nf-node " onclick="go(23)">文献研究</div><div class="nf-cm"><i class="nf-v" style="left:50%;top:0%;height:100%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-node " onclick="go(23)">Leading User 访谈</div><div class="nf-cm"><i class="nf-v" style="left:50%;top:0%;height:100%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-node " onclick="go(28)">线上问卷调研</div><div class="nf-cm"><i class="nf-v" style="left:50%;top:0%;height:100%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-node " onclick="go(31)">PCA降维 / AHP赋权</div><div class="nf-cm"><i class="nf-v" style="left:50%;top:0%;height:100%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-node sum" onclick="go(34)">评价维度汇总</div>
     </div>
     <div class="nf-subcol">
       <div class="nf-glabel">实验数据采集</div>
-      <div class="nf-node " onclick="go(42)">线下握持实验</div><div class="nf-cm"><i class="nf-v" style="left:50%;top:0%;height:100%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-node " onclick="go(42)">主观量表评分</div><div class="nf-cm"><i class="nf-v" style="left:50%;top:0%;height:100%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-node " onclick="go(44)">客观数据采集</div><div class="nf-cm"><i class="nf-v" style="left:50%;top:0%;height:100%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-node sum" onclick="go(46)">数据分析</div>
+      <div class="nf-node " onclick="go(35)">线下握持实验</div><div class="nf-cm"><i class="nf-v" style="left:50%;top:0%;height:100%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-node " onclick="go(35)">主观量表评分</div><div class="nf-cm"><i class="nf-v" style="left:50%;top:0%;height:100%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-node " onclick="go(37)">客观数据采集</div><div class="nf-cm"><i class="nf-v" style="left:50%;top:0%;height:100%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-node sum" onclick="go(39)">数据分析</div>
     </div>
-  </div><div class="nf-c"><i class="nf-v" style="left:25%;top:0%;height:50%"></i><i class="nf-v" style="left:75%;top:0%;height:50%"></i><i class="nf-h" style="left:25%;width:50%;top:50%"></i><i class="nf-v" style="left:50%;top:50%;height:50%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-row"><div class="nf-node sum key" onclick="go(51)">握持舒适度综合模型构建</div></div><div class="nf-c"><i class="nf-v" style="left:50%;top:0%;height:100%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-row"><div class="nf-node " onclick="go(52)">验证实验分析</div></div></div>
+  </div><div class="nf-c"><i class="nf-v" style="left:25%;top:0%;height:50%"></i><i class="nf-v" style="left:75%;top:0%;height:50%"></i><i class="nf-h" style="left:25%;width:50%;top:50%"></i><i class="nf-v" style="left:50%;top:50%;height:50%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-row"><div class="nf-node sum key" onclick="go(44)">握持舒适度综合模型构建</div></div><div class="nf-c"><i class="nf-v" style="left:50%;top:0%;height:100%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-row"><div class="nf-node " onclick="go(45)">验证实验分析</div></div></div>
+<div class="nf-out">产出 · 多元回归预测模型（R²=0.87）</div>
 </div>
-<div class="nf-gut">→</div>
+<div class="nf-gut"><span>→</span><span class="nf-gut-lbl">模型驱落地</span></div>
 <div class="nf-col">
-  <div class="nf-head" onclick="go(54)">
+  <div class="nf-head" onclick="go(47)">
     <span class="nf-num">Chapter 05 · 设计实践</span>
     <span class="nf-htitle">设计实践</span>
   </div>
-  <div class="nf-flow"><div class="nf-row"><div class="nf-node key" onclick="go(56)">产品信息架构设计</div></div><div class="nf-c"><i class="nf-v" style="left:50%;top:0%;height:50%"></i><i class="nf-h" style="left:25%;width:50%;top:50%"></i><i class="nf-v" style="left:25%;top:50%;height:50%"></i><i class="nf-v" style="left:75%;top:50%;height:50%"></i><i class="nf-ar" style="left:25%"></i><i class="nf-ar" style="left:75%"></i></div><div class="nf-row"><div class="nf-node " onclick="go(59)">交互设计</div><div class="nf-node " onclick="go(64)">视觉设计规范</div></div><div class="nf-c"><i class="nf-v" style="left:25%;top:0%;height:50%"></i><i class="nf-v" style="left:75%;top:0%;height:50%"></i><i class="nf-h" style="left:25%;width:50%;top:50%"></i><i class="nf-v" style="left:50%;top:50%;height:50%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-row"><div class="nf-node sum" onclick="go(73)">可用性测试</div></div><div class="nf-c"><i class="nf-v" style="left:50%;top:0%;height:100%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-row"><div class="nf-node " onclick="go(74)">迭代建议汇总</div></div></div>
+  <div class="nf-flow"><div class="nf-row"><div class="nf-node key" onclick="go(50)">产品信息架构设计</div></div><div class="nf-c"><i class="nf-v" style="left:50%;top:0%;height:50%"></i><i class="nf-h" style="left:25%;width:50%;top:50%"></i><i class="nf-v" style="left:25%;top:50%;height:50%"></i><i class="nf-v" style="left:75%;top:50%;height:50%"></i><i class="nf-ar" style="left:25%"></i><i class="nf-ar" style="left:75%"></i></div><div class="nf-row"><div class="nf-node " onclick="go(50)">交互设计</div><div class="nf-node " onclick="go(58)">视觉设计规范</div></div><div class="nf-c"><i class="nf-v" style="left:25%;top:0%;height:50%"></i><i class="nf-v" style="left:75%;top:0%;height:50%"></i><i class="nf-h" style="left:25%;width:50%;top:50%"></i><i class="nf-v" style="left:50%;top:50%;height:50%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-row"><div class="nf-node sum" onclick="go(67)">可用性测试</div></div><div class="nf-c"><i class="nf-v" style="left:50%;top:0%;height:100%"></i><i class="nf-ar" style="left:50%"></i></div><div class="nf-row"><div class="nf-node " onclick="go(68)">迭代建议汇总</div></div></div>
+<div class="nf-out">产出 · GripFit 双端高保真原型</div>
 </div>
       </div>
     </div>
@@ -1791,7 +1785,7 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
 
     <div class="chrome-min">
       <div class="l">GripFit Defense · Method Structure</div>
-      <div class="r">04 / 74</div>
+      <div class="r">03 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -1827,7 +1821,7 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
   </section>
 <section class="slide grey fg-figma fg-chapter-slide" data-layout="F03" data-animate="statement" id="ch1">
     <div class="canvas-card">
-      <div class="chrome-min fg-chrome"><div class="l">GripFit Defense · Chapter 1</div><div class="r">05 / 74</div></div>
+      <div class="chrome-min fg-chrome"><div class="l">GripFit Defense · Chapter 1</div><div class="r">04 / 68</div></div>
       <div class="fg-chapter-copy">
         <div class="fg-kicker">CHAPTER 01</div>
         <h1>背景研究</h1>
@@ -1849,233 +1843,134 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide fg-figma fg-market-slide" data-layout="F04" data-animate="bar-grow">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item on" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
-      <div class="chrome-min fg-chrome"><div class="l">GripFit Defense · Market</div><div class="r">06 / 74</div></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item on" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
+      <div class="chrome-min fg-chrome"><div class="l">GripFit Defense · Background</div><div class="r">05 / 68</div></div>
       <div class="fg-market-head">
-        <div class="fg-kicker">MARKET PRESSURE</div>
-        <h1>手机市场压力</h1>
-        <p>智能手机市场从功能竞争转向品质感知竞争，握持手感与长期舒适度成为高端机型差异化的一部分。</p>
+        <div class="fg-kicker">RESEARCH BACKGROUND · 1.1.1–1.1.2</div>
+        <h1>研究背景</h1>
+        <p>市场溢价化竞争、长时使用带来的健康威胁与设备形态的持续演变，共同构成本研究的现实驱动力。</p>
       </div>
       <div class="fg-metric-grid">
-        <div class="fg-metric-card"><div class="mc-top"><div class="mchart"><svg viewBox="0 0 132 52" fill="none"><line x1="6" y1="30" x2="126" y2="30" stroke="#c8c6c1" stroke-width="1"/><rect x="14" y="30" width="22" height="9" fill="#bdbbb6"/><rect x="55" y="30" width="22" height="13" fill="#bdbbb6"/><rect x="96" y="17" width="22" height="13" fill="#ff6b35"/><text class="val" x="107" y="13" text-anchor="middle">+5%</text><text class="lab" x="25" y="50" text-anchor="middle">2022</text><text class="lab" x="66" y="50" text-anchor="middle">2023</text><text class="lab" x="107" y="50" text-anchor="middle">2024</text></svg></div><b>5%</b></div><strong>2024 全球智能手机市场营收同比增长</strong><span>量价双升，手机市场全面复苏</span><cite>Counterpoint Research 2024</cite></div>
-        <div class="fg-metric-card"><div class="mc-top"><div class="mchart"><svg viewBox="0 0 132 52" fill="none"><line x1="6" y1="42" x2="126" y2="42" stroke="#c8c6c1" stroke-width="1"/><polyline points="14,36 47,31 80,22 113,13" stroke="#bdbbb6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="113" cy="13" r="3.2" fill="#ff6b35"/><text class="val" x="111" y="9" text-anchor="end">$356</text><text class="lab" x="14" y="51" text-anchor="middle">2021</text><text class="lab" x="113" y="51" text-anchor="middle">2024</text></svg></div><b>$356</b></div><strong>全球市场均价攀至历史最高水平</strong><span>溢价化成为市场增长核心驱动力</span><cite>Counterpoint Research ASP Tracker 2024</cite></div>
-        <div class="fg-metric-card"><div class="mc-top"><div class="mchart"><svg viewBox="0 0 132 52" fill="none"><text class="val" x="6" y="9" text-anchor="start">67%</text><rect x="6" y="14" width="120" height="11" rx="2.5" fill="#dcdad5"/><rect x="6" y="14" width="80.4" height="11" rx="2.5" fill="#ff6b35"/><line x1="6" y1="36" x2="126" y2="36" stroke="#c8c6c1" stroke-width="1"/><line x1="6" y1="33" x2="6" y2="36" stroke="#c8c6c1"/><line x1="66" y1="33" x2="66" y2="36" stroke="#c8c6c1"/><line x1="126" y1="33" x2="126" y2="36" stroke="#c8c6c1"/><text class="lab" x="6" y="48" text-anchor="start">0</text><text class="lab" x="66" y="48" text-anchor="middle">50</text><text class="lab" x="126" y="48" text-anchor="end">100%</text></svg></div><b>67%</b></div><strong>苹果在 ≥600 美元高端市场份额</strong><span>高端市场高度集中，头部效应显著</span><cite>Counterpoint Research 2024</cite></div>
-        <div class="fg-metric-card"><div class="mc-top"><div class="mchart"><svg viewBox="0 0 132 52" fill="none"><line x1="6" y1="44" x2="126" y2="44" stroke="#c8c6c1" stroke-width="1"/><rect x="14" y="34" width="20" height="10" fill="#bdbbb6"/><rect x="52" y="28" width="20" height="16" fill="#bdbbb6"/><rect x="90" y="10" width="20" height="34" fill="#ff6b35"/><line x1="6" y1="18" x2="126" y2="18" stroke="#c8c6c1" stroke-width="1" stroke-dasharray="3 2.5"/><text class="lab" x="6" y="15" text-anchor="start">40% 线</text><text class="val" x="100" y="7" text-anchor="middle">40%+</text><text class="lab" x="24" y="51" text-anchor="middle">2022</text><text class="lab" x="62" y="51" text-anchor="middle">2023</text><text class="lab" x="100" y="51" text-anchor="middle">2024</text></svg></div><b>40%+</b></div><strong>≥1000 美元超高端机型占比首次突破</strong><span>超高端消费首次成为主流增量来源</span><cite>Counterpoint Research 2024</cite></div>
+        <div class="fg-metric-card"><div class="mc-top"><div class="mchart"><svg viewBox="0 0 132 52" fill="none"><line x1="6" y1="30" x2="126" y2="30" stroke="#c8c6c1" stroke-width="1"/><rect x="14" y="30" width="22" height="9" fill="#bdbbb6"/><rect x="55" y="30" width="22" height="13" fill="#bdbbb6"/><rect x="96" y="17" width="22" height="13" fill="#ff6b35"/><text class="val" x="107" y="13" text-anchor="middle">+5%</text><text class="lab" x="25" y="50" text-anchor="middle">2022</text><text class="lab" x="66" y="50" text-anchor="middle">2023</text><text class="lab" x="107" y="50" text-anchor="middle">2024</text></svg></div><b>$356</b></div><strong>2024年全球手机均价攀至历史最高</strong><span>溢价化成为市场增长核心驱动力；≥1000美元超高端占比首次突破40%，握持手感成为品牌溢价核心战场</span><cite>Counterpoint Research 2024</cite></div>
+        <div class="fg-metric-card"><div class="mc-top"><div class="mchart"><svg viewBox="0 0 132 52" fill="none"><line x1="6" y1="42" x2="126" y2="42" stroke="#c8c6c1" stroke-width="1"/><rect x="26" y="18" width="30" height="24" fill="#bdbbb6"/><rect x="76" y="14" width="30" height="28" fill="#ff6b35"/><text class="valn" x="41" y="14" text-anchor="middle">4h37m</text><text class="val" x="91" y="10" text-anchor="middle">5h21m</text><text class="lab" x="41" y="51" text-anchor="middle">全球</text><text class="lab" x="91" y="51" text-anchor="middle">广州</text></svg></div><b>5h21m</b></div><strong>中国城市用户每日平均使用手机时长</strong><span>国内使用时长显著高于全球均值；超四分之一用户每天超8小时，长时间握持带来肌肉骨骼负担</span><cite>GPS数字生活报告（香港科技大学广州）</cite></div>
+        <div class="fg-metric-card"><div class="mc-top"><div class="mchart"><svg viewBox="0 0 132 52" fill="none"><text class="val" x="6" y="9" text-anchor="start">76.65%</text><rect x="6" y="14" width="120" height="11" rx="2.5" fill="#dcdad5"/><rect x="6" y="14" width="91.98" height="11" rx="2.5" fill="#ff6b35"/><line x1="6" y1="36" x2="126" y2="36" stroke="#c8c6c1" stroke-width="1"/><text class="lab" x="6" y="48" text-anchor="start">0</text><text class="lab" x="66" y="48" text-anchor="middle">50%</text><text class="lab" x="126" y="48" text-anchor="end">100%</text></svg></div><b>76.65%</b></div><strong>大学生样本报告存在手部疼痛</strong><span>超七成用户面临握持相关健康风险；59.3%右手受累，36.3%报告≥2个区域不适</span><cite>BMC Musculoskeletal Disorders 2024</cite></div>
+        <div class="fg-metric-card"><div class="mc-top"><div class="mchart"><svg viewBox="0 0 132 52" fill="none"><line x1="6" y1="44" x2="126" y2="44" stroke="#c8c6c1" stroke-width="1"/><rect x="14" y="30" width="18" height="14" fill="#bdbbb6"/><rect x="52" y="22" width="18" height="22" fill="#bdbbb6"/><rect x="90" y="10" width="18" height="34" fill="#ff6b35"/><text class="val" x="99" y="7" text-anchor="middle">240g+</text><text class="lab" x="23" y="51" text-anchor="middle">2014</text><text class="lab" x="61" y="51" text-anchor="middle">2019</text><text class="lab" x="99" y="51" text-anchor="middle">2024</text></svg></div><b>71–78mm</b></div><strong>主流旗舰机身宽度持续扩张，重量攀升</strong><span>屏幕从3.5英寸扩至6.7英寸，宽度71–78mm，重量190–240g+；形态演变使单手握持负担显著增大</span><cite>GSMArena 2024；IDC 2024</cite></div>
       </div>
       <div class="fg-source fg-market-source">
-        <div>来源：Counterpoint Research. Global smartphone market revenue and ASP tracker 2024。</div>
-      </div>
-    </div>
-  </section>
-<section class="slide bar" data-layout="S07" data-animate="bar-grow">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item on" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
-      
-    <div class="chrome-min">
-      <div class="l">GripFit Defense · Use Time</div>
-      <div class="r">07 / 74</div>
-    </div>
-      <div class="gf-main">
-        
-    <div data-anim="head" class="gf-head">
-      <div class="t-meta">HEALTH BURDEN</div>
-      <h2 class="gf-title">长时间手机握持的健康威胁</h2>
-      <p class="gf-lead">握持不适不只是主观抱怨，使用时长、握持姿势与物理参数均被文献证明与手部疼痛、不适或损伤相关。</p>
-    </div>
-        <div class="gf-body"><div class="gf-kpis">
-    <div class="gf-kpi" data-anim="card">
-      <div class="mc-top"><div class="mchart"><svg viewBox="0 0 132 52" fill="none"><text class="val" x="6" y="9" text-anchor="start">4h37m</text><rect x="6" y="14" width="120" height="11" rx="2.5" fill="#dcdad5"/><rect x="6" y="14" width="23.1" height="11" rx="2.5" fill="#ff6b35"/><line x1="6" y1="36" x2="126" y2="36" stroke="#c8c6c1" stroke-width="1"/><line x1="6" y1="33" x2="6" y2="36" stroke="#c8c6c1"/><line x1="66" y1="33" x2="66" y2="36" stroke="#c8c6c1"/><line x1="126" y1="33" x2="126" y2="36" stroke="#c8c6c1"/><text class="lab" x="6" y="48" text-anchor="start">0</text><text class="lab" x="66" y="48" text-anchor="middle">12h</text><text class="lab" x="126" y="48" text-anchor="end">24h</text></svg></div><div class="gf-kpi-num">4h37m</div></div>
-      <div class="gf-kpi-label">全球人均每日手机使用时长</div>
-      <div class="gf-kpi-sub">手机已成日常时间的第一消耗品</div>
-      <div class="gf-kpi-note">Exploding Topics 2023</div>
-    </div>
-    <div class="gf-kpi" data-anim="card">
-      <div class="mc-top"><div class="mchart"><svg viewBox="0 0 132 52" fill="none"><line x1="6" y1="42" x2="126" y2="42" stroke="#c8c6c1" stroke-width="1"/><rect x="26" y="18" width="30" height="24" fill="#bdbbb6"/><rect x="76" y="14" width="30" height="28" fill="#ff6b35"/><text class="valn" x="41" y="14" text-anchor="middle">4h37m</text><text class="val" x="91" y="10" text-anchor="middle">5h21m</text><text class="lab" x="41" y="51" text-anchor="middle">全球</text><text class="lab" x="91" y="51" text-anchor="middle">广州</text></svg></div><div class="gf-kpi-num">5h21m</div></div>
-      <div class="gf-kpi-label">广州城市成年人每日平均使用手机时长</div>
-      <div class="gf-kpi-sub">国内使用时长显著高于全球均值</div>
-      <div class="gf-kpi-note">GPS 数字生活报告（香港科技大学广州）</div>
-    </div>
-    <div class="gf-kpi" data-anim="card">
-      <div class="mc-top"><div class="mchart"><svg viewBox="0 0 132 52" fill="none"><text class="val" x="6" y="9" text-anchor="start">76.65%</text><rect x="6" y="14" width="120" height="11" rx="2.5" fill="#dcdad5"/><rect x="6" y="14" width="91.98" height="11" rx="2.5" fill="#ff6b35"/><line x1="6" y1="36" x2="126" y2="36" stroke="#c8c6c1" stroke-width="1"/><line x1="6" y1="33" x2="6" y2="36" stroke="#c8c6c1"/><line x1="66" y1="33" x2="66" y2="36" stroke="#c8c6c1"/><line x1="126" y1="33" x2="126" y2="36" stroke="#c8c6c1"/><text class="lab" x="6" y="48" text-anchor="start">0</text><text class="lab" x="66" y="48" text-anchor="middle">50</text><text class="lab" x="126" y="48" text-anchor="end">100%</text></svg></div><div class="gf-kpi-num">76.65%</div></div>
-      <div class="gf-kpi-label">大学生样本报告单手或双手疼痛</div>
-      <div class="gf-kpi-sub">超七成用户存在手部健康风险</div>
-      <div class="gf-kpi-note">BMC Musculoskeletal Disorders 2024</div>
-    </div>
-    <div class="gf-kpi" data-anim="card">
-      <div class="mc-top"><div class="mchart"><svg viewBox="0 0 132 52" fill="none"><line x1="6" y1="42" x2="126" y2="42" stroke="#c8c6c1" stroke-width="1"/><rect x="24" y="24" width="30" height="18" fill="#ff6b35"/><rect x="78" y="31" width="30" height="11" fill="#bdbbb6"/><text class="val" x="39" y="20" text-anchor="middle">59.3%</text><text class="valn" x="93" y="27" text-anchor="middle">36.3%</text><text class="lab" x="39" y="51" text-anchor="middle">右手不适</text><text class="lab" x="93" y="51" text-anchor="middle">≥2区域</text></svg></div><div class="gf-kpi-num">59.3%</div></div>
-      <div class="gf-kpi-label">学生右手存在手机引发不适</div>
-      <div class="gf-kpi-sub">近六成用户右手受累于手机物理特性</div>
-      <div class="gf-kpi-note">BMC Public Health 2024</div>
-    </div></div></div>
-        
-        <div data-anim="foot" class="gf-foot">来源：Exploding Topics. Screen time statistics 2023；香港科技大学（广州）社会枢纽城市治理与设计学域. 广州都市动态调查（GPS）首期数字生活报告；Dehghan Banadaki F, Rahimian B, Moraveji F, et al. The impact of smartphone use duration and posture on the prevalence of hand pain among college students；Rahimian B, Dehghan Banadaki F, Moraveji F, et al. Examining the relationship between smartphone characteristics and the prevalence of hand discomfort among university students。</div>
-      </div>
-    </div>
-  </section>
-<section class="slide " data-layout="S20" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item on" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
-      
-    <div class="chrome-min">
-      <div class="l">GripFit Defense · Device Form</div>
-      <div class="r">08 / 74</div>
-    </div>
-      <div class="gf-main">
-        
-    <div data-anim="head" class="gf-head">
-      <div class="t-meta">FORM EVOLUTION</div>
-      <h2 class="gf-title">设备形态的人因挑战</h2>
-      <p class="gf-lead">过去十年手机从小屏通讯工具演化为大屏核心终端，宽度和重量的持续增长使单手握持负担增加。</p>
-    </div>
-        <div class="gf-body"><div class="gf-device-form" data-anim="diagram">
-    <div class="gf-device-scale">
-      <div class="gf-device-scale-head">
-        <b>从小屏通讯工具到大屏核心终端</b>
-      </div>
-      <div class="gf-device-line">
-        <i style="left:8%"></i><i style="left:44%"></i><i style="left:68%"></i><i style="left:92%"></i>
-      </div>
-      <div class="gf-device-callout">
-        <strong>握持负担同步加重</strong>
-        <p>屏幕变大、宽度变宽、重量上升共同增加单手握持负担，尤其影响虎口、手腕与小指根部的持续受力。</p>
-      </div>
-    </div>
-    <div class="gf-device-cards">
-      <div class="gf-device-card" data-anim="card">
-        <span>01</span>
-        <h3>早期智能机</h3>
-        <b>3.5 英寸</b>
-        <p>屏幕和宽度低于当前主流区间</p>
-      </div><div class="gf-device-card" data-anim="card">
-        <span>02</span>
-        <h3>主流直板机</h3>
-        <b>6.1-6.7 英寸</b>
-        <p>机身宽度扩张至 71-78 mm</p>
-      </div><div class="gf-device-card" data-anim="card">
-        <span>03</span>
-        <h3>旗舰影像机</h3>
-        <b>190-230 g</b>
-        <p>摄像组增大，重心后移</p>
-      </div><div class="gf-device-card" data-anim="card">
-        <span>04</span>
-        <h3>大电池机型</h3>
-        <b>240 g+</b>
-        <p>单手握持时手部受力矩进一步增加</p>
-      </div>
-    </div>
-  </div></div>
-        
-        
+        <div>来源：Counterpoint Research 2024；Exploding Topics 2023；香港科技大学广州GPS城市调查；BMC Musculoskeletal Disorders 2024；BMC Public Health 2024；GSMArena规格数据库；IDC 2024。</div>
       </div>
     </div>
   </section>
 <section class="slide " data-layout="S14" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item on" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
-      
-    <div class="chrome-min">
-      <div class="l">GripFit Defense · Double Gap</div>
-      <div class="r">09 / 74</div>
-    </div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item on" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
+      <div class="chrome-min">
+        <div class="l">GripFit Defense · Origin &amp; Significance</div>
+        <div class="r">06 / 68</div>
+      </div>
       <div class="gf-main">
-        
-    <div data-anim="head" class="gf-head">
-      <div class="t-meta">TWO-SIDED PROBLEM</div>
-      <h2 class="gf-title">两端共同的需求缺口</h2>
-      <p class="gf-lead">设计师缺少早期预测工具，消费者缺少个体适配判断工具。两端需求共同指向数字化辅助系统。</p>
-    </div>
-        <div class="gf-body"><div class="gf-matrix" style="--cols:4">
-    <div class="gf-matrix-head">角色</div><div class="gf-matrix-head">当前做法</div><div class="gf-matrix-head">主要缺口</div><div class="gf-matrix-head">系统机会</div>
-    <div class="gf-matrix-cell"><b>设计师 / 工程师</b></div><div class="gf-matrix-cell">经验判断、竞品对标、样机试握</div><div class="gf-matrix-cell">概念阶段无法预测，验证阶段难定位</div><div class="gf-matrix-cell">参数化评估、横向对比、优化建议</div><div class="gf-matrix-cell"><b>普通消费者</b></div><div class="gf-matrix-cell">屏幕尺寸、品牌口碑、价格配置</div><div class="gf-matrix-cell">不了解自身手型与目标机型适配</div><div class="gf-matrix-cell">手部测量、匹配评分、风险提示</div>
-  </div></div>
-        
-        
-      </div>
-    </div>
-  </section><section class="slide " data-layout="S14" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item on" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
-      
-    <div class="chrome-min">
-      <div class="l">GripFit Defense · Tool Gap</div>
-      <div class="r">10 / 74</div>
-    </div>
-      <div class="gf-main">
-        
-    <div data-anim="head" class="gf-head">
-      <div class="t-meta">EXISTING TOOL GAP</div>
-      <h2 class="gf-title">现有工具的局限性</h2>
-      <p class="gf-lead">CAESAR、DINED、RTINGS、Versus、Topology、Volumental 都给出参考，但没有一类工具同时覆盖手机握持、设计验证和消费者推荐。</p>
-    </div>
-        <div class="gf-body"><div class="gf-tool-showcase">
-    <div class="gf-tool-screenshots">
-      
-      <div class="gf-tool-img-row">
-        <figure class="gf-tool-img-frame">
-          <img src="thesis_figures/original/fig_006.png" alt="Siemens Jack 7.1" />
-          <div class="gf-tool-label">Siemens Jack 7.1</div>
-        </figure>
-        <figure class="gf-tool-img-frame">
-          <img src="thesis_figures/original/fig_010.png" alt="CAESAR / HumanShape" />
-          <div class="gf-tool-label">CAESAR / HumanShape</div>
-        </figure>
-        <figure class="gf-tool-img-frame">
-          <img src="thesis_figures/original/fig_012.png" alt="DINED Platform" />
-          <div class="gf-tool-label">DINED Platform</div>
-        </figure>
-      </div>
-      <div class="gf-tool-img-cap">图片来源：论文第1、2章文献研究引用截图</div>
-      <div class="gf-tool-gap">
-        <b>共同局限 · Common Gap</b>
-        <p>上述工具均不能同时满足：① 中国用户手部测量数据 ② 直接映射手机形态参数 ③ 设计端与消费者端双向服务。三个条件缺一不可，正是 GripFit 的差异化定位所在。</p>
-      </div>
-    </div>
-    <div class="gf-tool-analysis">
-      
-      <div class="gf-tool-row head-row">
-        <div>工具类型</div><div>核心优势</div><div>手机形态适配</div><div>主要缺口</div>
-      </div>
-      <div class="gf-tool-row">
-        <div>人因仿真软件<br><small style="color:var(--text-helper);font-size:.9em">Siemens Jack · CATIA</small></div>
-        <div>生物力学分析<br>虚拟人体建模</div>
-        <div style="color:#c0392b">✗ 操作门槛极高</div>
-        <div>无法融入手机设计日常流程；不产出优化建议</div>
-      </div>
-      <div class="gf-tool-row">
-        <div>人体测量数据库<br><small style="color:var(--text-helper);font-size:.9em">CAESAR · DINED</small></div>
-        <div>数据完整<br>专业性强</div>
-        <div style="color:#c0392b">✗ 欧美人群主导</div>
-        <div>不映射手机参数，无个体适配计算</div>
-      </div>
-      <div class="gf-tool-row">
-        <div>参数推荐平台<br><small style="color:var(--text-helper);font-size:.9em">RTINGS · Versus</small></div>
-        <div>信息层级成熟<br>横向对比体验好</div>
-        <div style="color:#e67e22">△ 仅规格参数</div>
-        <div>缺少手部生理特征适配依据</div>
-      </div>
-      <div class="gf-tool-row">
-        <div>扫描适配产品<br><small style="color:var(--text-helper);font-size:.9em">Topology · Volumental</small></div>
-        <div>扫描→推荐<br>体验闭环</div>
-        <div style="color:#c0392b">✗ 垂直品类绑定</div>
-        <div>不服务设计端，不面向手机品类</div>
-      </div>
-      <div class="gf-tool-row gf-gripfit-row">
-        <div>GripFit（本课题）</div>
-        <div>量化模型<br>双端服务</div>
-        <div style="color:var(--accent);font-weight:600">✓ 中国手部数据<br>✓ 直接映射手机参数</div>
-        <div style="color:var(--accent)">同时覆盖设计验证与消费者个性化推荐</div>
-      </div>
-    </div>
-  </div></div>
-        
-        
+        <div data-anim="head" class="gf-head">
+          <div class="t-meta">RESEARCH ORIGIN &amp; SIGNIFICANCE · 1.1.3</div>
+          <h2 class="gf-title">课题来源与研究意义</h2>
+          <p class="gf-lead">本课题源于校企联合研究项目，两端共同需求指向将握持舒适度量化评价机制转化为数字化辅助工具。</p>
+        </div>
+        <div class="gf-body">
+          <div style="display:flex;gap:2vw;height:100%;min-height:0">
+            <div style="flex:0 0 38%;display:flex;flex-direction:column;gap:1.2vh">
+              <div style="background:var(--ink);color:var(--paper);padding:1.1vh 1vw .9vh;border-radius:2px">
+                <div style="font-family:var(--mono);font-size:max(8px,.55vw);letter-spacing:.12em;opacity:.55;text-transform:uppercase;margin-bottom:.3vh">COURSE ORIGIN · 1.1.3</div>
+                <div style="font-family:var(--sans),var(--sans-zh);font-size:min(.9vw,1.6vh);font-weight:700">校企联合研究项目</div>
+              </div>
+              <div style="background:var(--grey-1);border:1px solid var(--border-subtle);border-radius:2px;padding:1.2vh 1vw;flex:1;display:flex;flex-direction:column;gap:1vh">
+                <div style="font-family:var(--sans),var(--sans-zh);font-size:min(.78vw,1.38vh);font-weight:700;color:var(--ink)">小米手机手感人因工程</div>
+                <div style="font-family:var(--sans),var(--sans-zh);font-size:min(.68vw,1.2vh);color:var(--text-secondary);line-height:1.5">合作企业：北京小米移动软件有限公司</div>
+                <div style="width:100%;height:1px;background:var(--border-subtle)"></div>
+                <div style="font-family:var(--sans),var(--sans-zh);font-size:min(.67vw,1.18vh);color:var(--text-secondary);line-height:1.55">以不同年龄段用户握持智能手机的手感体验为研究对象，通过控制变量实验与主客观评价相结合的方法，系统分析影响握持手感的关键形态参数与适配规律，建立握持舒适度评价机制。</div>
+                <div style="width:100%;height:1px;background:var(--border-subtle)"></div>
+                <div style="display:flex;flex-direction:column;gap:.6vh">
+                  <div style="display:flex;gap:.6vw;align-items:flex-start"><span style="font-family:var(--mono);font-size:max(7px,.52vw);color:var(--accent);font-weight:700;flex:0 0 auto;padding-top:.1vh">ROLE</span><span style="font-family:var(--sans),var(--sans-zh);font-size:min(.65vw,1.15vh);color:var(--text-secondary);line-height:1.4">笔者作为项目负责人，主导用户调研、实验设计与执行、方案产出与汇报全流程</span></div>
+                  <div style="display:flex;gap:.6vw;align-items:flex-start"><span style="font-family:var(--mono);font-size:max(7px,.52vw);color:var(--accent);font-weight:700;flex:0 0 auto;padding-top:.1vh">OUTPUT</span><span style="font-family:var(--sans),var(--sans-zh);font-size:min(.65vw,1.15vh);color:var(--text-secondary);line-height:1.4">最优手感实体模型与人因评价范式，为小米终端部门产品研发提供数据参考</span></div>
+                </div>
+              </div>
+            </div>
+            <div style="flex:1;display:flex;flex-direction:column;gap:1.2vh">
+              <div style="background:var(--ink);color:var(--paper);padding:1.1vh 1vw .9vh;border-radius:2px">
+                <div style="font-family:var(--mono);font-size:max(8px,.55vw);letter-spacing:.12em;opacity:.55;text-transform:uppercase;margin-bottom:.3vh">RESEARCH SIGNIFICANCE · 1.1.2</div>
+                <div style="font-family:var(--sans),var(--sans-zh);font-size:min(.9vw,1.6vh);font-weight:700">两端共同的需求缺口</div>
+              </div>
+              <div class="gf-matrix" style="--cols:4;flex:1">
+                <div class="gf-matrix-head">角色</div><div class="gf-matrix-head">当前做法</div><div class="gf-matrix-head">主要缺口</div><div class="gf-matrix-head">系统机会</div>
+                <div class="gf-matrix-cell"><b>设计师 / 工程师</b><br><small style="color:var(--text-helper);font-size:.85em">ToB 端</small></div><div class="gf-matrix-cell">经验判断、竞品对标、样机试握</div><div class="gf-matrix-cell">概念阶段无法预测；验证阶段难定位瓶颈</div><div class="gf-matrix-cell">参数化评估、横向对比、优化建议</div>
+                <div class="gf-matrix-cell"><b>普通消费者</b><br><small style="color:var(--text-helper);font-size:.85em">ToC 端</small></div><div class="gf-matrix-cell">屏幕尺寸、品牌口碑、价格配置</div><div class="gf-matrix-cell">不了解自身手型与目标机型适配关系</div><div class="gf-matrix-cell">手部测量、匹配评分、风险提示</div>
+              </div>
+              <div style="background:var(--grey-1);border-left:3px solid var(--accent);padding:.9vh 1vw;border-radius:0 2px 2px 0">
+                <span style="font-family:var(--sans),var(--sans-zh);font-size:min(.72vw,1.28vh);color:var(--ink);line-height:1.5">上述两端需求共同指向同一方向：将握持舒适度的量化评价机制转化为设计师与普通用户均可使用的数字化辅助工具。这也是本课题选题的直接出发点。</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-
+<section class="slide " data-layout="S14" data-animate="grid-reveal">
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item on" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
+      <div class="chrome-min">
+        <div class="l">GripFit Defense · Research Status</div>
+        <div class="r">07 / 68</div>
+      </div>
+      <div class="gf-main">
+        <div data-anim="head" class="gf-head">
+          <div class="t-meta">LITERATURE REVIEW · 1.2</div>
+          <h2 class="gf-title">国内外研究现状</h2>
+          <p class="gf-lead">握持舒适度理论研究奠定了方法论基础，但现有数字化工具在手机握持情境下均存在明显局限。</p>
+        </div>
+        <div class="gf-body">
+          <div style="display:flex;gap:2vw;height:100%;min-height:0">
+            <div style="flex:0 0 34%;display:flex;flex-direction:column;gap:1vh">
+              <div style="background:var(--ink);color:var(--paper);padding:.9vh 1vw .75vh;border-radius:2px;flex:0 0 auto">
+                <div style="font-family:var(--mono);font-size:max(7px,.52vw);letter-spacing:.12em;opacity:.55;text-transform:uppercase;margin-bottom:.2vh">COMFORT THEORY · 1.2.1</div>
+                <div style="font-family:var(--sans),var(--sans-zh);font-size:min(.85vw,1.5vh);font-weight:700">握持舒适度理论研究</div>
+              </div>
+              <div style="flex:1;display:flex;flex-direction:column;gap:.85vh">
+                <div style="background:var(--grey-1);border:1px solid var(--border-subtle);border-radius:2px;padding:.85vh .9vw">
+                  <div style="font-family:var(--mono);font-size:max(7px,.5vw);color:var(--accent);font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin-bottom:.3vh">多维主观体验框架</div>
+                  <div style="font-family:var(--sans),var(--sans-zh);font-size:min(.65vw,1.15vh);color:var(--text-secondary);line-height:1.5">de Looze等指出舒适感与不适感可并存，应分别测量；Vink与Hallbeck进一步强调两个维度不能相互替代，构成本研究量表设计的理论依据。</div>
+                </div>
+                <div style="background:var(--grey-1);border:1px solid var(--border-subtle);border-radius:2px;padding:.85vh .9vw">
+                  <div style="font-family:var(--mono);font-size:max(7px,.5vw);color:var(--accent);font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin-bottom:.3vh">主客观评价方法</div>
+                  <div style="font-family:var(--sans),var(--sans-zh);font-size:min(.65vw,1.15vh);color:var(--text-secondary);line-height:1.5">主观：Likert量表、VAS视觉模拟量表、身体分区图；客观：sEMG表面肌电、接触压力分布、关节角度。Kong与Lowe证实手柄直径变化会显著改变前臂肌电活动水平。</div>
+                </div>
+                <div style="background:var(--grey-1);border:1px solid var(--border-subtle);border-radius:2px;padding:.85vh .9vw">
+                  <div style="font-family:var(--mono);font-size:max(7px,.5vw);color:var(--accent);font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin-bottom:.3vh">研究缺口</div>
+                  <div style="font-family:var(--sans),var(--sans-zh);font-size:min(.65vw,1.15vh);color:var(--text-secondary);line-height:1.5">既有研究集中于手工具与早期手持终端；针对当代智能手机多维形态参数（宽度、曲率、重量、重心、摄像模组等）的系统性研究仍匮乏。</div>
+                </div>
+              </div>
+            </div>
+            <div style="flex:1;display:flex;flex-direction:column;gap:1vh">
+              <div style="background:var(--ink);color:var(--paper);padding:.9vh 1vw .75vh;border-radius:2px;flex:0 0 auto">
+                <div style="font-family:var(--mono);font-size:max(7px,.52vw);letter-spacing:.12em;opacity:.55;text-transform:uppercase;margin-bottom:.2vh">DIGITAL TOOLS · 1.2.2</div>
+                <div style="font-family:var(--sans),var(--sans-zh);font-size:min(.85vw,1.5vh);font-weight:700">现有数字化辅助工具局限</div>
+              </div>
+              <div class="gf-tool-analysis" style="flex:1">
+                <div class="gf-tool-row head-row"><div>工具类型</div><div>核心优势</div><div>手机形态适配</div><div>主要缺口</div></div>
+                <div class="gf-tool-row"><div>人因仿真软件<br><small style="color:var(--text-helper)">Siemens Jack · CATIA</small></div><div>生物力学分析<br>虚拟人体建模</div><div style="color:#c0392b">✗ 操作门槛极高</div><div>无法融入手机设计日常流程；不产出优化建议</div></div>
+                <div class="gf-tool-row"><div>人体测量数据库<br><small style="color:var(--text-helper)">CAESAR · DINED</small></div><div>数据完整<br>专业性强</div><div style="color:#c0392b">✗ 欧美人群主导</div><div>不映射手机参数；无个体适配计算；中国用户覆盖不足</div></div>
+                <div class="gf-tool-row"><div>参数推荐平台<br><small style="color:var(--text-helper)">RTINGS · Versus</small></div><div>横向对比体验好</div><div style="color:#e67e22">△ 仅规格参数</div><div>缺少手部生理特征适配依据</div></div>
+                <div class="gf-tool-row"><div>扫描适配产品<br><small style="color:var(--text-helper)">Topology · Volumental</small></div><div>扫描→推荐闭环</div><div style="color:#c0392b">✗ 垂直品类绑定</div><div>不服务设计端；不面向手机品类</div></div>
+                <div class="gf-tool-row gf-gripfit-row"><div>GripFit（本课题）</div><div>量化模型<br>双端服务</div><div style="color:var(--accent);font-weight:600">✓ 中国手部数据<br>✓ 直接映射手机参数</div><div style="color:var(--accent)">同时覆盖设计验证与消费者个性化推荐</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 <section class="slide grey gf-chapter" data-layout="S03" data-animate="statement" id="ch2">
     <div class="canvas-card">
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Chapter 2</div>
-      <div class="r">11 / 74</div>
+      <div class="r">08 / 68</div>
     </div>
       <div class="gf-chapter-body">
         <div class="t-meta">CHAPTER 02</div>
@@ -2086,11 +1981,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S08" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item on" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item on" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Research Design</div>
-      <div class="r">12 / 74</div>
+      <div class="r">09 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -2121,11 +2016,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S11" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item on" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item on" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Interview Flow Redraw</div>
-      <div class="r">13 / 74</div>
+      <div class="r">10 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -2216,8 +2111,8 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
   </section>
 
 <section class="slide " data-layout="S13j13" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item on" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
-      <div class="chrome-min"><div class="l">GripFit Defense · ToC Journey</div><div class="r">14 / 74</div></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item on" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
+      <div class="chrome-min"><div class="l">GripFit Defense · ToC Journey</div><div class="r">11 / 68</div></div>
       <div class="gf-main"><p class="jrny-sum">普通消费者从产生购机需求到形成决策的全过程，始终缺乏可依赖的握持适配判断工具，情绪在 <em>握持风险评估</em> 阶段跌至谷底——这正是 ToC 端要补齐的核心决策支撑。</p><div class="jmap-wrap"><div class="jmap" data-anim="card">
         <div class="jmap-cap">手机握持舒适度设计系统 · ToC 用户体验旅程图 · <em>普通消费者购机决策</em></div>
         <div class="jmap-grid">
@@ -2234,8 +2129,8 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
   </section>
 
 <section class="slide " data-layout="S13j14" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item on" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
-      <div class="chrome-min"><div class="l">GripFit Defense · ToB Journey</div><div class="r">15 / 74</div></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item on" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
+      <div class="chrome-min"><div class="l">GripFit Defense · ToB Journey</div><div class="r">12 / 68</div></div>
       <div class="gf-main"><p class="jrny-sum">工业设计师的痛点高度集中在 <em>数字建模与舒适度评估</em> 两个环节，缺乏量化预判导致反复试错；这两个阶段正是 ToB 端数字化介入最具价值的切入点。</p><div class="jmap-wrap"><div class="jmap" data-anim="card">
         <div class="jmap-cap">手机握持舒适度设计系统 · ToB 用户体验旅程图 · <em>工业设计师设计流程</em></div>
         <div class="jmap-grid">
@@ -2251,11 +2146,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S14" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item on" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item on" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Interview Sample</div>
-      <div class="r">16 / 74</div>
+      <div class="r">13 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -2274,11 +2169,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide timeline" data-layout="S08" data-animate="timeline-walk">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item on" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item on" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Design Journey</div>
-      <div class="r">17 / 74</div>
+      <div class="r">14 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -2324,11 +2219,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide bar" data-layout="S07" data-animate="bar-grow">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item on" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item on" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Design Frequency</div>
-      <div class="r">18 / 74</div>
+      <div class="r">15 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -2369,11 +2264,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S10" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item on" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item on" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Design Strategy</div>
-      <div class="r">19 / 74</div>
+      <div class="r">16 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -2402,11 +2297,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S11" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item on" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item on" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Modules</div>
-      <div class="r">20 / 74</div>
+      <div class="r">17 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -2444,7 +2339,7 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Chapter 3</div>
-      <div class="r">21 / 74</div>
+      <div class="r">18 / 68</div>
     </div>
       <div class="gf-chapter-body">
         <div class="t-meta">CHAPTER 03</div>
@@ -2499,291 +2394,248 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
   .s31 .gf-title b{color:var(--accent)}
   .s31 .t-meta{color:var(--accent)}
 </style>
-<section class="slide s31" data-layout="S07c" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item on" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
-      <div class="dots-deco" aria-hidden="true"></div>
-    <div class="chrome-min">
-      <div class="l">GripFit Defense · Concept Evolution</div>
-      <div class="r">22 / 74</div>
-    </div>
+<section class="slide " data-layout="SA" data-animate="grid-reveal">
+    <div class="canvas-card">
+      <div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item on" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
+      <div class="chrome-min"><div class="l">GripFit Defense · Research Motivation</div><div class="r">19 / 68</div></div>
       <div class="gf-main">
         <div data-anim="head" class="gf-head">
-          <div class="t-meta">FROM "DISCOMFORT-FREE" TO "MULTI-DIMENSIONAL DYNAMIC EXPERIENCE"</div>
-          <h2 class="gf-title">握持舒适度概念的<b>演化</b>与本研究<b>量表界定</b></h2>
-          <p class="gf-lead">舒适度的学术内涵历经三阶段演进；本研究据此将握持手感界定为两个相互独立的可测维度，并落定到 0—10 分评价量表。</p>
+          <div class="t-meta">CHAPTER 03 MOTIVATION · 市场溢价 × 使用时长 × 健康风险 × 形态演变</div>
+          <h2 class="gf-title">研究背景：握持手感成为<b>溢价竞争</b>核心与<b>健康问题</b>来源</h2>
+          <p class="gf-lead">市场溢价化竞争、长时使用带来的健康威胁与设备形态的持续演变，共同构成理论建构的现实驱动力。</p>
         </div>
-        <div class="gf-body"><div class="derive">
-          <div class="evo-tier">
-            <div class="evo-cell">
-              <div class="evo-stage">EARLY · 早期</div>
-              <div class="evo-h">握力 / 疼痛缺失</div>
-              <div class="evo-src">Kong &amp; Lowe [16]</div>
-              <p>以最大握力输出与不适缺失作为舒适度替代指标，"最适直径即握力峰值"。</p>
-              <div class="evo-crit">局限 · 握力最优 ≠ 舒适最优</div>
+        <div class="gf-body" data-anim="card">
+          <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1.3vw;width:100%;height:100%;align-content:start">
+            <div class="fg-metric-card">
+              <div class="mc-top">
+                <div class="mchart"><svg viewBox="0 0 132 52" fill="none"><line x1="6" y1="30" x2="126" y2="30" stroke="#c8c6c1" stroke-width="1"/><rect x="14" y="30" width="22" height="9" fill="#bdbbb6"/><rect x="55" y="30" width="22" height="13" fill="#bdbbb6"/><rect x="96" y="17" width="22" height="13" fill="#ff6b35"/><text class="val" x="107" y="13" text-anchor="middle">+5%</text><text class="lab" x="25" y="50" text-anchor="middle">2022</text><text class="lab" x="66" y="50" text-anchor="middle">2023</text><text class="lab" x="107" y="50" text-anchor="middle">2024</text></svg></div>
+                <b>$356</b>
+              </div>
+              <strong>2024年全球手机均价攀至历史最高</strong>
+              <span>溢价化成为市场增长核心驱动力；≥1000美元超高端占比首次突破40%，握持手感成为品牌溢价核心战场</span>
+              <cite>Counterpoint Research 2024</cite>
             </div>
-            <div class="evo-cell">
-              <div class="evo-stage">MID · 中期</div>
-              <div class="evo-h">不适量表反向推定</div>
-              <div class="evo-src">Corlett &amp; Bishop [15] · Kuijt-Evers [17]</div>
-              <p>以部位不适度（0 = 无不适）反推舒适水平，舒适沦为不适的镜像。</p>
-              <div class="evo-crit">局限 · 无不适 ≠ 高舒适</div>
+            <div class="fg-metric-card">
+              <div class="mc-top">
+                <div class="mchart"><svg viewBox="0 0 132 52" fill="none"><line x1="6" y1="42" x2="126" y2="42" stroke="#c8c6c1" stroke-width="1"/><rect x="26" y="18" width="30" height="24" fill="#bdbbb6"/><rect x="76" y="14" width="30" height="28" fill="#ff6b35"/><text class="valn" x="41" y="14" text-anchor="middle">4h37m</text><text class="val" x="91" y="10" text-anchor="middle">5h21m</text><text class="lab" x="41" y="51" text-anchor="middle">全球</text><text class="lab" x="91" y="51" text-anchor="middle">广州</text></svg></div>
+                <b>5h21m</b>
+              </div>
+              <strong>中国城市用户每日平均使用手机时长</strong>
+              <span>国内使用时长显著高于全球均值；超四分之一用户每天超8小时，长时间握持带来肌肉骨骼负担</span>
+              <cite>香港科技大学广州 GPS 数字生活报告</cite>
             </div>
-            <div class="evo-cell now">
-              <div class="evo-stage">MODERN · 现代</div>
-              <div class="evo-h">多维动态体验</div>
-              <div class="evo-src">de Looze [12] · Vink &amp; Hallbeck [13] · Lee [11]</div>
-              <p>舒适由功能控制、物理匹配、生理体验、姿态负荷与情感期望共同构成。</p>
-              <div class="evo-crit">确立 · 舒适与不适相互独立</div>
+            <div class="fg-metric-card">
+              <div class="mc-top">
+                <div class="mchart"><svg viewBox="0 0 132 52" fill="none"><text class="val" x="6" y="9" text-anchor="start">76.65%</text><rect x="6" y="14" width="120" height="11" rx="2.5" fill="#dcdad5"/><rect x="6" y="14" width="91.98" height="11" rx="2.5" fill="#ff6b35"/><line x1="6" y1="36" x2="126" y2="36" stroke="#c8c6c1" stroke-width="1"/><text class="lab" x="6" y="48" text-anchor="start">0</text><text class="lab" x="66" y="48" text-anchor="middle">50%</text><text class="lab" x="126" y="48" text-anchor="end">100%</text></svg></div>
+                <b>76.65%</b>
+              </div>
+              <strong>大学生样本报告存在手部疼痛</strong>
+              <span>超七成用户面临握持相关健康风险；59.3%右手受累，36.3%报告≥2个区域不适</span>
+              <cite>BMC Musculoskeletal Disorders 2024</cite>
+            </div>
+            <div class="fg-metric-card">
+              <div class="mc-top">
+                <div class="mchart"><svg viewBox="0 0 132 52" fill="none"><line x1="6" y1="44" x2="126" y2="44" stroke="#c8c6c1" stroke-width="1"/><rect x="14" y="30" width="18" height="14" fill="#bdbbb6"/><rect x="52" y="22" width="18" height="22" fill="#bdbbb6"/><rect x="90" y="10" width="18" height="34" fill="#ff6b35"/><text class="val" x="99" y="7" text-anchor="middle">240g+</text><text class="lab" x="23" y="51" text-anchor="middle">2014</text><text class="lab" x="61" y="51" text-anchor="middle">2019</text><text class="lab" x="99" y="51" text-anchor="middle">2024</text></svg></div>
+                <b>71–78mm</b>
+              </div>
+              <strong>主流旗舰机身宽度持续扩张，重量攀升</strong>
+              <span>屏幕从3.5英寸扩至6.7英寸，宽度71–78mm，重量190–240g+；形态演变使单手握持负担显著增大</span>
+              <cite>GSMArena 2024；IDC 2024</cite>
             </div>
           </div>
-          <div class="evo-arrows"><span></span><span></span><span></span></div>
-          <div class="bridge">
-            <div class="bk">理论落点</div>
-            <div class="bt">现代框架要求"手感"<b>超越物理接触层</b> —— 本研究据此将握持手感拆分为两个相互独立的可测维度，作为量表设计的概念依据。</div>
-          </div>
-          <div class="down-mark">▼</div>
-          <div class="def-tier">
-            <div class="def-card">
-              <div class="def-head"><b>舒适感</b><span class="en">physical comfort</span></div>
-              <p>手部与机身接触界面的物理层感受：形态贴合度、接触压力分布、握持稳定性与局部不适感等可测指标。</p>
-              <div class="basis"><b>理论依据 ·</b> de Looze 等 [12] 接触界面生理效应框架</div>
-            </div>
-            <div class="def-card sec">
-              <div class="def-head"><b>体验感</b><span class="en">holistic grip experience</span></div>
-              <p>握持的整体感知质量判断：稳重感、操控感、使用便利性等认知与情感评价，超越直接接触感受。</p>
-              <div class="basis"><b>理论依据 ·</b> Vink &amp; Hallbeck [13] 引入"期望"调节变量</div>
-            </div>
-            <div class="anchor">
-              <div class="ah">满分（10 分）操作性界定</div>
-              <p>接触界面无可察觉压迫 / 疼痛，握持稳定且无需补偿性用力，腕指接近中立位姿，整体品质达个人预期上限——无需进一步改变形态。</p>
-              <div class="scale">
+        </div>
+        <div class="gf-foot" data-anim="foot">来源：Counterpoint Research 2024；Exploding Topics 2023；香港科技大学广州GPS城市调查；BMC Musculoskeletal Disorders 2024；GSMArena规格数据库；IDC 2024</div>
+      </div>
+    </div>
+  </section>
+  <section class="slide s31" data-layout="SB" data-animate="grid-reveal">
+    <div class="canvas-card">
+      <div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item on" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
+      <div class="chrome-min"><div class="l">GripFit Defense · Theory Framework</div><div class="r">20 / 68</div></div>
+      <div class="gf-main">
+        <div data-anim="head" class="gf-head">
+          <div class="t-meta">THEORETICAL FRAMEWORK & HUMAN FACTORS</div>
+          <h2 class="gf-title">握持体验理论演化、<b>量表界定</b>与人因分类基础</h2>
+          <p class="gf-lead">舒适度概念三阶段演进确立两独立维度；手部人因分类与握持姿态研究为指标采集提供基础。</p>
+        </div>
+        <div class="gf-body" data-anim="card">
+          <div style="display:grid;grid-template-columns:58% 42%;gap:1.6vw;height:100%">
+            <div style="display:flex;flex-direction:column;gap:.9vh">
+              <div class="evo-tier">
+                <div class="evo-cell">
+                  <div class="evo-stage">EARLY · 早期</div>
+                  <div class="evo-h">握力 / 疼痛缺失</div>
+                  <div class="evo-src">Kong &amp; Lowe [16]</div>
+                  <p style="font-size:max(10px,.58vw);line-height:1.4;margin:.3vh 0">以最大握力输出与不适缺失作为舒适度替代指标，"最适直径即握力峰值"。</p>
+                  <div class="evo-crit">局限 · 握力最优 ≠ 舒适最优</div>
+                </div>
+                <div class="evo-cell">
+                  <div class="evo-stage">MID · 中期</div>
+                  <div class="evo-h">不适量表反向推定</div>
+                  <div class="evo-src">Corlett &amp; Bishop [15] · Kuijt-Evers [17]</div>
+                  <p style="font-size:max(10px,.58vw);line-height:1.4;margin:.3vh 0">以部位不适度（0=无不适）反推舒适水平，舒适沦为不适的镜像。</p>
+                  <div class="evo-crit">局限 · 无不适 ≠ 高舒适</div>
+                </div>
+                <div class="evo-cell now">
+                  <div class="evo-stage">MODERN · 现代</div>
+                  <div class="evo-h">多维动态体验</div>
+                  <div class="evo-src">de Looze [12] · Vink &amp; Hallbeck [13] · Lee [11]</div>
+                  <p style="font-size:max(10px,.58vw);line-height:1.4;margin:.3vh 0">舒适由功能控制、物理匹配、生理体验、姿态负荷与情感期望共同构成。</p>
+                  <div class="evo-crit">确立 · 舒适与不适相互独立</div>
+                </div>
+              </div>
+              <div class="bridge" style="padding:.5vh .9vw">
+                <div class="bk">理论落点</div>
+                <div class="bt">现代框架要求"手感"<b>超越物理接触层</b> —— 本研究据此将握持手感拆分为两个相互独立的可测维度。</div>
+              </div>
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:.8vw">
+                <div class="def-card">
+                  <div class="def-head"><b>舒适感</b><span class="en">physical comfort</span></div>
+                  <p style="font-size:max(10px,.57vw);line-height:1.4;margin:.3vh 0">手部与机身接触界面的物理层感受：形态贴合度、接触压力分布、握持稳定性与局部不适感等可测指标。</p>
+                  <div class="basis"><b>依据 ·</b> de Looze 等 [12]</div>
+                </div>
+                <div class="def-card sec">
+                  <div class="def-head"><b>体验感</b><span class="en">holistic grip experience</span></div>
+                  <p style="font-size:max(10px,.57vw);line-height:1.4;margin:.3vh 0">握持整体感知质量：稳重感、操控感、便利性等认知与情感评价，超越直接接触感受。</p>
+                  <div class="basis"><b>依据 ·</b> Vink &amp; Hallbeck [13]</div>
+                </div>
+              </div>
+              <div class="scale" style="margin-top:.2vh">
                 <div class="scale-bar"><div class="s0"></div><div class="s1"></div><div class="s2"></div></div>
                 <div class="scale-tk"><span>0 极差</span><span>5 一般</span><span>10 极佳</span></div>
               </div>
             </div>
+            <div style="display:flex;flex-direction:column;gap:1.2vh">
+              <div style="font-family:var(--mono);font-size:max(9px,.55vw);text-transform:uppercase;letter-spacing:.1em;color:var(--text-secondary);padding-bottom:.3vh;border-bottom:1px solid var(--border-subtle)">HAND ANTHROPOMETRY · GB/T 10000-2023</div>
+              <div class="gf-matrix" style="--cols:3;font-size:max(10px,.62vw)">
+                <div class="gf-matrix-head">手型</div><div class="gf-matrix-head">手长边界</div><div class="gf-matrix-head">模型意义</div>
+                <div class="gf-matrix-cell">小手</div><div class="gf-matrix-cell">手长 &lt; 170 mm</div><div class="gf-matrix-cell">宽度敏感度更高，推荐阈值更严格</div>
+                <div class="gf-matrix-cell">中手</div><div class="gf-matrix-cell">170 ≤ 手长 &lt; 190 mm</div><div class="gf-matrix-cell">接近主流人群中位区间</div>
+                <div class="gf-matrix-cell">大手</div><div class="gf-matrix-cell">手长 ≥ 190 mm</div><div class="gf-matrix-cell">宽度容忍上限相对更高</div>
+              </div>
+              <div style="font-family:var(--mono);font-size:max(9px,.55vw);text-transform:uppercase;letter-spacing:.1em;color:var(--text-secondary);padding-bottom:.3vh;border-bottom:1px solid var(--border-subtle);margin-top:.6vh">GRIP BEHAVIOR · 4 TYPICAL POSTURES</div>
+              <div class="gf-cards four" style="gap:.7vw">
+                <div class="gf-card" style="padding:1.1vh .7vw">
+                  <div class="gf-card-num">01</div>
+                  <h3 style="font-size:max(10px,.6vw);margin:.3vh 0">单手拇指操作</h3>
+                  <p style="font-size:max(9px,.56vw);line-height:1.4">单手持机，虎口区承受主要支撑力矩；拇指可达区受宽度约束，为核心研究姿态（Karlson et al., 2008）。</p>
+                </div>
+                <div class="gf-card" style="padding:1.1vh .7vw">
+                  <div class="gf-card-num">02</div>
+                  <h3 style="font-size:max(10px,.6vw);margin:.3vh 0">双手双拇指操作</h3>
+                  <p style="font-size:max(9px,.56vw);line-height:1.4">双手各握两侧，宽度约束对两手包覆角度影响显著（Oulasvirta et al., 2013）。</p>
+                </div>
+                <div class="gf-card" style="padding:1.1vh .7vw">
+                  <div class="gf-card-num">03</div>
+                  <h3 style="font-size:max(10px,.6vw);margin:.3vh 0">单手握持对手操作</h3>
+                  <p style="font-size:max(9px,.56vw);line-height:1.4">一手握机另一手点击，握力分布均匀；常见于阅读、视频等精确操作场景。</p>
+                </div>
+                <div class="gf-card" style="padding:1.1vh .7vw">
+                  <div class="gf-card-num">04</div>
+                  <h3 style="font-size:max(10px,.6vw);margin:.3vh 0">横屏双手握持</h3>
+                  <p style="font-size:max(9px,.56vw);line-height:1.4">手机横置，重心位置与重量分布对手腕力矩影响最为显著。</p>
+                </div>
+              </div>
+            </div>
           </div>
-        </div></div>
-        <div class="gf-foot" data-anim="foot">引用文献：[11] Lee 等 手部尺寸与握持舒适度；[12] de Looze 等 舒适与不适双框架模型；[13] Vink &amp; Hallbeck 舒适与不适需独立测量；[15] Corlett &amp; Bishop 身体不适部位量表；[16] Kong &amp; Lowe 握力最优直径研究；[17] Kuijt-Evers 等 手工具握持舒适预测因子</div>
+        </div>
+        <div class="gf-foot" data-anim="foot">引用文献：[11] Lee 等；[12] de Looze 等；[13] Vink &amp; Hallbeck；[15] Corlett &amp; Bishop；[16] Kong &amp; Lowe；[17] Kuijt-Evers；[9] GB/T 10000-2023；[19] Karlson et al.；[20] Oulasvirta et al.；[36] Choi 等</div>
       </div>
     </div>
   </section>
-<section class="slide " data-layout="S14" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item on" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
-      
-    <div class="chrome-min">
-      <div class="l">GripFit Defense · Hand Groups</div>
-      <div class="r">23 / 74</div>
-    </div>
+  <section class="slide " data-layout="SC" data-animate="grid-reveal">
+    <div class="canvas-card">
+      <div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item on" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
+      <div class="chrome-min"><div class="l">GripFit Defense · Form Parameters</div><div class="r">21 / 68</div></div>
       <div class="gf-main">
-        
-    <div data-anim="head" class="gf-head">
-      <div class="t-meta">HAND ANTHROPOMETRY</div>
-      <h2 class="gf-title">手部人体测量</h2>
-      <p class="gf-lead">依据 GB/T 10000-2023 和手机握持研究，将用户按手长划分为大、中、小三组。</p>
-    </div>
-        <div class="gf-body"><div class="gf-matrix" style="--cols:3">
-    <div class="gf-matrix-head">手型</div><div class="gf-matrix-head">手长边界</div><div class="gf-matrix-head">模型意义</div>
-    <div class="gf-matrix-cell">小手</div><div class="gf-matrix-cell">手长 < 170 mm</div><div class="gf-matrix-cell">宽度敏感度更高，推荐阈值更严格</div><div class="gf-matrix-cell">中手</div><div class="gf-matrix-cell">170 mm ≤ 手长 < 190 mm</div><div class="gf-matrix-cell">接近主流人群中位区间</div><div class="gf-matrix-cell">大手</div><div class="gf-matrix-cell">手长 ≥ 190 mm</div><div class="gf-matrix-cell">宽度容忍上限相对更高</div>
-  </div></div>
-        
-        <div data-anim="foot" class="gf-foot">引用文献：[9] GB/T 10000—2023《中国成年人人体尺寸》；[35] Lee 等 手部尺寸与握持舒适度研究</div>
+        <div data-anim="head" class="gf-head">
+          <div class="t-meta">FORM FACTOR ANALYSIS · 曲率 · 摄像模组 · 按键指纹 · 重量重心</div>
+          <h2 class="gf-title">手机形态要素分析：<b>18 维</b>握持舒适感评价指标体系</h2>
+          <p class="gf-lead">基于文献综述与先导实验，系统分析曲率、摄像模组、控件布局与质量特性对握持体验的实验影响及设计建议。</p>
+        </div>
+        <div class="gf-body" data-anim="card">
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.4vw;height:100%">
+            <div style="display:flex;flex-direction:column;gap:1.1vh">
+              <div style="font-family:var(--mono);font-size:max(8px,.52vw);text-transform:uppercase;letter-spacing:.1em;color:var(--accent);border-bottom:1.5px solid var(--accent);padding-bottom:.3vh">A · 机身曲率</div>
+              <table class="gf-param-table" style="font-size:max(9px,.6vw)">
+                <colgroup><col style="width:7%"><col style="width:17%"><col style="width:8%"><col style="width:38%"><col style="width:30%"></colgroup>
+                <thead><tr><th>ID</th><th>维度</th><th>AHP</th><th>实验关系</th><th>设计建议</th></tr></thead>
+                <tbody>
+                  <tr><td class="pt-id">XE</td><td>侧边弧度</td><td class="pt-w">0.061</td><td>0–3 mm 内评分单调上升 <span class="pt-sig sig-hi">p&lt;.001</span></td><td>侧边弧度 ≥ 3 mm</td></tr>
+                  <tr><td class="pt-id">XG</td><td>背面弧度</td><td class="pt-w">0.096</td><td>弱倒 U 型，C=1.05–2.96 mm 最平稳 <span class="pt-sig sig-hi">p&lt;.001</span></td><td>背面弧度 C ≈ 2–3 mm</td></tr>
+                  <tr><td class="pt-id">XH</td><td>正反面过渡</td><td class="pt-w">—</td><td>η²=0.052；2.5D大弧度侧面均值最高（M=7.36）</td><td>优先大弧度侧面过渡</td></tr>
+                  <tr><td class="pt-id">XF</td><td>正面弧度</td><td class="pt-w">0.020</td><td>大曲率后评分加速下降 <span class="pt-sig sig-hi">p&lt;.001</span></td><td>正面弧度 C 控制 0–1.5 mm</td></tr>
+                  <tr><td class="pt-id">XD</td><td>四边圆角</td><td class="pt-w">0.032</td><td>弱线性趋势，用户感知差异有限 <span class="pt-sig sig-hi">p&lt;.001</span></td><td>9–11 mm，以工艺成本为据</td></tr>
+                </tbody>
+              </table>
+              <div style="font-family:var(--mono);font-size:max(8px,.52vw);text-transform:uppercase;letter-spacing:.1em;color:var(--accent);border-bottom:1.5px solid var(--accent);padding-bottom:.3vh;margin-top:.5vh">B · 摄像头模组</div>
+              <table class="gf-param-table" style="font-size:max(9px,.6vw)">
+                <colgroup><col style="width:7%"><col style="width:19%"><col style="width:8%"><col style="width:38%"><col style="width:28%"></colgroup>
+                <thead><tr><th>ID</th><th>维度</th><th>AHP</th><th>实验结论</th><th>设计建议</th></tr></thead>
+                <tbody>
+                  <tr><td class="pt-id">XV</td><td>后摄形态</td><td class="pt-w">—</td><td>环形台（M=7.32）显著优于横两分离圆孔（M=5.32）</td><td>优先环形台或岛屿设计</td></tr>
+                  <tr><td class="pt-id">XW</td><td>凸起过渡</td><td class="pt-w">—</td><td>分段式火山口（M=6.59）优于一体式垂直（M=5.76）</td><td>避免一体式垂直边缘</td></tr>
+                  <tr><td class="pt-id">XM</td><td>后摄大小</td><td class="pt-w">0.019</td><td>面积比约 41% 时评分最高（M=6.70）<span class="pt-sig sig-ns">p&lt;.05</span></td><td>后摄面积比 35–45%</td></tr>
+                  <tr><td class="pt-id">XJ</td><td>后摄位置</td><td class="pt-w">—</td><td>F(2,177)=0.232，p=.793，差异不显著 <span class="pt-sig sig-ns">ns</span></td><td>以工程与美观为依据</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:1.1vh">
+              <div style="font-family:var(--mono);font-size:max(8px,.52vw);text-transform:uppercase;letter-spacing:.1em;color:var(--accent);border-bottom:1.5px solid var(--accent);padding-bottom:.3vh">C · 按键与指纹布局</div>
+              <div class="gf-anova-split" style="gap:.9vw">
+                <div class="gf-anova-block">
+                  <div class="ab-id" style="font-size:max(8px,.55vw)">XR · 指纹识别位置 &nbsp;<span style="opacity:.7;font-weight:400">偏η²=0.279</span></div>
+                  <div class="ab-stat">F(4, 300) = 29.101***</div>
+                  <div class="ab-rows">
+                    <div class="ab-row"><span class="ab-rank">①</span><span>屏下指纹</span><div class="ab-track"><div class="ab-fill" style="width:100%"></div></div><span class="ab-val">M=7.67</span></div>
+                    <div class="ab-row"><span class="ab-rank">②</span><span>侧面中部</span><div class="ab-track"><div class="ab-fill" style="width:75%"></div></div><span class="ab-val">M=6.52</span></div>
+                    <div class="ab-row"><span class="ab-rank">③</span><span>背面中部</span><div class="ab-track"><div class="ab-fill" style="width:68%"></div></div><span class="ab-val">M=6.20</span></div>
+                    <div class="ab-row"><span class="ab-rank">④</span><span>边框顶部右侧</span><div class="ab-track"><div class="ab-fill" style="width:36%"></div></div><span class="ab-val">M=4.43</span></div>
+                  </div>
+                </div>
+                <div class="gf-anova-block">
+                  <div class="ab-id" style="font-size:max(8px,.55vw)">XS · 按键位置 &nbsp;<span style="opacity:.7;font-weight:400">AHP w=0.051</span></div>
+                  <div class="ab-stat">F(3, 236) = 7.870***</div>
+                  <div class="ab-rows">
+                    <div class="ab-row"><span class="ab-rank">①</span><span>音量左 + 电源右</span><div class="ab-track"><div class="ab-fill" style="width:100%"></div></div><span class="ab-val">M=6.65</span></div>
+                    <div class="ab-row"><span class="ab-rank">①</span><span>全在右侧中偏上</span><div class="ab-track"><div class="ab-fill" style="width:100%"></div></div><span class="ab-val">M=6.65</span></div>
+                    <div class="ab-row"><span class="ab-rank">③</span><span>仅顶部右侧</span><div class="ab-track"><div class="ab-fill" style="width:57%"></div></div><span class="ab-val">M=5.10</span></div>
+                  </div>
+                </div>
+              </div>
+              <div style="font-family:var(--mono);font-size:max(8px,.52vw);text-transform:uppercase;letter-spacing:.1em;color:var(--accent);border-bottom:1.5px solid var(--accent);padding-bottom:.3vh;margin-top:.5vh">D · 重量与重心</div>
+              <div class="gf-evidence">
+                <div class="gf-ev-card" style="padding:.55vh .7vw">
+                  <div class="gf-ev-head" style="font-size:max(9px,.6vw)">XI · 整机重量 &nbsp;<span style="font-family:var(--mono);font-size:.85em;opacity:.7">AHP w = 0.1885（18维最高）</span></div>
+                  <div class="gf-ev-body" style="font-size:max(9px,.6vw)">
+                    <div style="font-family:var(--mono);background:#002FA70d;border-left:3px solid var(--accent);border-radius:0 4px 4px 0;padding:.35em .6em;margin-bottom:.4vh;font-size:max(8px,.58vw)">y = −0.0004·XI² + 0.138·XI − 5.421 &nbsp; Adj.R²=0.412，p&lt;.001</div>
+                    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:.5vw;font-size:max(9px,.6vw)">
+                      <div style="background:var(--grey-0);padding:.35em .5em;border-radius:4px"><b style="font-family:var(--mono);color:var(--accent)">172 g</b><br>理论峰值</div>
+                      <div style="background:var(--grey-0);padding:.35em .5em;border-radius:4px"><b style="font-family:var(--mono);color:var(--accent)">170–190 g</b><br>建议区间</div>
+                      <div style="background:var(--grey-0);padding:.35em .5em;border-radius:4px"><b style="font-family:var(--mono);color:var(--accent)">3.07 分</b><br>170↔249g极差</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="gf-ev-card" style="padding:.55vh .7vw">
+                  <div class="gf-ev-head" style="font-size:max(9px,.6vw)">XZ · 重心位置 &nbsp;<span style="font-family:var(--mono);font-size:.85em;opacity:.7">操作便利性准则层</span></div>
+                  <div class="gf-ev-body" style="font-size:max(9px,.6vw);line-height:1.5">
+                    ANOVA：<b>F(3,228)=2.127，p=.098（不显著）</b>；4个水平均值极差仅<b>0.19分</b>，低于感知阈值。<span style="color:var(--ink-2)">设计建议：重心位置优先以工程约束为依据，主板堆叠与电池布局为主要决定因素。</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gf-foot" data-anim="foot">引用文献：[40] Ahn 等握持曲率；[41] Yi &amp; Park 曲面屏；[37] Thaper 等摄像模组；[47] Choi 等硬键布局；[48–51] 拇指可达域与操作准确率；[54] Flanagan &amp; Beltzner；[55] Kang 等质心分布；[42] Chihara &amp; Seo</div>
       </div>
     </div>
   </section>
-<section class="slide " data-layout="S15" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item on" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
-      
-    <div class="chrome-min">
-      <div class="l">GripFit Defense · Grip Posture</div>
-      <div class="r">24 / 74</div>
-    </div>
-      <div class="gf-main">
-        
-    <div data-anim="head" class="gf-head">
-      <div class="t-meta">GRIP BEHAVIOR</div>
-      <h2 class="gf-title">典型握持姿态</h2>
-      <p class="gf-lead">四种真实姿态下，手的接触区域和受力分布完全不同。</p>
-    </div>
-        <div class="gf-body"><div class="gf-cards four">
-    <div class="gf-card" data-anim="card">
-      <div class="gf-card-num">01</div>
-      <h3>单手拇指操作</h3>
-      <p>单手持机，拇指负责全部交互。虎口区域承受主要支撑力矩；拇指可达区受宽度约束，为握持研究的核心姿态（Karlson et al., 2008）。</p>
-    </div>
-    <div class="gf-card" data-anim="card">
-      <div class="gf-card-num">02</div>
-      <h3>双手双拇指操作</h3>
-      <p>双手各握机身两侧，双拇指协同操作。宽度约束对两手食指包覆角度影响显著；长时双拇指输入可能增加腕部伸展负荷（Oulasvirta et al., 2013）。</p>
-    </div>
-    <div class="gf-card" data-anim="card">
-      <div class="gf-card-num">03</div>
-      <h3>单手握持对手操作</h3>
-      <p>一手握机，另一手手指负责点击操作。握持手无需执行拇指运动，握力分布更均匀；常见于需精确操作的场景（阅读、视频等）。</p>
-    </div>
-    <div class="gf-card" data-anim="card">
-      <div class="gf-card-num">04</div>
-      <h3>横屏双手握持</h3>
-      <p>手机横置，双手握持两侧长边。重心位置与重量分布对手腕力矩影响最为显著；拇指可达区域模式与竖屏完全不同。</p>
-    </div></div></div>
-        
-        
-        <div class="gf-foot" data-anim="foot">引用文献：[19] Karlson 等 单手移动设备交互；[20] Oulasvirta 等 双拇指输入；[36] Choi 等 单手握持姿态研究</div>
-      </div>
-    </div>
-  </section>
-<section class="slide " data-layout="S19" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item on" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
-      
-    <div class="chrome-min">
-      <div class="l">GripFit Defense · Curvature</div>
-      <div class="r">25 / 74</div>
-    </div>
-      <div class="gf-main">
-        
-    <div data-anim="head" class="gf-head">
-      <div class="t-meta">CURVATURE</div>
-      <h2 class="gf-title">机身曲率与接触体验</h2>
-      <p class="gf-lead">四边圆角、侧边弧度、正面弧度、背面弧度和正反面过渡共同决定手机边界如何接触手。</p>
-    </div>
-        <div class="gf-body" data-anim="card"><table class="gf-param-table">
-  <colgroup><col style="width:9%"><col style="width:18%"><col style="width:8%"><col style="width:32%"><col style="width:33%"></colgroup>
-  <thead><tr><th>编号</th><th>维度</th><th>AHP权重</th><th>实验关系</th><th>设计建议</th></tr></thead>
-  <tbody>
-    <tr><td class="pt-id">XE</td><td>侧边弧度</td><td class="pt-w">0.0611</td><td>0–3 mm 内评分单调上升 <span class="pt-sig sig-hi">p&lt;.001</span></td><td>侧边弧度不低于 3 mm</td></tr>
-    <tr><td class="pt-id">XG</td><td>背面弧度</td><td class="pt-w">0.0964</td><td>弱倒 U 型，C=1.05–2.96 mm 区间评分最平稳 <span class="pt-sig sig-hi">p&lt;.001</span></td><td>背面弧度 C ≈ 2–3 mm</td></tr>
-    <tr><td class="pt-id">XH</td><td>正反面过渡</td><td class="pt-w">—</td><td>7 方案间 F(6,405)=3.723，p=.001，η²=0.052；2.5D 正反玻璃+大弧度侧面均值最高（M=7.36）</td><td>优先采用大弧度侧面过渡</td></tr>
-    <tr><td class="pt-id">XF</td><td>正面弧度</td><td class="pt-w">0.0201</td><td>大曲率后评分加速下降 <span class="pt-sig sig-hi">p&lt;.001</span></td><td>正面弧度 C 控制在 0–1.5 mm</td></tr>
-    <tr><td class="pt-id">XD</td><td>四边圆角</td><td class="pt-w">0.0315</td><td>弱线性趋势，用户感知差异有限（权重最低） <span class="pt-sig sig-hi">p&lt;.001</span></td><td>9–11 mm，优先以工艺成本为依据</td></tr>
-  </tbody>
-</table></div>
-        
-        
-        <div class="gf-foot" data-anim="foot">引用文献：[40] Ahn 等 握持曲率与手部尺寸；[41] Yi & Park 曲面屏可用性；[17] Kuijt-Evers 等 手工具接触舒适</div>
-      </div>
-    </div>
-  </section>
-<section class="slide " data-layout="S19" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item on" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
-      
-    <div class="chrome-min">
-      <div class="l">GripFit Defense · Camera Module</div>
-      <div class="r">26 / 74</div>
-    </div>
-      <div class="gf-main">
-        
-    <div data-anim="head" class="gf-head">
-      <div class="t-meta">CAMERA MODULE</div>
-      <h2 class="gf-title">摄像头模组的影响</h2>
-      <p class="gf-lead">多摄与大底传感器使后摄模组从视觉符号变成触觉和重心变量。</p>
-    </div>
-        <div class="gf-body" data-anim="card"><table class="gf-param-table">
-  <colgroup><col style="width:9%"><col style="width:18%"><col style="width:8%"><col style="width:35%"><col style="width:30%"></colgroup>
-  <thead><tr><th>编号</th><th>维度</th><th>AHP权重</th><th>实验结论</th><th>设计建议</th></tr></thead>
-  <tbody>
-    <tr><td class="pt-id">XV</td><td>后摄形态</td><td class="pt-w">—</td><td>各方案均值极差 2.0 分；环形台（M=7.32）显著优于横两分离圆孔（M=5.32）</td><td>优先采用环形台或岛屿设计</td></tr>
-    <tr><td class="pt-id">XW</td><td>后摄凸起过渡</td><td class="pt-w">—</td><td>方案极差 0.83 分；分段式火山口凸起（M=6.59）优于一体式垂直凸起（M=5.76）</td><td>凸起过渡避免一体式垂直边缘</td></tr>
-    <tr><td class="pt-id">XM</td><td>后摄大小</td><td class="pt-w">0.0187</td><td>弱倒 U 型，R²=0.028；面积比约 41% 时评分最高（M=6.70）；权重全维度次低 <span class="pt-sig sig-ns">p&lt;.05</span></td><td>后摄面积比建议 35–45%</td></tr>
-    <tr><td class="pt-id">XJ</td><td>后摄位置</td><td class="pt-w">—</td><td>F(2,177)=0.232，p=.793，组间差异不显著；极差仅 0.23 分 <span class="pt-sig sig-ns">ns</span></td><td>位置选择以工程与美观为依据</td></tr>
-  </tbody>
-</table></div>
-        
-        
-        <div class="gf-foot" data-anim="foot">引用文献：[37] Thaper 等 移动设备肌肉骨骼负担系统综述（摄像模组形态与握持关系尚缺专项研究，本课题以实验探索）</div>
-      </div>
-    </div>
-  </section>
-<section class="slide " data-layout="S19" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item on" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
-      
-    <div class="chrome-min">
-      <div class="l">GripFit Defense · Controls</div>
-      <div class="r">27 / 74</div>
-    </div>
-      <div class="gf-main">
-        
-    <div data-anim="head" class="gf-head">
-      <div class="t-meta">CONTROL LAYOUT</div>
-      <h2 class="gf-title">按键与指纹布局</h2>
-      <p class="gf-lead">不合理的按键位置会让用户采用非中立手部姿态，增加操作负荷和肌肉疲劳。</p>
-    </div>
-        <div class="gf-body"><div class="gf-anova-split">
-  <div class="gf-anova-block" data-anim="card">
-    <div class="ab-id">XR · 指纹识别位置</div>
-    <div class="ab-stat">F(4, 300) = 29.101***</div>
-    <div class="ab-label">偏 η² = 0.279 &nbsp;|&nbsp; 操作便利性维度中效应量最大者</div>
-    <div class="ab-rows">
-      <div class="ab-row"><span class="ab-rank">①</span><span>屏下指纹</span><div class="ab-track"><div class="ab-fill" style="width:100%"></div></div><span class="ab-val">M=7.67</span></div>
-      <div class="ab-row"><span class="ab-rank">②</span><span>侧面中部</span><div class="ab-track"><div class="ab-fill" style="width:75%"></div></div><span class="ab-val">M=6.52</span></div>
-      <div class="ab-row"><span class="ab-rank">③</span><span>背面中部</span><div class="ab-track"><div class="ab-fill" style="width:68%"></div></div><span class="ab-val">M=6.20</span></div>
-      <div class="ab-row"><span class="ab-rank">④</span><span>边框顶部右侧</span><div class="ab-track"><div class="ab-fill" style="width:36%"></div></div><span class="ab-val">M=4.43</span></div>
-    </div>
-    <div style="font-size:max(11px,.67vw);color:var(--ink-2);margin-top:.5vh">屏下指纹与其余全部方案对比 p&lt;.001；最优↔最劣极差 3.25 分</div>
-  </div>
-  <div class="gf-anova-block" data-anim="card">
-    <div class="ab-id">XS · 按键位置</div>
-    <div class="ab-stat">F(3, 236) = 7.870***</div>
-    <div class="ab-label">偏 η² = 0.091 &nbsp;|&nbsp; AHP 权重 w = 0.0506</div>
-    <div class="ab-rows">
-      <div class="ab-row"><span class="ab-rank">①</span><span>音量左 + 电源右</span><div class="ab-track"><div class="ab-fill" style="width:100%"></div></div><span class="ab-val">M=6.65</span></div>
-      <div class="ab-row"><span class="ab-rank">①</span><span>全在右侧中偏上</span><div class="ab-track"><div class="ab-fill" style="width:100%"></div></div><span class="ab-val">M=6.65</span></div>
-      <div class="ab-row"><span class="ab-rank">③</span><span>仅顶部右侧</span><div class="ab-track"><div class="ab-fill" style="width:57%"></div></div><span class="ab-val">M=5.10</span></div>
-    </div>
-    <div style="font-size:max(11px,.67vw);color:var(--ink-2);margin-top:.5vh">音量左/电源右 与 仅顶部右侧 成对比较 p&lt;.01；推荐双侧分布</div>
-  </div>
-</div></div>
-        
-        
-        <div class="gf-foot" data-anim="foot">引用文献：[47] Choi 等 硬键布局设计；[48][49] 拇指可达域（Otten、Bergstrom-Lehtovirta）；[50][51] 拇指操作准确率（Park、Trudeau）；[52][53] 触控不适与肌电（Choi、Xiong）</div>
-      </div>
-    </div>
-  </section>
-<section class="slide " data-layout="S19" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item on" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
-      
-    <div class="chrome-min">
-      <div class="l">GripFit Defense · Mass</div>
-      <div class="r">28 / 74</div>
-    </div>
-      <div class="gf-main">
-        
-    <div data-anim="head" class="gf-head">
-      <div class="t-meta">WEIGHT &amp; CENTER</div>
-      <h2 class="gf-title">重量与重心</h2>
-      <p class="gf-lead">整机重量决定静态负荷，重心位置决定手腕补偿力矩；影像模组和电池布局让这一问题更复杂。</p>
-    </div>
-        <div class="gf-body"><div class="gf-evidence" data-anim="card">
-  <div class="gf-ev-card">
-    <div class="gf-ev-head">XI · 整机重量 &nbsp;<span style="font-family:var(--mono);font-size:.85em;opacity:.7">AHP w = 0.1885（18维最高）</span></div>
-    <div class="gf-ev-body">
-      <div style="font-family:var(--mono);font-size:max(12px,.75vw);background:#002FA70d;border-left:3px solid var(--accent);border-radius:0 5px 5px 0;padding:.6em .9em;margin-bottom:.8vh">y = −0.0004·XI² + 0.138·XI − 5.421　　Adj.R²=0.412，p&lt;.001</div>
-      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:.8vw;font-size:max(12px,.72vw)">
-        <div style="background:var(--grey-0);padding:.6em .8em;border-radius:6px"><b style="font-family:var(--mono);color:var(--accent);font-size:1.2em">172 g</b><br>理论峰值（二次极值点）</div>
-        <div style="background:var(--grey-0);padding:.6em .8em;border-radius:6px"><b style="font-family:var(--mono);color:var(--accent);font-size:1.2em">170–190 g</b><br>综合建议区间</div>
-        <div style="background:var(--grey-0);padding:.6em .8em;border-radius:6px"><b style="font-family:var(--mono);color:var(--accent);font-size:1.2em">3.07 分</b><br>170 g ↔ 249 g 评分极差</div>
-      </div>
-    </div>
-  </div>
-  <div class="gf-ev-card">
-    <div class="gf-ev-head">XZ · 重心位置 &nbsp;<span style="font-family:var(--mono);font-size:.85em;opacity:.7">操作便利性准则层</span></div>
-    <div class="gf-ev-body">
-      <div style="font-size:max(12px,.72vw);line-height:1.6">ANOVA 检验结果：<b>F(3, 228) = 2.127，p = .098（不显著）</b>。4 个重心水平均值极差仅 <b>0.19 分</b>，低于感知显著差异阈值。<br>
-      理论机制：重心后移通过增加腕部补偿力矩影响稳定感，但 ±1.5 mm 的变化幅度未超出用户感知阈限。<br>
-      <span style="color:var(--ink-2)">设计建议：重心位置优先以工程约束为依据，主板堆叠与电池布局为主要决定因素。</span></div>
-    </div>
-  </div>
-</div></div>
-        
-        
-        <div class="gf-foot" data-anim="foot">引用文献：[54] Flanagan & Beltzner 大小-重量错觉；[55] Kang 等 质心分布与肌肉活动；[42] Chihara & Seo 头戴设备质量负荷；[37] Thaper 等</div>
-      </div>
-    </div>
-  </section>
-<section class="slide grey gf-chapter" data-layout="S03" data-animate="statement" id="ch4">
+  <section class="slide grey gf-chapter" data-layout="S03" data-animate="statement" id="ch4">
     <div class="canvas-card">
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Chapter 4</div>
-      <div class="r">29 / 74</div>
+      <div class="r">22 / 68</div>
     </div>
       <div class="gf-chapter-body">
         <div class="t-meta">CHAPTER 04</div>
@@ -2794,11 +2646,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S11" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Model Pipeline</div>
-      <div class="r">30 / 74</div>
+      <div class="r">23 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -2832,11 +2684,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S11" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Model Total Flow Redraw</div>
-      <div class="r">31 / 74</div>
+      <div class="r">24 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -2867,11 +2719,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide timeline" data-layout="S20" data-animate="timeline-walk">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Dimension Source</div>
-      <div class="r">32 / 74</div>
+      <div class="r">25 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -2912,11 +2764,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide bar" data-layout="S07" data-animate="bar-grow">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Leading User</div>
-      <div class="r">33 / 74</div>
+      <div class="r">26 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -2973,11 +2825,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S13" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · 18 Dimensions</div>
-      <div class="r">34 / 74</div>
+      <div class="r">27 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -3007,11 +2859,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S08" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Questionnaire</div>
-      <div class="r">35 / 74</div>
+      <div class="r">28 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -3058,11 +2910,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide bar" data-layout="S06" data-animate="bar-grow">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Sample</div>
-      <div class="r">36 / 74</div>
+      <div class="r">29 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -3102,11 +2954,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide bar" data-layout="S07" data-animate="bar-grow">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Importance</div>
-      <div class="r">37 / 74</div>
+      <div class="r">30 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -3147,11 +2999,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide bar" data-layout="S06" data-animate="bar-grow">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · PCA Metrics</div>
-      <div class="r">38 / 74</div>
+      <div class="r">31 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -3192,11 +3044,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S14" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · PCA Groups</div>
-      <div class="r">39 / 74</div>
+      <div class="r">32 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -3215,11 +3067,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S13" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · AHP Hierarchy</div>
-      <div class="r">40 / 74</div>
+      <div class="r">33 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -3265,11 +3117,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S14" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Indicator System</div>
-      <div class="r">41 / 74</div>
+      <div class="r">34 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -3290,11 +3142,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
 
 
 <section class="slide " data-layout="S11" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Experiment Flow Redraw</div>
-      <div class="r">42 / 74</div>
+      <div class="r">35 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -3331,8 +3183,8 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
   </section>
 
 <section class="slide " data-layout="S-exp" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
-      <div class="chrome-min"><div class="l">GripFit Defense · Experiment Setup</div><div class="r">43 / 74</div></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
+      <div class="chrome-min"><div class="l">GripFit Defense · Experiment Setup</div><div class="r">36 / 68</div></div>
       <div class="gf-main">
         <div data-anim="head" class="gf-head">
           <h2 class="gf-title">实验环境与样机制备</h2>
@@ -3348,11 +3200,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S08" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Objective Validation</div>
-      <div class="r">44 / 74</div>
+      <div class="r">37 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -3391,8 +3243,8 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
   </section>
 
 <section class="slide " data-layout="S-rat" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
-      <div class="chrome-min"><div class="l">GripFit Defense · Analysis Method</div><div class="r">45 / 74</div></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
+      <div class="chrome-min"><div class="l">GripFit Defense · Analysis Method</div><div class="r">38 / 68</div></div>
       <div class="gf-main">
         <div data-anim="head" class="gf-head">
           <h2 class="gf-title">数据处理方案</h2>
@@ -3419,11 +3271,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S11" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Analysis Method</div>
-      <div class="r">46 / 74</div>
+      <div class="r">39 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -3456,8 +3308,8 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide bar" data-layout="S07" data-animate="bar-grow">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
-      <div class="chrome-min"><div class="l">GripFit Defense · Continuous Results I</div><div class="r">47 / 74</div></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
+      <div class="chrome-min"><div class="l">GripFit Defense · Continuous Results I</div><div class="r">40 / 68</div></div>
       <div class="gf-main">
         <div data-anim="head" class="gf-head">
           <div class="t-meta"></div>
@@ -3473,8 +3325,8 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide bar" data-layout="S07" data-animate="bar-grow">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
-      <div class="chrome-min"><div class="l">GripFit Defense · Continuous Results II</div><div class="r">48 / 74</div></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
+      <div class="chrome-min"><div class="l">GripFit Defense · Continuous Results II</div><div class="r">41 / 68</div></div>
       <div class="gf-main">
         <div data-anim="head" class="gf-head">
           <div class="t-meta"></div>
@@ -3491,11 +3343,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S14" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · ANOVA</div>
-      <div class="r">49 / 74</div>
+      <div class="r">42 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -3514,11 +3366,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S13" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Personalization</div>
-      <div class="r">50 / 74</div>
+      <div class="r">43 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -3562,11 +3414,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S02" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Prediction Model</div>
-      <div class="r">51 / 74</div>
+      <div class="r">44 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -3603,11 +3455,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S14" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Validation Set</div>
-      <div class="r">52 / 74</div>
+      <div class="r">45 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -3626,11 +3478,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide bar" data-layout="S07" data-animate="bar-grow">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item on" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Validation Ranking</div>
-      <div class="r">53 / 74</div>
+      <div class="r">46 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -3676,7 +3528,7 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Chapter 5</div>
-      <div class="r">54 / 74</div>
+      <div class="r">47 / 68</div>
     </div>
       <div class="gf-chapter-body">
         <div class="t-meta">CHAPTER 05</div>
@@ -3687,11 +3539,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S11" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Design Transfer</div>
-      <div class="r">55 / 74</div>
+      <div class="r">48 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -3711,12 +3563,100 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
       </div>
     </div>
   </section>
-<section class="slide " data-layout="S13" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+<section class="slide " data-layout="DEMO" data-animate="grid-reveal">
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
+    <div class="chrome-min">
+      <div class="l">GripFit Defense · Online Demo</div>
+      <div class="r">49 / 68</div>
+    </div>
+    <div class="gf-main">
+      <div data-anim="head" class="gf-head">
+        <div class="t-meta">LIVE DEMO · 扫码体验</div>
+        <h2 class="gf-title">GripFit 在线演示</h2>
+        <p class="gf-lead">系统已完整部署至 Vercel，手机 Safari 扫码即可访问双端原型。按右侧三步可实现全屏效果。</p>
+      </div>
+      <div class="gf-body">
+        <div class="demo-grid">
+
+          <div class="demo-left">
+            <div class="demo-qr-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 33"
+                   style="width:100%;height:100%;display:block;color:var(--ink)"
+                   shape-rendering="crispEdges">
+                <rect width="33" height="33" fill="white"/>
+                <path d="M2,2H3V3H2zM3,2H4V3H3zM4,2H5V3H4zM5,2H6V3H5zM6,2H7V3H6zM7,2H8V3H7zM8,2H9V3H8zM10,2H11V3H10zM13,2H14V3H13zM14,2H15V3H14zM15,2H16V3H15zM17,2H18V3H17zM18,2H19V3H18zM20,2H21V3H20zM24,2H25V3H24zM25,2H26V3H25zM26,2H27V3H26zM27,2H28V3H27zM28,2H29V3H28zM29,2H30V3H29zM30,2H31V3H30zM2,3H3V4H2zM8,3H9V4H8zM14,3H15V4H14zM15,3H16V4H15zM16,3H17V4H16zM21,3H22V4H21zM22,3H23V4H22zM24,3H25V4H24zM30,3H31V4H30zM2,4H3V5H2zM4,4H5V5H4zM5,4H6V5H5zM6,4H7V5H6zM8,4H9V5H8zM11,4H12V5H11zM12,4H13V5H12zM13,4H14V5H13zM14,4H15V5H14zM17,4H18V5H17zM18,4H19V5H18zM19,4H20V5H19zM21,4H22V5H21zM24,4H25V5H24zM26,4H27V5H26zM27,4H28V5H27zM28,4H29V5H28zM30,4H31V5H30zM2,5H3V6H2zM4,5H5V6H4zM5,5H6V6H5zM6,5H7V6H6zM8,5H9V6H8zM10,5H11V6H10zM17,5H18V6H17zM20,5H21V6H20zM22,5H23V6H22zM24,5H25V6H24zM26,5H27V6H26zM27,5H28V6H27zM28,5H29V6H28zM30,5H31V6H30zM2,6H3V7H2zM4,6H5V7H4zM5,6H6V7H5zM6,6H7V7H6zM8,6H9V7H8zM10,6H11V7H10zM13,6H14V7H13zM14,6H15V7H14zM16,6H17V7H16zM17,6H18V7H17zM18,6H19V7H18zM19,6H20V7H19zM20,6H21V7H20zM24,6H25V7H24zM26,6H27V7H26zM27,6H28V7H27zM28,6H29V7H28zM30,6H31V7H30zM2,7H3V8H2zM8,7H9V8H8zM10,7H11V8H10zM11,7H12V8H11zM13,7H14V8H13zM14,7H15V8H14zM18,7H19V8H18zM20,7H21V8H20zM21,7H22V8H21zM24,7H25V8H24zM30,7H31V8H30zM2,8H3V9H2zM3,8H4V9H3zM4,8H5V9H4zM5,8H6V9H5zM6,8H7V9H6zM7,8H8V9H7zM8,8H9V9H8zM10,8H11V9H10zM12,8H13V9H12zM14,8H15V9H14zM16,8H17V9H16zM18,8H19V9H18zM20,8H21V9H20zM22,8H23V9H22zM24,8H25V9H24zM25,8H26V9H25zM26,8H27V9H26zM27,8H28V9H27zM28,8H29V9H28zM29,8H30V9H29zM30,8H31V9H30zM10,9H11V10H10zM14,9H15V10H14zM15,9H16V10H15zM17,9H18V10H17zM18,9H19V10H18zM19,9H20V10H19zM20,9H21V10H20zM2,10H3V11H2zM6,10H7V11H6zM8,10H9V11H8zM9,10H10V11H9zM10,10H11V11H10zM13,10H14V11H13zM14,10H15V11H14zM15,10H16V11H15zM19,10H20V11H19zM21,10H22V11H21zM22,10H23V11H22zM23,10H24V11H23zM24,10H25V11H24zM25,10H26V11H25zM26,10H27V11H26zM27,10H28V11H27zM30,10H31V11H30zM5,11H6V12H5zM7,11H8V12H7zM13,11H14V12H13zM14,11H15V12H14zM15,11H16V12H15zM16,11H17V12H16zM17,11H18V12H17zM18,11H19V12H18zM19,11H20V12H19zM20,11H21V12H20zM24,11H25V12H24zM25,11H26V12H25zM26,11H27V12H26zM27,11H28V12H27zM28,11H29V12H28zM29,11H30V12H29zM30,11H31V12H30zM2,12H3V13H2zM3,12H4V13H3zM4,12H5V13H4zM5,12H6V13H5zM6,12H7V13H6zM8,12H9V13H8zM10,12H11V13H10zM13,12H14V13H13zM14,12H15V13H14zM17,12H18V13H17zM18,12H19V13H18zM20,12H21V13H20zM22,12H23V13H22zM24,12H25V13H24zM25,12H26V13H25zM30,12H31V13H30zM2,13H3V14H2zM5,13H6V14H5zM6,13H7V14H6zM7,13H8V14H7zM11,13H12V14H11zM12,13H13V14H12zM13,13H14V14H13zM16,13H17V14H16zM19,13H20V14H19zM21,13H22V14H21zM22,13H23V14H22zM23,13H24V14H23zM25,13H26V14H25zM27,13H28V14H27zM29,13H30V14H29zM30,13H31V14H30zM2,14H3V15H2zM3,14H4V15H3zM5,14H6V15H5zM6,14H7V15H6zM7,14H8V15H7zM8,14H9V15H8zM9,14H10V15H9zM12,14H13V15H12zM14,14H15V15H14zM15,14H16V15H15zM16,14H17V15H16zM17,14H18V15H17zM19,14H20V15H19zM22,14H23V15H22zM23,14H24V15H23zM25,14H26V15H25zM29,14H30V15H29zM3,15H4V16H3zM6,15H7V16H6zM7,15H8V16H7zM14,15H15V16H14zM17,15H18V16H17zM20,15H21V16H20zM24,15H25V16H24zM25,15H26V16H25zM26,15H27V16H26zM27,15H28V16H27zM28,15H29V16H28zM29,15H30V16H29zM30,15H31V16H30zM3,16H4V17H3zM4,16H5V17H4zM8,16H9V17H8zM9,16H10V17H9zM10,16H11V17H10zM12,16H13V17H12zM14,16H15V17H14zM15,16H16V17H15zM16,16H17V17H16zM17,16H18V17H17zM18,16H19V17H18zM20,16H21V17H20zM23,16H24V17H23zM27,16H28V17H27zM28,16H29V17H28zM30,16H31V17H30zM4,17H5V18H4zM5,17H6V18H5zM7,17H8V18H7zM10,17H11V18H10zM11,17H12V18H11zM12,17H13V18H12zM13,17H14V18H13zM14,17H15V18H14zM15,17H16V18H15zM17,17H18V18H17zM19,17H20V18H19zM20,17H21V18H20zM21,17H22V18H21zM24,17H25V18H24zM25,17H26V18H25zM26,17H27V18H26zM29,17H30V18H29zM30,17H31V18H30zM3,18H4V19H3zM4,18H5V19H4zM8,18H9V19H8zM9,18H10V19H9zM10,18H11V19H10zM13,18H14V19H13zM14,18H15V19H14zM15,18H16V19H15zM17,18H18V19H17zM19,18H20V19H19zM20,18H21V19H20zM21,18H22V19H21zM22,18H23V19H22zM23,18H24V19H23zM29,18H30V19H29zM2,19H3V20H2zM4,19H5V20H4zM5,19H6V20H5zM10,19H11V20H10zM11,19H12V20H11zM12,19H13V20H12zM13,19H14V20H13zM15,19H16V20H15zM16,19H17V20H16zM17,19H18V20H17zM18,19H19V20H18zM19,19H20V20H19zM20,19H21V20H20zM23,19H24V20H23zM24,19H25V20H24zM25,19H26V20H25zM26,19H27V20H26zM27,19H28V20H27zM29,19H30V20H29zM30,19H31V20H30zM4,20H5V21H4zM7,20H8V21H7zM8,20H9V21H8zM10,20H11V21H10zM12,20H13V21H12zM14,20H15V21H14zM17,20H18V21H17zM20,20H21V21H20zM24,20H25V21H24zM25,20H26V21H25zM26,20H27V21H26zM28,20H29V21H28zM30,20H31V21H30zM5,21H6V22H5zM6,21H7V22H6zM11,21H12V22H11zM12,21H13V22H12zM13,21H14V22H13zM16,21H17V22H16zM17,21H18V22H17zM19,21H20V22H19zM21,21H22V22H21zM22,21H23V22H22zM23,21H24V22H23zM24,21H25V22H24zM25,21H26V22H25zM29,21H30V22H29zM30,21H31V22H30zM2,22H3V23H2zM3,22H4V23H3zM4,22H5V23H4zM6,22H7V23H6zM8,22H9V23H8zM9,22H10V23H9zM10,22H11V23H10zM11,22H12V23H11zM12,22H13V23H12zM15,22H16V23H15zM16,22H17V23H16zM19,22H20V23H19zM22,22H23V23H22zM23,22H24V23H23zM24,22H25V23H24zM25,22H26V23H25zM26,22H27V23H26zM27,22H28V23H27zM30,22H31V23H30zM10,23H11V24H10zM11,23H12V24H11zM13,23H14V24H13zM14,23H15V24H14zM17,23H18V24H17zM18,23H19V24H18zM21,23H22V24H21zM22,23H23V24H22zM26,23H27V24H26zM30,23H31V24H30zM2,24H3V25H2zM3,24H4V25H3zM4,24H5V25H4zM5,24H6V25H5zM6,24H7V25H6zM7,24H8V25H7zM8,24H9V25H8zM10,24H11V25H10zM11,24H12V25H11zM12,24H13V25H12zM14,24H15V25H14zM15,24H16V25H15zM16,24H17V25H16zM17,24H18V25H17zM20,24H21V25H20zM21,24H22V25H21zM22,24H23V25H22zM24,24H25V25H24zM26,24H27V25H26zM27,24H28V25H27zM28,24H29V25H28zM30,24H31V25H30zM2,25H3V26H2zM8,25H9V26H8zM14,25H15V26H14zM15,25H16V26H15zM18,25H19V26H18zM19,25H20V26H19zM21,25H22V26H21zM22,25H23V26H22zM26,25H27V26H26zM30,25H31V26H30zM2,26H3V27H2zM4,26H5V27H4zM5,26H6V27H5zM6,26H7V27H6zM8,26H9V27H8zM10,26H11V27H10zM12,26H13V27H12zM15,26H16V27H15zM19,26H20V27H19zM21,26H22V27H21zM22,26H23V27H22zM23,26H24V27H23zM24,26H25V27H24zM25,26H26V27H25zM26,26H27V27H26zM27,26H28V27H27zM29,26H30V27H29zM2,27H3V28H2zM4,27H5V28H4zM5,27H6V28H5zM6,27H7V28H6zM8,27H9V28H8zM11,27H12V28H11zM15,27H16V28H15zM16,27H17V28H16zM17,27H18V28H17zM18,27H19V28H18zM20,27H21V28H20zM25,27H26V28H25zM30,27H31V28H30zM2,28H3V29H2zM4,28H5V29H4zM5,28H6V29H5zM6,28H7V29H6zM8,28H9V29H8zM11,28H12V29H11zM13,28H14V29H13zM16,28H17V29H16zM17,28H18V29H17zM18,28H19V29H18zM19,28H20V29H19zM20,28H21V29H20zM21,28H22V29H21zM22,28H23V29H22zM23,28H24V29H23zM27,28H28V29H27zM28,28H29V29H28zM29,28H30V29H29zM30,28H31V29H30zM2,29H3V30H2zM8,29H9V30H8zM11,29H12V30H11zM13,29H14V30H13zM14,29H15V30H14zM15,29H16V30H15zM18,29H19V30H18zM19,29H20V30H19zM20,29H21V30H20zM22,29H23V30H22zM26,29H27V30H26zM27,29H28V30H27zM29,29H30V30H29zM30,29H31V30H30zM2,30H3V31H2zM3,30H4V31H3zM4,30H5V31H4zM5,30H6V31H5zM6,30H7V31H6zM7,30H8V31H7zM8,30H9V31H8zM10,30H11V31H10zM11,30H12V31H11zM14,30H15V31H14zM15,30H16V31H15zM18,30H19V31H18zM19,30H20V31H19zM22,30H23V31H22zM23,30H24V31H23zM25,30H26V31H25zM26,30H27V31H26zM27,30H28V31H27zM29,30H30V31H29z" fill="currentColor"/>
+              </svg>
+            </div>
+            <div class="demo-url-block">
+              <div class="demo-url-mono">gripfit-onboarding.vercel.app</div>
+              <div class="demo-url-sub">Safari 浏览器 · 最佳体验</div>
+            </div>
+          </div>
+
+          <div class="demo-right">
+
+            <div class="demo-step-card">
+              <div class="demo-step-idx accent-bg">①</div>
+              <div class="demo-step-content">
+                <div class="demo-step-title">确认 VPN 已开启</div>
+                <div class="demo-step-note">Vercel 服务器在海外，需代理访问</div>
+              </div>
+              <div class="demo-step-visual">
+                <div class="vpn-chip">
+                  <span>VPN</span>
+                  <span class="vpn-dot on"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="demo-step-card">
+              <div class="demo-step-idx accent-bg">②</div>
+              <div class="demo-step-content">
+                <div class="demo-step-title">地址栏 <code>aA</code> → 点「小」</div>
+                <div class="demo-step-note">页面缩至最小，完整内容显示于屏幕</div>
+              </div>
+              <div class="demo-step-visual">
+                <div class="ios-mock-popup">
+                  <div class="ios-mock-row">
+                    <div class="ios-mock-btn hl">小</div>
+                    <div class="ios-mock-btn">大</div>
+                    <div class="ios-mock-btn">···</div>
+                  </div>
+                  <div class="ios-mock-item">隐藏干扰项目</div>
+                  <div class="ios-mock-item">降低隐私保护</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="demo-step-card">
+              <div class="demo-step-idx accent-bg">③</div>
+              <div class="demo-step-content">
+                <div class="demo-step-title">地址栏 <code>···</code> → 「隐藏工具栏」</div>
+                <div class="demo-step-note">进入全屏模式，体验接近 Native App</div>
+              </div>
+              <div class="demo-step-visual">
+                <div class="ios-mock-sheet">
+                  <div class="ios-mock-sheet-hd">页面菜单</div>
+                  <div class="ios-mock-sheet-item">隐私报告</div>
+                  <div class="ios-mock-sheet-item hl">▶ 隐藏工具栏</div>
+                  <div class="ios-mock-sheet-item">请求移动网站</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="slide " data-layout="S13" data-animate="grid-reveal">
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · System Architecture</div>
-      <div class="r">56 / 74</div>
+      <div class="r">50 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -3768,11 +3708,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S11" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · System Flow Redraw</div>
-      <div class="r">57 / 74</div>
+      <div class="r">51 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -3805,11 +3745,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S13" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · ToC IA Redraw</div>
-      <div class="r">58 / 74</div>
+      <div class="r">52 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -3852,11 +3792,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S13" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · ToC Interaction Redraw</div>
-      <div class="r">59 / 74</div>
+      <div class="r">53 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -3892,11 +3832,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S16" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · ToC Low-Fi</div>
-      <div class="r">60 / 74</div>
+      <div class="r">54 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -3928,11 +3868,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S11" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Fidelity Bridge</div>
-      <div class="r">61 / 74</div>
+      <div class="r">55 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -3966,11 +3906,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S16" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · ToC Hand</div>
-      <div class="r">62 / 74</div>
+      <div class="r">56 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -3992,11 +3932,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S16" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · ToC Selection</div>
-      <div class="r">63 / 74</div>
+      <div class="r">57 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -4018,11 +3958,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S16" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · ToC Preview</div>
-      <div class="r">64 / 74</div>
+      <div class="r">58 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -4044,11 +3984,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S16" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · ToC Report</div>
-      <div class="r">65 / 74</div>
+      <div class="r">59 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -4070,11 +4010,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S14" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · ToB IA</div>
-      <div class="r">66 / 74</div>
+      <div class="r">60 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -4093,11 +4033,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S13" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · ToB Interaction Redraw</div>
-      <div class="r">67 / 74</div>
+      <div class="r">61 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -4128,11 +4068,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S16" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · HF Workbench</div>
-      <div class="r">68 / 74</div>
+      <div class="r">62 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -4188,11 +4128,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S16" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Experiment Flow</div>
-      <div class="r">69 / 74</div>
+      <div class="r">63 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -4249,11 +4189,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S16" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Analysis Push</div>
-      <div class="r">70 / 74</div>
+      <div class="r">64 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -4304,11 +4244,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S16" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · ID Workspace</div>
-      <div class="r">71 / 74</div>
+      <div class="r">65 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -4364,11 +4304,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S16" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · AI Review</div>
-      <div class="r">72 / 74</div>
+      <div class="r">66 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -4415,11 +4355,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide bar" data-layout="S06" data-animate="bar-grow">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Usability</div>
-      <div class="r">73 / 74</div>
+      <div class="r">67 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -4455,11 +4395,11 @@ body.dark-bg #gf-nav-home:hover{border-color:var(--accent);color:var(--accent)}
     </div>
   </section>
 <section class="slide " data-layout="S14" data-animate="grid-reveal">
-    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(4);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(10);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(20);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(29);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(54);return false}">系统设计</a></div>
+    <div class="canvas-card"><div class="gf-nav" aria-hidden="true"><a class="gf-nav-item" href="#ch1" onclick="if(window.go){go(3);return false}">背景研究</a><a class="gf-nav-item" href="#ch2" onclick="if(window.go){go(7);return false}">需求定位</a><a class="gf-nav-item" href="#ch3" onclick="if(window.go){go(17);return false}">指标确定</a><a class="gf-nav-item" href="#ch4" onclick="if(window.go){go(22);return false}">模型构架</a><a class="gf-nav-item on" href="#ch5" onclick="if(window.go){go(47);return false}">系统设计</a></div>
       
     <div class="chrome-min">
       <div class="l">GripFit Defense · Iteration</div>
-      <div class="r">74 / 74</div>
+      <div class="r">68 / 68</div>
     </div>
       <div class="gf-main">
         
@@ -4687,7 +4627,7 @@ function go(n){
   btn.id='gf-nav-home';
   btn.innerHTML='≡\u00a0导航';
   btn.title='返回汇报导航';
-  btn.onclick=()=>go(2);
+  btn.onclick=()=>go(1);
   document.body.appendChild(btn);
   document.body.dataset.slide='0';
 })();
@@ -5718,6 +5658,31 @@ if(motion){
 .gf-rc-kpi .rk-label{font-size:max(12px,.72vw);color:var(--ink-2);line-height:1.3}
 .gf-rc-weight{display:inline-flex;align-items:center;gap:.5em;font-size:max(11px,.68vw);font-family:var(--mono);background:var(--accent);color:var(--accent-on);padding:.25em .7em;border-radius:4px;align-self:flex-start;margin-top:.3vh}
 
-</style>
-</body>
-</html>
+
+.demo-grid{display:grid;grid-template-columns:1fr 1fr;gap:2.8vw;height:100%;align-items:center;padding-top:.5vh}
+.demo-left{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1.4vh;height:100%}
+.demo-qr-wrap{width:min(28vw,46vh);height:min(28vw,46vh);padding:.5vw;background:#fff;border:1.5px solid var(--border-subtle);border-radius:6px;box-shadow:0 3px 14px rgba(0,0,0,.1)}
+.demo-url-block{text-align:center}
+.demo-url-mono{font-family:var(--mono);font-size:max(9px,.78vw);font-weight:700;color:var(--ink);letter-spacing:.01em;word-break:break-all}
+.demo-url-sub{font-family:var(--mono);font-size:max(7px,.58vw);color:var(--text-secondary);margin-top:.3vh}
+.demo-right{display:flex;flex-direction:column;gap:1.1vh}
+.demo-step-card{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:.9vw;padding:.72vh .9vw;background:var(--grey-1);border:1px solid var(--border-subtle);border-radius:4px}
+.demo-step-idx{width:1.9vw;height:1.9vw;min-width:22px;min-height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:max(8px,.62vw);font-weight:700;flex:0 0 auto}
+.accent-bg{background:var(--accent);color:var(--paper)}
+.demo-step-content{flex:1;min-width:0}
+.demo-step-title{font-family:var(--sans),var(--sans-zh);font-size:max(9px,.74vw);font-weight:600;color:var(--ink);line-height:1.3}
+.demo-step-title code{font-family:var(--mono);background:rgba(0,47,167,.1);padding:.04em .26em;border-radius:3px;font-size:.88em;color:var(--accent)}
+.demo-step-note{font-family:var(--sans),var(--sans-zh);font-size:max(8px,.58vw);color:var(--text-secondary);margin-top:.2vh}
+.demo-step-visual{flex:0 0 auto}
+.vpn-chip{display:inline-flex;align-items:center;gap:.32vw;background:var(--ink);color:var(--paper);padding:.3vh .55vw;border-radius:3px;font-family:var(--mono);font-size:max(8px,.58vw);font-weight:700;letter-spacing:.08em}
+.vpn-dot{width:.5vw;height:.5vw;min-width:6px;min-height:6px;border-radius:50%;background:#555}
+.vpn-dot.on{background:#34c759}
+.ios-mock-popup{background:#fff;border-radius:5px;box-shadow:0 2px 12px rgba(0,0,0,.2);border:1px solid rgba(0,0,0,.08);overflow:hidden;min-width:7.8vw}
+.ios-mock-row{display:flex;gap:1px;background:#d1d1d1}
+.ios-mock-btn{flex:1;padding:.32vh .28vw;text-align:center;font-family:var(--sans-zh);font-size:max(7px,.56vw);background:#f2f2f7;cursor:default;font-weight:500;color:#1c1c1e}
+.ios-mock-btn.hl{background:var(--accent);color:#fff;font-weight:700}
+.ios-mock-item{padding:.26vh .42vw;font-family:var(--sans-zh);font-size:max(7px,.54vw);color:#3a3a3c;border-top:1px solid #e5e5ea}
+.ios-mock-sheet{background:#fff;border-radius:5px;border:1px solid rgba(0,0,0,.1);overflow:hidden;min-width:8.2vw}
+.ios-mock-sheet-hd{padding:.3vh .42vw;font-family:var(--sans-zh);font-size:max(7px,.56vw);font-weight:600;color:#1c1c1e;text-align:center;background:#f2f2f7;border-bottom:1px solid #e5e5ea}
+.ios-mock-sheet-item{padding:.27vh .5vw;font-family:var(--sans-zh);font-size:max(7px,.54vw);color:#3a3a3c;border-bottom:1px solid #e5e5ea}
+.ios-mock-sheet-item.hl{background:rgba(0,47,167,.07);color:var(--accent);font-weight:700}
